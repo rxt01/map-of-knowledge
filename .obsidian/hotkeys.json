@@ -1,0 +1,11 @@
+{
+  "templater-obsidian:templates/template.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ]
+}

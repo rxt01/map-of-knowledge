@@ -1,0 +1,4 @@
+| precursor | [[]]    |
+| --------- | ------- |
+| status    | #learnt |
+| #tags     |         |
