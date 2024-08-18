@@ -1,4 +1,5 @@
-| precursors | [[proof]] [[number theory]] |
-| ---------- | --------------------------- |
-| status:    | #learnt                     |
-| #tags      |                             |
+| precursors | [[proof]]  |
+| ---------- | ---------- |
+| status:    | #learnt    |
+| #tags      |            |
+| level      | #bachelor  |

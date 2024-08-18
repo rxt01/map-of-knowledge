@@ -15,5 +15,7 @@
   "obsidian-plugin-update-tracker",
   "settings-search",
   "obsidian-plugin-toc",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-spaced-repetition",
+  "vim-toggle"
 ]

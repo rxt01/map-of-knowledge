@@ -2,6 +2,7 @@
 | ---------- | --------------------------------- |
 | status:    | #learning                         |
 | #tags      |                                   |
+| level      | #bachelor                         |
 # #english-note
 # set properties
 ## set closure

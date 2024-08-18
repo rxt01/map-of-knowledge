@@ -3,3 +3,4 @@
 | ---------- | ------------------- |
 | status:    | #tolearn            |
 | #tags      |                     |
+| level      | #bachelor           |

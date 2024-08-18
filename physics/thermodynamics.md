@@ -1,5 +1,6 @@
 
-| [[]]     | precursors |
-| -------- | ---------- |
-| #tolearn | status:    |
-|          | #tags      |
+| precursors | [[]]     |
+| ---------- | -------- |
+| status:    | #tolearn |
+| #tags      |          |
+| level      | #        |

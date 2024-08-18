@@ -48,18 +48,81 @@
         "a": 1,
         "rgb": 6073814
       }
+    },
+    {
+      "query": "path:economics  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "path:linguistics  ",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    },
+    {
+      "query": "path:engineering/genetic path:",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
+    },
+    {
+      "query": "path:engineering/computer  ",
+      "color": {
+        "a": 1,
+        "rgb": 15142234
+      }
+    },
+    {
+      "query": "path:engineering/software  ",
+      "color": {
+        "a": 1,
+        "rgb": 16731392
+      }
+    },
+    {
+      "query": "path:engineering/electrical  ",
+      "color": {
+        "a": 1,
+        "rgb": 16774912
+      }
+    },
+    {
+      "query": "path:engineering/industrial  ",
+      "color": {
+        "a": 1,
+        "rgb": 8453888
+      }
+    },
+    {
+      "query": "path:law  ",
+      "color": {
+        "a": 1,
+        "rgb": 65356
+      }
+    },
+    {
+      "query": "path:history  ",
+      "color": {
+        "a": 1,
+        "rgb": 64511
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.19739583333333,
   "lineSizeMultiplier": 3.51979166666667,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.505208333333333,
   "repelStrength": 17.9166666666667,
   "linkStrength": 1,
   "linkDistance": 265,
-  "scale": 0.4021767418590441,
-  "close": true
+  "scale": 0.19033063450696147,
+  "close": false
 }

@@ -2,3 +2,4 @@
 | ---------- | -------- |
 | status:    | #studied |
 | #tags      |          |
+| level      | #        |

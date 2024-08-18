@@ -2,3 +2,4 @@
 | --------- | ------- |
 | status    | #learnt |
 | #tags     |         |
+| level     | #       |

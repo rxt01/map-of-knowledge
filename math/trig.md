@@ -1,7 +1,8 @@
-| precursors | [[basic geometry]] [[high school algebra]] |
-| ---------- | ------------------------------------------ |
-| status:    | #learnt                                    |
-| #tags      |                                            |
+| precursors | [[basic geo]] [[high school algebra]] |
+| ---------- | ------------------------------------- |
+| status:    | #studied                              |
+| #tags      |                                       |
+| level      | #high-school                          |
 # #english-note 
 ## trig identities
 $$\tan x = \frac{\sin x}{\cos x}$$

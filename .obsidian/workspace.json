@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cd6a9bc4d7a3282f",
+        "id": "22937d65f69adcb0",
         "type": "tabs",
         "children": [
           {
-            "id": "83b5efee2c24a993",
+            "id": "80c675fe56b876f8",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -120,8 +120,17 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "2c8438d3bef9d399",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -138,44 +147,48 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "83b5efee2c24a993",
+  "active": "80c675fe56b876f8",
   "lastOpenFiles": [
+    "physics/fluid astrophysics.md",
+    "physics/aerodynamic.md",
+    "computer science/cryptography.md",
+    "medicine/neuroscience.md",
+    "history",
     "README.md",
-    "math/geometric algebra.md",
-    "math/spinors.md",
-    "math/category theory.md",
-    "math/chaos theory.md",
-    "math/real anal.md",
-    "math/algebra.md",
-    "computer science/neural network.md",
-    "chemistry/organic chem.md",
-    "chemistry/computational chem.md",
-    "chemistry/biochemistry.md",
-    "chemistry/analytical chem.md",
-    "math/matrix calc.md",
-    "math/combinatorial geometry.md",
-    "math/diff anal.md",
-    "math/lie theory.md",
-    "math/fourier anal.md",
-    "quantum-mechanic.md",
-    "math/trig.md",
-    "physics/general relativity.md",
-    "math/topology.md",
-    "math/linear algebra.md",
-    "math/tensors.md",
-    "math/diff and int calc.md",
-    "math/basic geometry.md",
-    "Trig identities.md",
-    "medicine",
-    "biology",
-    "chemistry",
+    "computer science/information theory.md",
+    "law",
+    "Untitled Kanban.md",
+    "2024-08-17.md",
+    "computer science/computer architecture.md",
+    "engineering/software/Untitled.md",
+    "engineering/industrial/industrial automation.md",
+    "engineering/electrical/microcontrolers.md",
+    "engineering/electrical/signal analysis.md",
+    "engineering/electrical/electronics.md",
+    "engineering/electrical/electrical circuits.md",
+    "economics/entrepreneurship.md",
+    "engineering/software",
+    "engineering/genetic",
+    "computer science/software engineering.md",
+    "engineering/computer",
+    "engineering/industrial",
+    "engineering/electrical",
     "engineering",
-    "physics",
-    "computer science",
-    "templates",
-    "math"
+    "economics/macroeconomics.md",
+    "linguistics",
+    "economics/accounting.md",
+    "economics/finance.md",
+    "economics/actuarial science.md",
+    "economics",
+    "computer science/algorithms.md",
+    "computer science/OS.md",
+    "computer science/data structures.md",
+    "computer science/web design.md",
+    "physics/biophysics.md"
   ]
 }

@@ -1,4 +1,5 @@
-| precursors | [[number theory]] |
-| ---------- | ----------------- |
-| status:    | #tolearn          |
-| #tags      |                   |
+| precursors | [[]]     |
+| ---------- | -------- |
+| status:    | #tolearn |
+| #tags      |          |
+| level      | #        |

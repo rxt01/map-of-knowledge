@@ -1,4 +1,5 @@
 {
   "alwaysUpdateLinks": true,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "vimMode": true
 }
