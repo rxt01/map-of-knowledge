@@ -1,14 +1,14 @@
 {
   "collapse-filter": true,
-  "search": "tag:#tags  ",
+  "search": "tag:#tags ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:math  ",
+      "query": "tag:#book  ",
       "color": {
         "a": 1,
         "rgb": 14048348
@@ -111,18 +111,32 @@
         "a": 1,
         "rgb": 64511
       }
+    },
+    {
+      "query": "path:philosophy  ",
+      "color": {
+        "a": 1,
+        "rgb": 28415
+      }
+    },
+    {
+      "query": "path:math  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711927
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.19739583333333,
+  "nodeSizeMultiplier": 1.33762886597938,
   "lineSizeMultiplier": 3.51979166666667,
   "collapse-forces": true,
   "centerStrength": 0.505208333333333,
   "repelStrength": 17.9166666666667,
   "linkStrength": 1,
   "linkDistance": 265,
-  "scale": 0.19033063450696147,
+  "scale": 0.4060727265206227,
   "close": false
 }
