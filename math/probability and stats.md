@@ -4,70 +4,81 @@
 | #tags      |                       |
 | level      | #                     |
 # #french-note
-# definitions
-## population
+## definitions
+### population
 la population est l'ensemble des elements concernés par l'etude statistique
-## taille de la population ($N$)
+### taille de la population ($N$)
 nombre d'unites statistiques dans la population
-## unite statistique
+### unite statistique
 une unite statistique est un seul element de la population
-## échantillon
+### échantillon
 l’échantillon est l'ensemble des unites statistiques considérées dans l'etudes
-## taille de l'echantillon ($n$)
+### taille de l'echantillon ($n$)
 nombre d'unites statistiques dans l'echantillon
-# méthodes d'échantillonnage
-## méthodes aléatoires
-### aléatoire simple
+## méthodes d'échantillonnage
+### méthodes aléatoires
+#### aléatoire simple
 on numerote les unites de 1 a $N$ et on tire des nombres aux hasard de 1 a $N$ jusqu'a obtenir la taille d'echantillons desiree
-### systématique
+#### systématique
 on commence par trouver le pas $P = \frac{N}{n}$
 ensuite on genere un nombre aleatoire entre 1 et $N$
 en partant de ce nombre on ajoute et soustrais le pas jusqu'a ateindre 1 et $N$
-### stratifiee
+#### stratifiee
 une strate est un sous ensemble d'unites ayant une ou plusiers caracteristique communes
 on choisis aux hasards un certain nombre d'unites dans chaque state  de facon a ce que le pourcentage d'unites dans chaque strates sois egal dand l'echantillon et la population
-### par grappes
+#### par grappes
 une grappe est un sous ensemble  d'unites de la population. lorsque les renseignements varient beaucoup a l'interieur de chaque grappes mais peu entre les grappes on fais un echantillonage aleatoire de grappe et on prend tout les membres de ses grappes commes echantillopn
-## méthodes non aléatoire
-### accidentel / a l'aveuglette
+### méthodes non aléatoire
+#### accidentel / a l'aveuglette
 l'unites s'est retrouver a l'endroit ou l'etudes se faisait par coincidence
-### de volontaires
+#### de volontaires
 l'unites d'ecide de faire partie de l'echantillon ou pas
-### par quotas
+#### par quotas
 comme l'echantillonage stratifiee mais l'enqueteurchoisi lui meme les unites de chaque sytrat
-### au jugee
+#### au jugee
 on prend les unite parmi celles que l'on juge come typique
-# variables statistiques
-## variables quantitatives
+## variables statistiques
+### variables quantitatives
 les variables quantitative soint representer par des nombres
-### variables discrete
+#### variables discrete
 on peu enumerer les valeurs possibles pour la variable
-### variables continues
+#### variables continues
 on ne peut enumerer les valeurs possibles pour la variable
-## variables qualitatives
+### variables qualitatives
 les donnes de la variables sont des mots, des symboles ou des expressions
-## echelles de mesure
-### echelle de rapport
+### echelles de mesure
+#### echelle de rapport
 l'echelle etablie un rapport entre les donnes. le rapport represente combien de fois une donnes est superieur ou inferieur a une autre
-### echelle d'interval
+#### echelle d'interval
 dans une echeele d'interval, on considere la distance separant 2 donnes
-### echelle ordinale
+#### echelle ordinale
 il y a plusieurs categories qui sont dans un certain ordres
-### echelle nominale
+#### echelle nominale
 il y a plusieurs categories n'ayant pas d'ordre
-## donnees construites
+### donnees construites
 une donnee construite est obtenu a l'aide d'un calcul utilisant les donnes recueillies.
-### proportion
+#### proportion
 la fraction de l'echantillon corespondant a la caracteristique etudiee.
-### pourcentage
+#### pourcentage
 comme la proportion mais la fraction est sur 100
-### taux
+#### taux
 comme la proportion mais la fraction est sur une puissance de 10
-### indice
+#### indice
 une mesure quantitative attribue a un phenomene qualitatif qui tient compte de plusieurs indicateurs de ce phenomene
-### pourcentage de variation dans le temps
+#### pourcentage de variation dans le temps
 $$\%\ de\ variation=\frac{V_f-V_i}{V_i}100$$
-### ratio
+#### ratio
 le ratio est le rapport entre le mnombre d'unite dans un groupe correspodant a certaine caracteristique et le nombre d'unite dans un autre groupe corrsepondant a d'autre caracteristiques.
 
-#
+## probabilités
+l'ensemble des resultats possibles ($\Omega$) est appele espace echantillonnal
+### evenement
+$$\text{A}\subseteq\Omega$$
+#### probabilite d'un evenement
+si la probabilite de chaque resultats et la meme:
+$$\text{P(A)}=\frac{\text{N(A)}}{\text{N}(\Omega)}$$
+ou $\text{N}()$ est le nombre de resultats possible
+$$\text{N(A}\cup\text{B)}=\text{N(A)}+\text{N(B)}-\text{N(A}\cap\text{B)}$$
+$$\text{P(A|B)}=\frac{\text{P(A}\cap\text{B)}}{\text{P(B)}}$$
+##### evenements independents
+$$\text{P(A|B)}=\text{P(A)}$$

@@ -4,15 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "22937d65f69adcb0",
+        "id": "e87a81fd15747d87",
         "type": "tabs",
         "children": [
           {
-            "id": "80c675fe56b876f8",
+            "id": "f0ebb46bd98fe9e5",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "8ea98151ebbd5e71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "biology/Campbell Biology.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e71094e27292f62a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "biology/cellular biology.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:toroganize",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,8 +153,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,56 +162,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-book-search-plugin:Create new book note": false,
-      "homepage:Open homepage": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "homepage:Open homepage": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80c675fe56b876f8",
+  "active": "f0ebb46bd98fe9e5",
   "lastOpenFiles": [
+    "biology/cellular biology.md",
+    "math/probability and stats.md",
+    "biology/Campbell Biology.md",
+    "Campbell Biology.md",
+    "math/calc/diff and int calc.md",
+    "math/anal/real anal.md",
+    "chemistry/analytical chem.md",
+    "chemistry/general chem.md",
+    "templates/template.md",
+    "math/linear algebra/linear algebra.md",
+    "math/linear algebra/abstract linear algebra.md",
+    "math/top/point set topology.md",
+    "engineering/genetic",
+    "philosophy/philosophy & rationality.md",
+    "math/calc/matrix calc.md",
+    "linguistics/french writing & literature.md",
+    "README.md",
+    "Excalidraw/cycle de replication des phages.excalidraw.md",
+    "Excalidraw/replication d'un virus enveloppe a arn .excalidraw.md",
+    "cellulare biology.md",
+    "Excalidraw/Pasted Image 20240829185434_494.png",
+    "Excalidraw/Drawing 2024-08-25 22.18.13.excalidraw.md",
+    "Excalidraw/Pasted Image 20240829184733_408.png",
+    "biology/Screenshot 2024-08-29 184630.png",
+    "Campbell Biology - Lisa Urry Michael Cain Steven Wasserman Peter Minorsky Rebecca Orr.md",
+    "Study Guide for Campbell Biology Canadian Edition - Jane B Reece Lisa A Urry Michael L Cain Steven A Wasserman Peter V Minorsky Robert B Jackson Fiona E Rawle Dion G Durnford Chris D Moyes Sandra J Walde Ken E Wilson.md",
+    "Excalidraw",
+    "linguistics/english culture & literature.md",
+    "linguistics",
+    "philosophy",
+    "chemistry/biochemistry.md",
     "physics/fluid astrophysics.md",
     "physics/aerodynamic.md",
-    "computer science/cryptography.md",
-    "medicine/neuroscience.md",
     "history",
-    "README.md",
-    "computer science/information theory.md",
     "law",
-    "Untitled Kanban.md",
-    "2024-08-17.md",
-    "computer science/computer architecture.md",
-    "engineering/software/Untitled.md",
-    "engineering/industrial/industrial automation.md",
-    "engineering/electrical/microcontrolers.md",
-    "engineering/electrical/signal analysis.md",
-    "engineering/electrical/electronics.md",
-    "engineering/electrical/electrical circuits.md",
-    "economics/entrepreneurship.md",
     "engineering/software",
     "engineering/genetic",
-    "computer science/software engineering.md",
     "engineering/computer",
-    "engineering/industrial",
-    "engineering/electrical",
-    "engineering",
-    "economics/macroeconomics.md",
-    "linguistics",
-    "economics/accounting.md",
-    "economics/finance.md",
-    "economics/actuarial science.md",
-    "economics",
-    "computer science/algorithms.md",
-    "computer science/OS.md",
-    "computer science/data structures.md",
-    "computer science/web design.md",
-    "physics/biophysics.md"
+    "engineering/industrial"
   ]
 }

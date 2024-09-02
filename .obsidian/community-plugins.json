@@ -17,5 +17,6 @@
   "obsidian-plugin-toc",
   "templater-obsidian",
   "obsidian-spaced-repetition",
-  "vim-toggle"
+  "vim-toggle",
+  "obsidian-excalidraw-plugin"
 ]

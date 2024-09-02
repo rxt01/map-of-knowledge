@@ -1,6 +1,7 @@
 {
   "accentColor": "",
-  "cssTheme": "pywal-obsidianmd",
+  "cssTheme": "Tokyo Night",
   "nativeMenus": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "theme": "obsidian"
 }

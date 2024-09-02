@@ -4,7 +4,7 @@
 | #tags      |                         |
 | level      | #college                |
 # #english-note 
-# solving equations
+## solving equations
 $$\begin{align}
 ax + by = u ,\\
 cx + dy = v.
@@ -25,3 +25,4 @@ $$dax+dby-(bcx+bdy)=du-bv$$
 $$dax-bcx=du-bv$$
 $$(ad-bc)x = du-bv$$
 $$x=\frac{du-bv}{ad-bc}=\frac{bv-du}{bc-ad}$$
+ ## 
