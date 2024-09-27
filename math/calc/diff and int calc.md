@@ -1,3 +1,4 @@
+
 | precursors | [[high school algebra]] [[trig]] |
 | ---------- | -------------------------------- |
 | status:    | #learnt                          |
@@ -9,7 +10,7 @@
 ## find root of a function using newton's method
 $$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$
 ## definitions
-limit: [[real anal#definition of the limit]]
+![limit](real%20anal.md#definition%20of%20the%20limit)
 $$f'(x):= \lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$$
 $$f'(x):=\lim_{t\to 1}\frac{f(tx)-f(x)}{tx-x}$$
 $$\int_a^b f(x)dx:=$$
@@ -51,7 +52,6 @@ $$\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}}$$
 $$\frac{d}{dx}(f\circ g)(x)=(f'\circ g)(x)g'(x)$$
 ### mean value theorem
 for $f(x)$ differentiable on $(a,b)$ and continuous on $[a,b]$ $\frac{f(b)-f(a)}{b-a}=f'(c)$ at some point $c$ in $(a,b)$
-
 
 
 ## limit tricks
@@ -110,6 +110,6 @@ diverges
 
 ## other
 ### intermediate value theorem
-suppose $f(x)$ is continuous on $[a,b]$. let $N \in [f(a),f(b)] \implies \exists c$ $a\le c\le b$ $f(C)=N$ 
+suppose $f(x)$ is continuous on $[a,b]$. let $N \in [f(a),f(b)] \implies \exists c$ $a\le c\le b$ $f(c)=N$ 
 
-# #french-note 
+

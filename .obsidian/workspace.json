@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e87a81fd15747d87",
+        "id": "5ebb71d0244fb505",
         "type": "tabs",
         "children": [
           {
-            "id": "f0ebb46bd98fe9e5",
+            "id": "94fdc3ab88f613b5",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,19 +16,22 @@
             }
           },
           {
-            "id": "8ea98151ebbd5e71",
+            "id": "79f5cd0c3917a869",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "biology/Campbell Biology.md",
-                "mode": "source",
-                "source": false
+                "file": "Glucides.canvas",
+                "viewState": {
+                  "x": 339.78291730753887,
+                  "y": 417.09837055496104,
+                  "zoom": -1.6213788278230745
+                }
               }
             }
           },
           {
-            "id": "e71094e27292f62a",
+            "id": "86dff5df1f4af16a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,7 +42,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:toroganize",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "b152b1f360a50ab6",
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Glucides.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Glucides.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,18 +148,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Glucides.canvas"
+              }
             }
           },
           {
-            "id": "2c8438d3bef9d399",
+            "id": "98f1064eb8fe7f07",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -173,17 +182,40 @@
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "vim-toggle:Toggle Vim Mode": false
     }
   },
-  "active": "f0ebb46bd98fe9e5",
+  "active": "79f5cd0c3917a869",
   "lastOpenFiles": [
     "biology/cellular biology.md",
-    "math/probability and stats.md",
-    "biology/Campbell Biology.md",
-    "Campbell Biology.md",
+    "Glucides.canvas",
+    "philosophy/philosophy & rationality.md",
+    "engineering/genetic/codons.md",
+    "linguistics/french writing & literature.md",
     "math/calc/diff and int calc.md",
+    "Excalidraw/Drawing 2024-09-25 12.24.18.excalidraw.md",
+    "Untitled Kanban.md",
+    "Excalidraw/Drawing 2024-09-05 22.53.26.excalidraw.md",
+    "engineering/genetic/amino acide switching.md",
+    "Excalidraw/Drawing 2024-09-23 14.46.48.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-23 08.12.49.excalidraw.md",
+    "Pasted Image 20240923081344_299.png",
+    "chemistry/mass spectrography.md",
     "math/anal/real anal.md",
+    "math/set theory.md",
+    "Pasted Image 20240905225331_311.png",
+    "Excalidraw/Pasted Image 20240905224610_862.png",
+    "Excalidraw/Pasted Image 20240905215130_532.png",
+    "Excalidraw/Pasted image 20240905222342.png",
+    "Excalidraw/fonctions des proteines.md",
+    "Excalidraw/Pasted Image 20240905224548_539.png",
+    "engineering/genetic",
+    "Excalidraw/monosaccharides.md",
+    "Excalidraw/Screenshot from 2024-09-05 21-49-44.png",
+    "biology/Campbell Biology.md",
+    "math/probability and stats.md",
+    "Campbell Biology.md",
     "chemistry/analytical chem.md",
     "chemistry/general chem.md",
     "templates/template.md",
@@ -191,31 +223,16 @@
     "math/linear algebra/abstract linear algebra.md",
     "math/top/point set topology.md",
     "engineering/genetic",
-    "philosophy/philosophy & rationality.md",
-    "math/calc/matrix calc.md",
-    "linguistics/french writing & literature.md",
-    "README.md",
-    "Excalidraw/cycle de replication des phages.excalidraw.md",
-    "Excalidraw/replication d'un virus enveloppe a arn .excalidraw.md",
-    "cellulare biology.md",
     "Excalidraw/Pasted Image 20240829185434_494.png",
-    "Excalidraw/Drawing 2024-08-25 22.18.13.excalidraw.md",
     "Excalidraw/Pasted Image 20240829184733_408.png",
     "biology/Screenshot 2024-08-29 184630.png",
-    "Campbell Biology - Lisa Urry Michael Cain Steven Wasserman Peter Minorsky Rebecca Orr.md",
-    "Study Guide for Campbell Biology Canadian Edition - Jane B Reece Lisa A Urry Michael L Cain Steven A Wasserman Peter V Minorsky Robert B Jackson Fiona E Rawle Dion G Durnford Chris D Moyes Sandra J Walde Ken E Wilson.md",
     "Excalidraw",
-    "linguistics/english culture & literature.md",
     "linguistics",
     "philosophy",
-    "chemistry/biochemistry.md",
-    "physics/fluid astrophysics.md",
-    "physics/aerodynamic.md",
     "history",
     "law",
     "engineering/software",
     "engineering/genetic",
-    "engineering/computer",
-    "engineering/industrial"
+    "engineering/computer"
   ]
 }

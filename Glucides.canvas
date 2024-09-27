@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"b1db6adda6fe0afd","type":"text","text":"types","x":-125,"y":194,"width":250,"height":60},
+		{"id":"67159d55fb9f83d8","type":"text","text":"Glucides","x":-125,"y":80,"width":250,"height":60},
+		{"id":"99d2136f7953b41c","type":"text","text":"(CH$_2$O)$_n$","x":128,"y":-83,"width":254,"height":69},
+		{"id":"ccd252865b8e0904","type":"text","text":"Source d'energie a court terme","x":-400,"y":-83,"width":243,"height":69},
+		{"id":"eb2c494435f7496f","type":"text","text":"Disaccharides","x":-650,"y":350,"width":250,"height":60},
+		{"id":"f816e92dfcaaedad","type":"text","text":"mono saccharides","x":-125,"y":350,"width":250,"height":60},
+		{"id":"b8fc376acb252d2b","type":"text","text":"poly saccharides","x":520,"y":350,"width":250,"height":60},
+		{"id":"7334d028746e1e62","type":"text","text":"Doit etre separer par enzymes pour etre digere","x":-125,"y":520,"width":250,"height":60},
+		{"id":"ca4a5d822aa48fe0","type":"text","text":"Structural","x":770,"y":194,"width":250,"height":60},
+		{"id":"724b4904ddb0c523","type":"text","text":"Cellulose (paroi cellulaire)","x":520,"y":80,"width":250,"height":60},
+		{"id":"4282dc0b2beef12d","type":"text","text":"Chitine (exosquelette des arthropodes)","x":1020,"y":80,"width":250,"height":60},
+		{"id":"a362336a41fa3237","type":"text","text":"De reserve","x":770,"y":460,"width":250,"height":60},
+		{"id":"d431a353d5ea7a1f","type":"text","text":"Amidon","x":520,"y":580,"width":250,"height":60},
+		{"id":"7c43f436f9fda1d9","type":"text","text":"Glycogene","x":1020,"y":580,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"131e92bf6169139f","fromNode":"67159d55fb9f83d8","fromSide":"right","toNode":"99d2136f7953b41c","toSide":"left","label":"constitution"},
+		{"id":"383f7aa76d3b9536","fromNode":"67159d55fb9f83d8","fromSide":"left","toNode":"ccd252865b8e0904","toSide":"right","label":"fonction"},
+		{"id":"28c4b6feaa104596","fromNode":"67159d55fb9f83d8","fromSide":"bottom","toNode":"b1db6adda6fe0afd","toSide":"top","toEnd":"none"},
+		{"id":"feb82417635180e3","fromNode":"b1db6adda6fe0afd","fromSide":"left","toNode":"eb2c494435f7496f","toSide":"top"},
+		{"id":"43c000d44b7875f1","fromNode":"eb2c494435f7496f","fromSide":"bottom","toNode":"7334d028746e1e62","toSide":"left"},
+		{"id":"c2799eb4a572ffd2","fromNode":"b1db6adda6fe0afd","fromSide":"bottom","toNode":"f816e92dfcaaedad","toSide":"top"},
+		{"id":"29f3696610ea3490","fromNode":"f816e92dfcaaedad","fromSide":"left","toNode":"eb2c494435f7496f","toSide":"right","label":"2 lies par\n deshydratation"},
+		{"id":"3d0c2744754273be","fromNode":"b1db6adda6fe0afd","fromSide":"right","toNode":"b8fc376acb252d2b","toSide":"top"},
+		{"id":"802896b8a00718a7","fromNode":"f816e92dfcaaedad","fromSide":"right","toNode":"b8fc376acb252d2b","toSide":"left","label":"Beaucoup lies par\n deshydratation\net liaison glycosidiques"},
+		{"id":"a5c678310012f37d","fromNode":"b8fc376acb252d2b","fromSide":"bottom","toNode":"7334d028746e1e62","toSide":"right"},
+		{"id":"2974754db69e5528","fromNode":"b8fc376acb252d2b","fromSide":"right","toNode":"a362336a41fa3237","toSide":"top"},
+		{"id":"dc9a72b208ab717e","fromNode":"b8fc376acb252d2b","fromSide":"right","toNode":"ca4a5d822aa48fe0","toSide":"bottom"},
+		{"id":"644643f3f882a2c0","fromNode":"ca4a5d822aa48fe0","fromSide":"top","toNode":"724b4904ddb0c523","toSide":"bottom","label":"vegetaux"},
+		{"id":"785bf15321179639","fromNode":"ca4a5d822aa48fe0","fromSide":"top","toNode":"4282dc0b2beef12d","toSide":"bottom","label":"animaux"},
+		{"id":"2229600d05045ca1","fromNode":"a362336a41fa3237","fromSide":"bottom","toNode":"d431a353d5ea7a1f","toSide":"top"},
+		{"id":"18bd13743d4bd870","fromNode":"a362336a41fa3237","fromSide":"bottom","toNode":"7c43f436f9fda1d9","toSide":"top"}
+	]
+}
