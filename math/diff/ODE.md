@@ -1,5 +1,9 @@
-| precursors | [[multi vars calc]] |
-| ---------- | ------------------- |
-| status:    | #tolearn            |
-| #tags      |                     |
-| level      | #bachelor           |
+---
+abstract:
+---
+| precursors | [[diff and int calc]] |
+| ---------- | --------------------- |
+| status:    | #tolearn              |
+| #tags      |                       |
+| level      | #bachelor             |
+| type       | #appliednatsc         |

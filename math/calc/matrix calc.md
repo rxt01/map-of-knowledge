@@ -1,5 +1,9 @@
+---
+abstract:
+---
 | precursors | [[vector calc]] |
 | ---------- | --------------- |
 | status:    | #tolearn        |
 | #tags      |                 |
-| level      | #               |
+| level      | #bachelor       |
+| type       | #appliednatsc                          |

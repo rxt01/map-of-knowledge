@@ -1,6 +1,10 @@
+---
+abstract:
+---
 
-| precursors | [[general relativity]] [[particle physics]] |
+| precursors | [[GR]] [[particle physics]] |
 | ---------- | ------------------------------------------- |
 | status:    | #tolearn                                    |
 | #tags      |                                             |
-| level      | #                                           |
+| level      | #grad                                       |
+| type       | #                         |

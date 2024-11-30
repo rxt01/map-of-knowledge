@@ -1,9 +1,13 @@
+---
+abstract: list of codons and there canonical amino acide
+---
 
 | precursors | [[]]     |
 | ---------- | -------- |
 | status:    | #tolearn |
 | #tags      |          |
 | level      | #        |
+| type       | #                         |
 # A
 ## A
 ### A

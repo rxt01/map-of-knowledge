@@ -1,5 +1,9 @@
-| precursors | [[general relativity]] |
+---
+abstract:
+---
+| precursors | [[GR]] |
 | ---------- | ---------------------- |
 | status:    | #tolearn               |
 | #tags      |                        |
 | level      | #                      |
+| type       | #                         |

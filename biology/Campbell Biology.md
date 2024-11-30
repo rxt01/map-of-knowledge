@@ -4,14 +4,15 @@ subtitle:
 category: Biology
 isbn13: 
 tags:
-  - "#toroganize"
   - book
+  - toreoganize
 ---
 #tags 
 # #french-note 
 ## pre 1re partie
 
 ### chapitre 1
+**l'evolution, les themes de l'etude du vivant et la demarche scientifique**
 #### concept 1.1
 **l'etude du vivant révèle des themes unificateurs**
 - [organisation](Campbell%20Biology.md#theme%20organisation)
@@ -61,10 +62,15 @@ chaque espèce a 1 nom en 2 parties:
 ##### Charles Darwin et la théorie de la selection naturelle
 les individu plus adapte a leur environnement on généralement plus de descendant
 ##### l'arbre de la vie
-
+les branches de l'arbre de la vie s'entremellent
 #### concept 1.3
+**les scientifiques etudient la nature en faisant des observations, a partir desquelles ils formulent et testent des hypotheses**
+la science est une methode pour comprendre le monde
+##### l'exploration et l'observation
+
 #### concept 1.4
 ## 1re partie
+**la chimie de la vie**
 ### chapitre 2
 #### concept 2.1
 #### concept 2.2
@@ -86,6 +92,7 @@ les individu plus adapte a leur environnement on généralement plus de descenda
 #### concept 5.5
 #### concept 5.6
 ## 2e partie
+**la cellule**
 ### chapitre 6
 #### concept 6.1
 #### concept 6.2

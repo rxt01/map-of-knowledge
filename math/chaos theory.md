@@ -1,5 +1,9 @@
-| precursors | [[PDE]]  |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
+---
+abstract:
+---
+| precursors | [[PDE]] [[multi vars calc]] [[LA]] |
+| ---------- | ---------------------------------------------- |
+| status:    | #tolearn                                       |
+| #tags      |                                                |
+| level      | #                                              |
+| type       | #appliednatsc                          |

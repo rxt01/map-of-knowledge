@@ -1,5 +1,10 @@
-| precursors | [[ODE]]   |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #bachelor |
+---
+abstract:
+---
+
+| precursors | [[ODE]] [[vector calc]] |
+| ---------- | ----------------------- |
+| status:    | #tolearn                |
+| #tags      |                         |
+| level      | #bachelor               |
+| type       | #appliednatsc                          |

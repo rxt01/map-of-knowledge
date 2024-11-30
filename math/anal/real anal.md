@@ -1,10 +1,14 @@
-| precursors | [[diff and int calc]] [[proof]] [[multi vars calc]](anal II) [[vector calc]](anal III) |
-| ---------- | -------------------------------------------------------------------------------------- |
-| status:    | #learnt up to anal I                                                                   |
-| #tags      |                                                                                        |
-| level      | #bachelor                                                                              |
+---
+abstract: hardcord and more rigorous version of calc
+---
+| precursors | [[top]] [[diff and int calc]] [[proof]] [[multi vars calc]](anal II) [[vector calc]](anal III) |
+| ---------- | --------------------------------------------------------------------------------------------------- |
+| status:    | #learnt up to anal I                                                                                |
+| #tags      | #toreoganize                                                                                        |
+| level      | #bachelor                                                                                           |
+| type       | #purenatsc                          |
 # #english-note 
-hardcore and more rigorous version of [[diff and int calc]]
+
 
 ## definition of the limit
 we say $\lim_{x\to c} f(x) =L$ when:
@@ -15,7 +19,7 @@ $$\lim_{x\to c} f(x) =L \iff \forall(x_n)\to c\ with\ x_n\ne c ,\forall n, f(x_n
 
 ## axioms of the reals
 a non-empty set  $\Re$ together with operation $+,\times$ and ordering $\le$ is called the real number if it satisfies:
-- (A) $(\Re,+,0)$ is an [abelian group](algebra)
+- (A) $(\Re,+,0)$ is an [abelian group](algebra.md)
 - (M) $(\Re \setminus\{0\},\times , 1)$ is an abelian group
 - (D) $x(y+z)=xy+xz$
 - (0) $\le$ is a total order, compatible with $+$ and $\times$ , archimedean property
@@ -58,7 +62,7 @@ a sequence $(a_n)$ converges to $L\in\Re$ when:
 $$\forall\varepsilon>0,\exists N\in\mathbb{N}, n\geq N \implies |a_n-a|<\varepsilon$$
 if $(a_n)$ converges, then the limit is unique
 ##### topological view of convergence
-for $a\in\Re$ and $\varepsilon>0$, the [$\varepsilon$](topology.md) of a is $V_\varepsilon (a)  = \{x\in\Re|\ |x-a|<\varepsilon\} = (a-\varepsilon,a+\varepsilon)$
+for $a\in\Re$ and $\varepsilon>0$, the [$\varepsilon$](top.md) of a is $V_\varepsilon (a)  = \{x\in\Re|\ |x-a|<\varepsilon\} = (a-\varepsilon,a+\varepsilon)$
 $(a_n)\to a$ when $$\forall\varepsilon>0,\exists N\in\mathbb{N},n\geq N \implies a_n \in V_\varepsilon(a)$$
 #### divergence
 $(a_n)$ does not converges to a when:
@@ -245,7 +249,9 @@ when $f_n\to f$ converges uniformly, then :
 
 
 ## important definitions for anal II
+
 ### definition of a diagram
+<!-- this should be in [[category theory]] -->
 a diagram consists of:
 - a set $X = \{X_1, \cdots, X_n\}$ where $X_i$ is a set
 - a set $F$ of maps $F=\{X_j \to X_i\}$ 
@@ -255,4 +261,4 @@ a path consists of a subset $P\subseteq F$   $P=\{f_1,\cdots,f_m\}$st. the sourc
 
 ### definition of a cartesian product
 the cartesian product of $X$ and $Y$ consists of a set $U$ together with $\pi_X:U\to X$ and $\pi_Y :U\to Y$ satisfying the following universal property:
-	$\forall V$ together with $\pi'_X:V\to X$ &$\pi'_Y: V\to Y$ there exists a unique function $h:V\to U$ st. the diagram $\{U,V,X,Y\}, \{\pi_X,\pi_Y,\pi'_X\pi'_Y,h\}$ commutes. ie. $\pi_X\circ h=\pi'_X$ and $\pi_Y \circ h=\pi'_Y$ 
+	$\forall V$ together with $\pi'_X:V\to X$ & $\pi'_Y: V\to Y$ $\exists !$ function $h:V\to U$ st. the diagram $\{U,V,X,Y\}, \{\pi_X,\pi_Y,\pi'_X\pi'_Y,h\}$ commutes. ie. $\pi_X\circ h=\pi'_X$ and $\pi_Y \circ h=\pi'_Y$ 

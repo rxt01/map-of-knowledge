@@ -1,5 +1,9 @@
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
+---
+abstract:
+---
+| precursors | [[graph theory]]  |
+| ---------- | ----------------- |
+| status:    | #tolearn          |
+| #tags      |                   |
+| level      | #grad             |
+| type       | #                         |

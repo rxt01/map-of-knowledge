@@ -1,5 +1,9 @@
-| precursors | [[multi vars calc]] [[linear algebra]] |
+---
+abstract: calculus of vectors
+---
+| precursors | [[multi vars calc]] [[LA]] |
 | ---------- | -------------------------------------- |
 | status:    | #tolearn                               |
 | #tags      |                                        |
 | level      | #bachelor                              |
+| type       | #appliednatsc                          |

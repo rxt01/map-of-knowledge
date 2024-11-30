@@ -1,6 +1,9 @@
+---
+abstract: how to proov stuff
+---
 | precursors | [[set theory]] |
 | ---------- | -------------- |
-| status:    | #learning      |
+| status:    | #learnt        |
 | #tags      |                |
 | level      | #              |
-# #english-note 
+| type       | #                         |

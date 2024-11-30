@@ -1,10 +1,13 @@
-
+---
+abstract:
+---
 
 | precursors | [[]]      |
 | ---------- | --------- |
 | status:    | #learning |
 | #tags      |           |
 | level      | #college  |
+| type       | #                         |
 # #french-note 
 ## mythe (μῦθος)
 récit (raconter)
@@ -128,3 +131,227 @@ arche: le Bien
 #### sources
 xenophon (426-354 av. J.C.) (historien, biographiste)
 platon (428-348 av. J.C.) (systeme, global)
+#### le proces
+Euthyphron : avant le proces
+Apologie : le proces
+Criton: socrate refuse de s'echapper
+phedon: la mort de socrate (question de la vie apres la mort)
+prefere mourir que ne pas dire la verite
+il refuse de:
+- demander pitie
+- gemir et demander pardon
+- manipuler la foule avec ses enfants et sa femme en larmes
+- utiliser des beaux mots et un discrours soigne
+- proposer une peine indigne de sa vertu (exile, prison, arret de philosopher)
+
+##### accusations
+1. *"socrate est coupable: il recherche indiscretement ce qui se passe sous la terre et dans le ciel, il rend bonne la mauvaise cause et il enseigne a d'autre a faire comme lui"*
+2. *"on dit que je me mele d'enseigner et je me fais payer pour cela"*
+3. *"socrate est coupable en ce qu'il corrompt la jeunesse, qu'il n'honore pas les dieux de la cite et leur substitue des divinites nouvelles"*
+
+##### contre argument
+1. l'acusation s'aplique a anaxagore et non lui
+2. il faut savoir pour enseigner et socrate ne sais rien
+3. il a vue l'oracle de delphes (il est l'homme le plus sage (car il sait qu'il ne sait rien) et il veu le verifier)
+4. meletos ne s'occupe pas d'ameliorer la jeunesse donc ne sait pas se qui est bon pour la jeunesse (socrate n'est pas le seul a corrompe)(ceux qui ne savent pas ne font que les gater) (le dressage des animaux et equivalent a l'amelioration de la vertue des jeunes)
+5. l'accusation et comme si socrate est coupable de ne pas croire qu'il y a des dieux mais de croire qu'il y en a
+6. 
+##### motifs
+trahison de son disciple Alcibiade
+socrate est suspect a la democratie (de ses amis et eleves fesaient parti d'une tyrannie)
+#### methode socratique
+on doit poursuivre une verite universelle, objective et qui doit pouvoir fair l'objet d'un savoir rigoureux
+socrate nous envoi sur la quete du savoir
+##### dialectique
+implique deux interlocuteurs dont les positions sont differentes
+recherche de la verite
+###### refutation (elenchos)
+demonstration a quelqu'un que sa position est intenable, dans la mesure ou il se contredit lui-meme, pour l'ammener vers un savoir plus vrai
+1. le repondant soutient que $\text{P}$
+2. le questionneur lui fait admettre egalement Q, R, etc.
+3. ensuite le questionneur demontre que Q $\land$ R $\implies$ $\lnot$P bref le repondant se contredit
+4. le repondant doit reviser sa position
+###### maieutique
+chacun possede toujours deja la verite en son ame mais elle a ete oubliee. il faut donc la ramener par l'entremise d'un dialogue reflechi
+### les sophistes
+les sophistes sont des savants itinerants, qui dispensent leur savoir en echange d'une remuneration
+ils pratiquent l'art oratoire
+professeur de vertue
+proposent des theories relativistes
+premier humanistes
+#### les sophismes
+methode de manipulation des sophistes
+argument valide en apparence mais non concluant
+##### faux dilemme
+reduit un probleme a une stricte alternatives
+polarisation excessive
+A ou B
+##### petition de principe
+argument circulaire
+on prend pour acquis ce qui demande d'etre justifie
+##### sophisme naturaliste
+sophisme consiste a tirer une conclusion normative (un devoir-etre) de premisses descriptives, factuelles (qui enoncent ce qui est)
+##### generalisation hative
+tire une conclusion generale a partir d'un echantillon trop faible de cas particuliers
+##### appel a la majorite
+fonde une position sur le fait que plusieur personnes l'adoptent egalement, et ce, sans prendre la mesure de ses justifications 
+##### appel a l'autorite
+il s'agit de justifier une position par le fait qu'une figure d'autorite, souvent non pertinente, l'adopte egalement, et ce, sans prendre la mesure des justifications qui entrent en jeu
+##### appel a la nouveaute
+consist a soutenir que quelque chose et bon et souhaitable parce qu'il est nouveau, plus recent
+##### pente glissante
+ce sophisme consiste a soutenir qu'une cause entrainera un effet ou un enchainement d'effets dont la necessite n'est pourtant pas demontree, voire demeure doutese et improbable
+##### fausse causalite
+est une erreur logique ou l'on conclut a tort qu'une relation entre deux evenements implique une relation de cause a effet. de confondre un lien de correlation avec un lien de causalite
+##### preuve par l'ignorance
+il s'agit d'inferer qu'une chose est necessairement vraie du fait que rien n'a encore demontre qu'elle est fausse, ou l'inverse, c'est-a-dire de tenir une chose pour fausse du fait que rien n'a encore demontre qu'elle est vraie
+##### fausse analogie
+tire des conclusions d'une analogie entre deux etats de faits ou deux enonces normatifs sans que ceux ci ne soient assez similaires pour le permettre
+##### caricature
+deforme la position d'un adversaire afin qu'elle paraisse absolument absurde, ridicule ou insoutenable
+##### diversion (hareng fume)
+il s'agit d'attirer l'attention sur un element qui n'est pas relie au debat, comme s'il appuyait neanmoins notre conclusion
+##### attaque contre la personne (ad hominem)
+il s'agit de s'en prendre a une personne plutot qu'a ses arguments afin de discrediter son propos, de miner sa credibilite
+##### appel a la force
+celui qui a recours a ce sophisme entend persuader par la menace, c'est a dire promet que l'adoption d'une position contraire a la cienne menera a des consequences nefastes, consequences qui n'ont pourtant rien a voir avec l'enjeu dont il est question
+##### double faute
+justifier une faute par la faute d'un autre
+##### complot
+ceux qui profite d'une tragedie en sont la cause
+##### proces d'intention
+assume l'intention des agissement de quelqu'un
+##### appel a la pitie (guilt trip)
+faire pitie pour pouvoir gagner l'argument
+##### ambiguite delibere
+faire expres pour ne pas parler clairement pour que l'autre doit interpreter
+### socrate contre les sophistes
+|                | socrate (philosophie) | sophistes (opinion)        |
+| -------------- | --------------------- | -------------------------- |
+| verite         | objective             | subjective, relative       |
+| methode        | dialectique           | rhetorique                 |
+| ethique        | vertu>vie             | gagner a tout prix         |
+| paiement       | non                   | oui                        |
+| savoir         | aucun, en quete       | tout                       |
+| type de savoir | theoretique           | pratique                   |
+| contexte       | dialogue 1 a 1        | monologue devant une foule |
+| moyen          | argumentation         | persuasion                 |
+## platon
+disciple de [[philosophy & rationality#Socrate (470-399 av. J.C.)]]
+ecrit seulement des dialogues 
+socrate est present dans tous sauf un
+cree l'enseignements superieur
+cree la premiere universite (l'academie)
+pythagoricien
+le bien du monde viens de sa structure mathematique
+essay de faire la synthese des conaissances de l'epoque
+dramaturge et luteur dans sa geunesse
+platon est son nom de luteur (vrais nom aristocles probablement)
+il a gagne 2 medaille d'or
+a ~ 17 ans il devient philosophe disciple de socrate
+un moment devien conseiller d'un tyran
+apres il devient esclave de des pirates
+![[analogie de la ligne]]
+### l'alcibiade
+3 bien sociaux: 
+1. richesse
+2. plaisir (beaute)
+3. popularite (honeur) (puissance)
+alcibiade a les 3
+#### elenchos
+socrate lui demande pourquoi il va en politique
+alcibiade veut conseiller les atheniens sur se qu'il sait mieu qu'eux
+socrate lui fait comprendre que pour etre politicien il faut etre juste
+alcibiade ne sait pas ce qu'est qu'etre juste car il ne peut se l'avoir fait enseigner
+socrate veut clarifier la justice avec alcibiade
+![[concept alcibiade]]
+#### maeutique
+![[maieutique]]
+connais toi toi-meme
+ame = principe decisionnel de l'humain
+tu n'est pas ce que tu as
+tu est ce que tu fais (ce que tu est)
+<!--- tu est ce que tu mange --->
+l'ame se sert du corps et des biens materiels
+masques = l'avoir
+vertues:
+- sagesse pratique (φρονεσις) - inteligence spontane a ne pas confondre avec sophia
+- temperance / moderation (sophrosyne)
+la vrais amour doit etre baser sur l'ame
+l'amour ne dois pas etre baser sur des qualites que la personne peut perdre
+le corps fletrie avec le temps
+l'ame fleurit avec le temps
+type d'amour:
+- eros (ερος) - conjugal
+- philos (φιλος) - amitie
+- agape (αγαπε) - parental
+on ne doit pas etre en amour avec des masques
+authenticite appartient a l'ame
+il faut etre avec quelqu'un que l'on aime pour etre authentique
+sans amour, on s'identifie a nos masques
+la politique ruine les gens
+pour etre un bon politicien il faut de la sagesse pratique, de la moderation et de la justice
+les aines servent de models car ils ont beaucoup travailler a ameliorer leur ame
+un politicien doit etre exemplaire
+le chef d'une communaute est toujours un exemple
+pour etre une bonne personne il faut se conaitre soi meme
+il faut etre sage moralemtn et bien pour etre heureux
+pour se liberer du malheur il faut de la sagesse et non de la richesse
+
+
+## aristote
+### invitation a la philosophie
+#### 1
+l'argent a une double fonction:
+pour philosopher il faut du temps libre
+il ne faut pas monetiser la philosophie
+il ne faut pas accumuler trop d'argent
+sinon l'argent devient une obsession
+l'argent est necessaire mais pas suffisant
+#### 2
+il faut philosopher
+le fait d'argumenter sur si on doit philosopher c'est philosopher
+l'essence de l'etre humain c'est ca capacite a reflechir
+l'humain se pose des questions et cherche des reponses
+#### 3
+tout arrive soi par l'humain, la nature ou le hasard
+la nature ne fait rien en vain, elle vise toujours un bu/fin (telos)
+l'humain fait les choses pour une raison et la raison et plus importante que l'acte
+l'art imite la nature
+donc l'art vise toujours un but
+la sagesse est l'acomplissement de l'humain
+#### 4
+le bonheur est un choix libre
+la reflexion nous distingue des animaux
+les biens humain ne sont pas tous egaux, il y a une hierarchie de liberte
+#### 5
+pour faire des bons choix il faut savoir ce qui est un bon choix
+la conaissance vien de l'ame theorique
+d'ou le fait que le bonheur apartient surtout a l'ame theorique
+il faut donc augmenter notre connaissance
+la verite precede l'action
+il faut connaitre soi meme et se que l'on cherche
+
+#### 6
+il faut des models pour nous aider a nous ameliorer dans une zone de conaissance ou dans eds valeurs
+rien de bien ne peut etre acomplie sans la sagesse
+il faut savoir se qui est bien pour faire le bien
+#### 7
+le vrais desir n'est pas materielle
+la sagesse est une aproximantion de la serenite du paradi
+la sagesse simule le paradi
+#### 8
+la technologie utilise la nature pour palier aux point faible des humains
+la philosophie est necessaire aux techniques
+en imitant on comprend pas ce qu'on fait
+il ne faut pas juste savoir la verite mais aussi agir dessus, c'est ce qui augmente la vertue
+la sagesse est l'origine de toutes les techniques utiles a l'homme
+#### 9
+la philosophie est facile parce qu'elle est universel sauf pour les tres attarde
+la philo ne necessite pas d'outil
+
+#### 10
+les vertues sont les techniques de l'ame que l'homme a utilise pour palier a ses faiblesse
+1. la vertu est l'exelance d'une chose, chaque etre a plusieur parties qui ont leur propre vertu mais la totalite a aussi sa propre vertue. la sagesse permet de comprendre qui ont est donc c'est la vertue la plus importante 
+2. la sensation est une maniere de connaitre. le vivant doit connaitre son monde pour prendre les bonnes decision dans son monde. la vie se definit par sa capacite de sensation. la sensation est la capacite de connaitre par le corps. la sagesse est la capacite de connaitre par l'ame. si la vie est choisi pour la sensation, elle devrait etre davantage pour la sagesse car elle donne plus de connaissance. 
+#### 11

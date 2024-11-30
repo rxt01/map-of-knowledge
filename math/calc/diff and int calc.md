@@ -1,10 +1,13 @@
+---
+abstract:
+---
 
-| precursors | [[high school algebra]] [[trig]] |
-| ---------- | -------------------------------- |
-| status:    | #learnt                          |
-| #tags      |                                  |
-| level      | #college                         |
-
+| precursors | [[elementary algebra]] [[trig]] [[analytic geo]] |
+| ---------- | ------------------------------------------------ |
+| status:    | #lear                                            |
+| #tags      |                                                  |
+| level      | #college                                         |
+| type       | #appliednatsc                                    |
 # #english-note
 
 ## find root of a function using newton's method
@@ -13,7 +16,7 @@ $$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$
 ![limit](real%20anal.md#definition%20of%20the%20limit)
 $$f'(x):= \lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$$
 $$f'(x):=\lim_{t\to 1}\frac{f(tx)-f(x)}{tx-x}$$
-$$\int_a^b f(x)dx:=$$
+
 
 $f(x)$ is continuous at $x=c$ when $\lim_{x\to c}f(x)=f(c)$
 ## fundamental theorems of calculus
@@ -22,15 +25,22 @@ $$\frac{d}{dx}\int_{a}^{x}f(t)dt=f(x)$$
 
 ## derivative tricks
 $$\frac{d}{dx}e^x := e^x$$
-$$\frac{d}{dx}ln(x)= \frac{1}{x}$$
+$$\ln'(x)= \frac{1}{x}$$
 $$sin'(x)=cos(x)$$
 $$cos'(x)=-sin(x)$$
 $$tan'(x)=sec^2(x)$$
 $$cot'(x)=-csc^2(x)$$
 $$sec'(x)=tan(x)sec(x)$$
 $$csc'(x)=-cot(x)csc(x)$$
-### product rule
+$$\frac{d}{dx}|x|=\text{sign}\ x=\frac{|x|}{x}$$
+
+![[hyperbolic trig#derivatives]]
+### product rules
 $$(f(x)g(x))'=f'(x)g(x)+f(x)g'(x)$$
+$$(f(x)g(x))^{(n)}=\sum\limits_{k=0}^{n} \binom{n}{k}f^{(k)}(x)g^{(n-k)}(x)$$
+$$let\ \varphi_{1},\varphi_{2},\varphi_{3}\cdots \varphi_{n}:\mathbb{R}\mapsto\mathbb{R}$$
+$$let\ \beta:\mathbb{R}\mapsto\mathbb{R}=\prod_{k=1}^{n} \varphi_{k}$$
+$$\beta'=\sum_{k=1}^{n} (\prod_{m=1}^{k}\varphi_{m})\varphi_{k}' (\prod_{m=k+1}^{n}\varphi_{m})$$
 ### scalar multiplication
 $$\frac{d}{dx}(cf(x))=cf'(x)$$
 ### addition rule
@@ -38,7 +48,7 @@ $$\frac{d}{dx}(f(x)+g(x))=f'(x)+g'(x)$$
 ### power rule
 $$\frac{d}{dx}x^a=ax^{a-1}$$
 
-### quotient rule
+### quotient rules
 $$\left(\frac{f(x)}{g(x)}\right)' = \frac{g(x)f'(x)-f(x)g'(x)}{g(x)^2}$$
 $$\frac{d}{dx}\frac{af(x)+b}{cf(x)+d}=\frac{f'(x)(ad-bc)}{(cf(x)+d)^2}$$
 ### reciprocal rule
@@ -49,7 +59,9 @@ $$\frac{d}{dx}f(x,y)=-\frac{f_x}{f_y}$$
 ### inverse trig functions
 $$\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}}$$
 ### chain rule
-$$\frac{d}{dx}(f\circ g)(x)=(f'\circ g)(x)g'(x)$$
+$$let\ \varphi_{1},\varphi_{2},\varphi_{3}\cdots \varphi_{n}:\mathbb{R}\mapsto\mathbb{R}$$
+$$let\ \beta:\mathbb{R}\mapsto\mathbb{R}=\circ_{k=1}^{n} \varphi_{k}$$
+$$\beta'=\prod_{k=1}^{n} \varphi_{k}' \circ_{m=k+1}^{n}\varphi_{m}$$
 ### mean value theorem
 for $f(x)$ differentiable on $(a,b)$ and continuous on $[a,b]$ $\frac{f(b)-f(a)}{b-a}=f'(c)$ at some point $c$ in $(a,b)$
 
@@ -64,7 +76,7 @@ $$\lim_{x \to a}\frac{f(x)}{g(x)}=\frac{\lim_{x \to a}f(x)}{\lim_{x \to a}g(x)}$
 $$f(x)\le g(x)\le h(x) \land \lim_{x\to a}f(x) = \lim_{x\to a}h(x)=L \implies \lim_{x\to a}g(x)=L$$
 
 ### l'Hopital's rule
-$$\lim_{x\to a}\frac{f(x)}{g(x)} = \lim_{x\to a}\frac{f'(x)}{g'(x)}$$
+$$(\lim_{x\to a}f(x)=0\land\lim_{x\to a}g(x)=0)\lor(\lim_{x\to a}f(x)=\pm\infty\land\lim_{x\to a}g(x)=\pm\infty)\implies\lim_{x\to a}\frac{f(x)}{g(x)} = \lim_{x\to a}\frac{f'(x)}{g'(x)}$$
 
 
 ## integral tricks
@@ -78,7 +90,7 @@ $$\int_a^b f(x)g'(x)dx = f(x)g(x)|_a^b - \int_a^b f'(x)g(x)dx$$
 $$\int_a^\infty f(x) dx = \lim_{t\to\infty}\int_a^tf(x)dx = \lim_{t\to\infty} F(x)|_a^t$$
 $$\int_{-\infty}^\infty f(x)dx = \lim_{t\to -\infty}\int_t^af(x)dx + \lim_{t\to\infty}\int_a^tf(x)dx $$
 $$f(x)\ge g(x)\ge 0 \implies \int_a^b f(x)dx \ge \int_a^bg(x)dx \ge 0$$
-$$Archlength = \int_a^b \sqrt{1+(f'(x))^2}dx$$
+$$\text{Arc length} = \int_a^b \sqrt{1+(f'(x))^2}dx$$
 $$SA = \int_a^b 2\pi f(x)\sqrt{1+(f'(x))^2}dx$$
 ## extrema
 $$extrema(f(x)): 0_s\ of\ f'(x)$$
@@ -102,7 +114,7 @@ $$\lim_{n\to\infty}s_n=L \implies \sum_{n=1}^\infty a_n =L$$
 ### geometric series
 
 $$\sum_{n=1}^\infty ar^{n-1}$$
-$$diverges\ when\ |r|\ge 1$$
+$$\text{diverges when} |r|\ge 1$$
 $$\frac{a}{1-r}\ when\ |r|<1$$
 ### Harmonic series
 $$\sum_{n=1}^\infty \frac{1}{n}$$
@@ -110,6 +122,5 @@ diverges
 
 ## other
 ### intermediate value theorem
-suppose $f(x)$ is continuous on $[a,b]$. let $N \in [f(a),f(b)] \implies \exists c$ $a\le c\le b$ $f(c)=N$ 
-
+suppose $f(x)$ is continuous on $[a,b]$. $N \in [f(a),f(b)] \implies \exists c$ $a\le c\le b$ $f(c)=N$ 
 

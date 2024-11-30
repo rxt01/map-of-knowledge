@@ -1,5 +1,9 @@
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
+---
+abstract:
+---
+| precursors | [[]]      |
+| ---------- | --------- |
+| status:    | #tolearn  |
+| #tags      |           |
+| level      | #bachelor |
+| type       | #                         |

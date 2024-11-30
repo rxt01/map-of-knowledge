@@ -1,5 +1,9 @@
-| precursors | [[particle physics]] |
-| ---------- | -------------------- |
-| status:    | #tolearn             |
-| #tags      |                      |
-| level      | #                    |
+---
+abstract:
+---
+| precursors | [[particle physics]] [[QM]] [[CM]] |
+| ---------- | ------------------------------------------------------------------ |
+| status:    | #tolearn                                                           |
+| #tags      |                                                                    |
+| level      | #                                                                  |
+| type       | #                         |

@@ -1,5 +1,9 @@
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
+---
+abstract:
+---
+| precursors | [[algebra]] [[real anal]] [[top]] |
+| ---------- | -------------------------------------- |
+| status:    | #tolearn                               |
+| #tags      |                                        |
+| level      | #grad                                  |
+| type       | #                         |

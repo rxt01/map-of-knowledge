@@ -1,5 +1,9 @@
-| precursors | [[Quantum field theory]] |
-| ---------- | ------------------------ |
-| status:    | #tolearn                 |
-| #tags      |                          |
-| level      | #                        |
+---
+abstract:
+---
+| precursors | [[QFT]] [[PDE]] |
+| ---------- | -------------------------------- |
+| status:    | #tolearn                         |
+| #tags      |                                  |
+| level      | #                                |
+| type       | #                         |

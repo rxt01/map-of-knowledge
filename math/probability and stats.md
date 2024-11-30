@@ -1,8 +1,12 @@
+---
+abstract:
+---
 | precursors | [[diff and int calc]] |
 | ---------- | --------------------- |
 | status:    | #learning             |
 | #tags      |                       |
-| level      | #                     |
+| level      | #college              |
+| type       | #appliednatsc                          |
 # #french-note
 ## definitions
 ### population

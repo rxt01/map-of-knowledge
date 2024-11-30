@@ -8,7 +8,6 @@
   "emoji-shortcodes",
   "obsidian-emoji-toolbar",
   "obsidian-excel-to-markdown-table",
-  "homepage",
   "obsidian-icon-folder",
   "obsidian-kanban",
   "url-into-selection",
@@ -18,5 +17,15 @@
   "templater-obsidian",
   "obsidian-spaced-repetition",
   "vim-toggle",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-git",
+  "tag-wrangler",
+  "obsidian-mind-map",
+  "obsidian-latex-suite",
+  "quick-latex",
+  "obsidian-tikzjax",
+  "table-editor-obsidian",
+  "obsidian-dictionary-plugin",
+  "execute-code",
+  "obsidian-desmos"
 ]

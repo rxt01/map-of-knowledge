@@ -1,5 +1,9 @@
-| precursors | [[complex anal]] [[topology]] [[algebraic topology]] [[representation theory]] |
-| ---------- | ------------------------------------------------------------------------------ |
-| status:    | #tolearn                                                                       |
-| #tags      |                                                                                |
-| level      | #bachelor                                                                      |
+---
+abstract:
+---
+| precursors |           |
+| ---------- | --------- |
+| status:    | #tolearn  |
+| #tags      |           |
+| level      | #bachelor |
+| type       | #                         |

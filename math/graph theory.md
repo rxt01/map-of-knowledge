@@ -1,6 +1,10 @@
+---
+abstract:
+---
 
-| precursors | [[discrete math]] [[combinatorics]] |
-| ---------- | ----------------------------------- |
-| status:    | #tolearn                            |
-| #tags      |                                     |
-| level      | #                                   |
+| precursors | [[discrete math]] [[combinatorics]] [[LA]] |
+| ---------- | ------------------------------------------------------ |
+| status:    | #tolearn                                               |
+| #tags      |                                                        |
+| level      | #                                                      |
+| type       | #                         |

@@ -1,6 +1,9 @@
-
-| precursors | [[multi vars calc]] |
-| ---------- | ------------------- |
-| status:    | #tolearn            |
-| #tags      |                     |
-| level      | #bachelor           |
+---
+abstract:
+---
+| precursors | [[real anal]] [[point set top]] |
+| ---------- | ------------------------------------ |
+| status:    | #tolearn                             |
+| #tags      |                                      |
+| level      | #                                    |
+| type       | #                         |

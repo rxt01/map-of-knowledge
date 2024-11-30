@@ -1,5 +1,9 @@
-| precursors | [[linear algebra]] |
-| ---------- | ------------------ |
-| status:    | #tolearn           |
-| #tags      |                    |
-| level      | #bachelor          |
+---
+abstract:
+---
+| precursors | [[probability theory]] |
+| ---------- | ---------------------- |
+| status:    | #tolearn               |
+| #tags      |                        |
+| level      | #bach                  |
+| type       | #                         |

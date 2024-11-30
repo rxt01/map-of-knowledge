@@ -3,7 +3,14 @@
   "showAddCommand": true,
   "debug": false,
   "editorMenu": [],
-  "fileMenu": [],
+  "fileMenu": [
+    {
+      "id": "obsidian-mind-map:app:markmap-preview",
+      "icon": "align-vertical-distribute-center",
+      "name": "Mind Map: Preview the current note as a Mind Map",
+      "mode": "any"
+    }
+  ],
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],

@@ -1,45 +1,30 @@
 {
   "main": {
-    "id": "a5e3bd5aeb72d978",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "5ebb71d0244fb505",
+        "id": "cfbf23f1003cf1cd",
         "type": "tabs",
         "children": [
           {
-            "id": "94fdc3ab88f613b5",
+            "id": "b181b5660d55527e",
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "79f5cd0c3917a869",
+            "id": "79440fed82a6c9fe",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Glucides.canvas",
-                "viewState": {
-                  "x": 339.78291730753887,
-                  "y": 417.09837055496104,
-                  "zoom": -1.6213788278230745
-                }
-              }
-            }
-          },
-          {
-            "id": "86dff5df1f4af16a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "biology/cellular biology.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -63,7 +48,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -72,13 +59,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tolea",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -86,7 +75,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -109,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Glucides.canvas",
+                "file": "biology/cellular biology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +108,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for cellular biology"
             }
           },
           {
@@ -126,10 +119,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Glucides.canvas",
+                "file": "biology/cellular biology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from cellular biology"
             }
           },
           {
@@ -140,7 +135,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -148,17 +145,39 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Glucides.canvas"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
-            "id": "98f1064eb8fe7f07",
+            "id": "d1a70031aac7cbd4",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
-              "state": {}
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "db1c645b03832887",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "f1f93269e6e7395a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -166,11 +185,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 214.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,61 +198,72 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-book-search-plugin:Create new book note": false,
-      "homepage:Open homepage": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "vim-toggle:Toggle Vim Mode": false
+      "vim-toggle:Toggle Vim Mode": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "random-note:Open random note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "79f5cd0c3917a869",
+  "active": "79440fed82a6c9fe",
   "lastOpenFiles": [
-    "biology/cellular biology.md",
-    "Glucides.canvas",
+    "math/modular forms.md",
+    "math/special number systems/surreal numbers.md",
+    "math/special number systems/hyperreal numbers.md",
+    "math/special number systems/p-adic numbers.md",
+    "math/special number systems/octonions.md",
+    "math/special number systems/complex numbers.md",
+    "math/special number systems/quaternions.md",
+    "math/special number systems",
+    "math/special number systems/split-complex numbers.md",
+    "math/special number systems/dual numbers.md",
+    "math/algebra/algebra.md",
+    "math/calc/diff and int calc.md",
+    "math/geo/projective geo.md",
+    "math/calc/multi vars calc.md",
+    "math/trig/hyperbolic trig.md",
     "philosophy/philosophy & rationality.md",
+    "biology/cellular biology.md",
     "engineering/genetic/codons.md",
     "linguistics/french writing & literature.md",
-    "math/calc/diff and int calc.md",
-    "Excalidraw/Drawing 2024-09-25 12.24.18.excalidraw.md",
-    "Untitled Kanban.md",
-    "Excalidraw/Drawing 2024-09-05 22.53.26.excalidraw.md",
-    "engineering/genetic/amino acide switching.md",
-    "Excalidraw/Drawing 2024-09-23 14.46.48.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-23 08.12.49.excalidraw.md",
+    "math/unsolved problems/milenium probems/birch and swinnerton-dyer conjecture.md",
+    "math/unsolved problems/milenium probems/yang-mills.md",
+    "math/unsolved problems/milenium probems/riemann hypothesis.md",
+    "math/unsolved problems/milenium probems/P vs. NP.md",
+    "math/unsolved problems/milenium probems/naviers-strokes equation.md",
+    "math/unsolved problems/collatz conjecture.md",
+    "math/unsolved problems/Untitled.md",
+    "math/unsolved problems/golbach conjecture.md",
+    "math/unsolved problems",
+    "math/trig",
+    "math/unsolved problems/milenium probems",
+    "math/algebra",
+    "math/combinatorics",
+    "unsorted",
+    "politics",
+    "biology/concept map/division cellulaire.canvas",
+    "biology/concept map/replication de l'adn.canvas",
+    "biology/concept map/Transport.canvas",
+    "biology/concept map/Mitose.canvas",
+    "biology/concept map/Molecules de la vie.canvas",
+    "biology/concept map/Proteines.canvas",
+    "biology/concept map/Lipides.canvas",
+    "biology/concept map/Glucides.canvas",
+    "biology/concept map/Cellule.canvas",
+    "biology/concept map/Acides nucleiques.canvas",
+    "fonts/cmunrm.ttf",
+    "fonts",
+    "Excalidraw/cellule.png",
     "Pasted Image 20240923081344_299.png",
-    "chemistry/mass spectrography.md",
-    "math/anal/real anal.md",
-    "math/set theory.md",
     "Pasted Image 20240905225331_311.png",
     "Excalidraw/Pasted Image 20240905224610_862.png",
     "Excalidraw/Pasted Image 20240905215130_532.png",
     "Excalidraw/Pasted image 20240905222342.png",
-    "Excalidraw/fonctions des proteines.md",
     "Excalidraw/Pasted Image 20240905224548_539.png",
-    "engineering/genetic",
-    "Excalidraw/monosaccharides.md",
     "Excalidraw/Screenshot from 2024-09-05 21-49-44.png",
-    "biology/Campbell Biology.md",
-    "math/probability and stats.md",
-    "Campbell Biology.md",
-    "chemistry/analytical chem.md",
-    "chemistry/general chem.md",
-    "templates/template.md",
-    "math/linear algebra/linear algebra.md",
-    "math/linear algebra/abstract linear algebra.md",
-    "math/top/point set topology.md",
-    "engineering/genetic",
     "Excalidraw/Pasted Image 20240829185434_494.png",
-    "Excalidraw/Pasted Image 20240829184733_408.png",
-    "biology/Screenshot 2024-08-29 184630.png",
-    "Excalidraw",
-    "linguistics",
-    "philosophy",
-    "history",
-    "law",
-    "engineering/software",
-    "engineering/genetic",
-    "engineering/computer"
+    "Excalidraw/Pasted Image 20240829184733_408.png"
   ]
 }

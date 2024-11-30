@@ -1,5 +1,9 @@
-| precursors | [[real anal]] |
-| ---------- | ------------- |
-| status:    | #tolearn      |
-| #tags      |               |
-| level      | #             |
+---
+abstract:
+---
+| precursors |          |
+| ---------- | -------- |
+| status:    | #tolearn |
+| #tags      |          |
+| level      | #grad    |
+| type       | #                         |

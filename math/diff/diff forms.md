@@ -1,5 +1,9 @@
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #         |
+---
+abstract:
+---
+| precursors | [[manifolds]] |
+| ---------- | ------------- |
+| status:    | #tolearn      |
+| #tags      |               |
+| level      | #             |
+| type       | #                         |

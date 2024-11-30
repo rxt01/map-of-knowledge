@@ -1,5 +1,9 @@
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
+---
+abstract:
+---
+| precursors | [[number theory]] [[galois theory]] |
+| ---------- | ----------------------------------- |
+| status:    | #tolearn                            |
+| #tags      |                                     |
+| level      | #grad                               |
+| type       | #purenatsc                          |

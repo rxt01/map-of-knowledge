@@ -1,6 +1,10 @@
+---
+abstract:
+---
 
-| precursors | [[logic]] |
-| ---------- | --------- |
-| status     | #tolearn  |
-| #tags      |           |
-| level      | #         |
+| precursors | [[set theory]] [[combinatorics]] [[probability and stats]] |
+| ---------- | ---------------------------------------------------------- |
+| status     | #tolearn                                                   |
+| #tags      |                                                            |
+| level      | #                                                          |
+| type       | #appliednatsc                          |

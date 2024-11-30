@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "tag:#tags ",
+  "search": "tag:#tags",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -64,7 +64,7 @@
       }
     },
     {
-      "query": "path:engineering/genetic path:",
+      "query": "path:engineering/genetic  ",
       "color": {
         "a": 1,
         "rgb": 14048429
@@ -125,18 +125,25 @@
         "a": 1,
         "rgb": 16711927
       }
+    },
+    {
+      "query": "path:politics  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.33762886597938,
-  "lineSizeMultiplier": 3.51979166666667,
+  "nodeSizeMultiplier": 1.08255208333333,
+  "lineSizeMultiplier": 0.546614583333333,
   "collapse-forces": true,
   "centerStrength": 0.505208333333333,
-  "repelStrength": 17.9166666666667,
+  "repelStrength": 16.25,
   "linkStrength": 1,
-  "linkDistance": 265,
-  "scale": 0.0078125,
+  "linkDistance": 122,
+  "scale": 0.13348388671875,
   "close": false
 }

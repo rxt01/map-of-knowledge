@@ -1,7 +1,10 @@
+---
+abstract:
+---
 
-
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
+| precursors | [[general chem]] |
+| ---------- | ---------------- |
+| status:    | #tolearn         |
+| #tags      |                  |
+| level      | #                |
+| type       | #                         |

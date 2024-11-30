@@ -1,9 +1,13 @@
+---
+abstract:
+---
 
 | precursors | [[set theory]]   |
 | ---------- | ---------------- |
 | status:    | #studied         |
 | #tags      |                  |
-| level      | #primary-school  |
+| level      | #primary-school #high-school   |
+| type       | #                         |
 # #english-note 
 
 ## area of some regular polygon
