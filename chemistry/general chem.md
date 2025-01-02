@@ -1,10 +1,10 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #learning |
-| #tags      |           |
-| level      | #         |
-| type       | #                         |
+| precursors | [[]]     |
+| ---------- | -------- |
+| status:    | #studied |
+| #tags      |          |
+| level      | #        |
+| type       | #        |
 

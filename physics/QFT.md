@@ -6,5 +6,5 @@ abstract:
 | status:    | #tolearn             |
 | #tags      |                      |
 | level      | #                    |
-| type       | #                         |
+| type       | #                    |
 | other name | quantum field theory |

@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "tag:#tags",
+  "search": "tag:#tags  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -57,7 +57,7 @@
       }
     },
     {
-      "query": "path:linguistics  ",
+      "query": "path:language  ",
       "color": {
         "a": 1,
         "rgb": 11361494
@@ -132,6 +132,13 @@
         "a": 1,
         "rgb": 16711680
       }
+    },
+    {
+      "query": "path:weapons  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395026
+      }
     }
   ],
   "collapse-display": true,
@@ -144,6 +151,6 @@
   "repelStrength": 16.25,
   "linkStrength": 1,
   "linkDistance": 122,
-  "scale": 0.13348388671875,
+  "scale": 0.26738172746935945,
   "close": false
 }

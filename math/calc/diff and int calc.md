@@ -4,7 +4,7 @@ abstract:
 
 | precursors | [[elementary algebra]] [[trig]] [[analytic geo]] |
 | ---------- | ------------------------------------------------ |
-| status:    | #lear                                            |
+| status:    | #learnt                                          |
 | #tags      |                                                  |
 | level      | #college                                         |
 | type       | #appliednatsc                                    |
@@ -64,7 +64,8 @@ $$let\ \beta:\mathbb{R}\mapsto\mathbb{R}=\circ_{k=1}^{n} \varphi_{k}$$
 $$\beta'=\prod_{k=1}^{n} \varphi_{k}' \circ_{m=k+1}^{n}\varphi_{m}$$
 ### mean value theorem
 for $f(x)$ differentiable on $(a,b)$ and continuous on $[a,b]$ $\frac{f(b)-f(a)}{b-a}=f'(c)$ at some point $c$ in $(a,b)$
-
+### logarthimique diferentiation
+$$\frac{d}{dx}f(x)^{g(x)} =f(x)^{g(x)}(g'(x)\ln(f(x))+\frac{g(x)f'(x)}{f(x)})$$
 
 ## limit tricks
 $$\lim_{n\to \infty}\left(1+\frac{1}{n}\right)^n := e$$

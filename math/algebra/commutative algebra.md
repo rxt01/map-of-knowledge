@@ -1,9 +1,9 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
-| type       | #purenatsc                          |
+| precursors | [[]]       |
+| ---------- | ---------- |
+| status:    | #tolearn   |
+| #tags      |            |
+| level      | #grad      |
+| type       | #purenatsc |

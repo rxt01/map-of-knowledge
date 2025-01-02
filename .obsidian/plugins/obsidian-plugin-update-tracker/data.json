@@ -1,6 +1,18 @@
 {
   "daysToSuppressNewUpdates": 0,
-  "dismissedVersionsByPluginId": {},
+  "dismissedVersionsByPluginId": {
+    "obsidian-excalidraw-plugin": {
+      "pluginId": "obsidian-excalidraw-plugin",
+      "pluginRepoPath": "zsviczian/obsidian-excalidraw-plugin",
+      "dismissedVersions": [
+        {
+          "versionNumber": "2.7.1",
+          "versionName": "Excalidraw 2.7.1",
+          "publishedAt": "2024-12-18T20:59:48Z"
+        }
+      ]
+    }
+  },
   "showIconOnMobile": true,
   "excludeBetaVersions": true,
   "excludeDisabledPlugins": false,

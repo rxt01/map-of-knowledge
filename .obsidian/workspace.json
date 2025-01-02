@@ -4,11 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cfbf23f1003cf1cd",
+        "id": "3920c87ce1d6000c",
         "type": "tabs",
         "children": [
           {
-            "id": "b181b5660d55527e",
+            "id": "51a9b88c1b8b7c9e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c52b54e52c95e369",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -18,7 +28,21 @@
             }
           },
           {
-            "id": "79440fed82a6c9fe",
+            "id": "9794691e4a6f658d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "weapons/CFSC-CCSMAF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CFSC-CCSMAF"
+            }
+          },
+          {
+            "id": "d1b6ce3720837dd0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -28,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -59,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tolea",
+                "query": "tag:#tags",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +124,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "biology/cellular biology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cellular biology"
+              "title": "Backlinks"
             }
           },
           {
@@ -180,8 +203,7 @@
               "title": "Plugin no longer active"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,42 +229,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "79440fed82a6c9fe",
+  "active": "d1b6ce3720837dd0",
   "lastOpenFiles": [
-    "math/modular forms.md",
-    "math/special number systems/surreal numbers.md",
-    "math/special number systems/hyperreal numbers.md",
-    "math/special number systems/p-adic numbers.md",
-    "math/special number systems/octonions.md",
+    "weapons/CFSC-CCSMAF.md",
+    "math/proof list.md",
+    "math/unorganized math facts.md",
+    "math/olympiad math.md",
+    "math/anal/quaternion anal.md",
+    "math/anal/complex anal.md",
     "math/special number systems/complex numbers.md",
-    "math/special number systems/quaternions.md",
-    "math/special number systems",
-    "math/special number systems/split-complex numbers.md",
     "math/special number systems/dual numbers.md",
+    "math/special number systems/hyperreal numbers.md",
+    "math/special number systems/octonions.md",
+    "math/special number systems/p-adic numbers.md",
+    "math/special number systems/quaternions.md",
+    "math/special number systems/split-complex numbers.md",
+    "math/special number systems/surreal numbers.md",
+    "math/special number systems/transfinite numbers.md",
+    "math/category theory/category theory.md",
     "math/algebra/algebra.md",
-    "math/calc/diff and int calc.md",
-    "math/geo/projective geo.md",
-    "math/calc/multi vars calc.md",
-    "math/trig/hyperbolic trig.md",
     "philosophy/philosophy & rationality.md",
+    "language/french writing & literature.md",
     "biology/cellular biology.md",
-    "engineering/genetic/codons.md",
-    "linguistics/french writing & literature.md",
-    "math/unsolved problems/milenium probems/birch and swinnerton-dyer conjecture.md",
-    "math/unsolved problems/milenium probems/yang-mills.md",
-    "math/unsolved problems/milenium probems/riemann hypothesis.md",
-    "math/unsolved problems/milenium probems/P vs. NP.md",
-    "math/unsolved problems/milenium probems/naviers-strokes equation.md",
-    "math/unsolved problems/collatz conjecture.md",
-    "math/unsolved problems/Untitled.md",
-    "math/unsolved problems/golbach conjecture.md",
-    "math/unsolved problems",
-    "math/trig",
-    "math/unsolved problems/milenium probems",
-    "math/algebra",
-    "math/combinatorics",
-    "unsorted",
-    "politics",
+    "math/top/top.md",
+    "math/random/probability and stats.md",
+    "math/calc/diff and int calc.md",
+    "math/algebra/LA/LA.md",
+    "math/anal/real anal.md",
+    "math/category theory/enriched category theory.md",
+    "math/category theory",
+    "math/diagrams",
+    "weapons/position a deux mains.png",
+    "weapons/tir a la carabine a genou.png",
+    "weapons",
+    "weapons/tir au fusil de chasse.png",
+    "weapons/tir a la carabine couche.png",
+    "weapons/tir a la carabine assis.png",
+    "weapons/tir a la carabine debout.png",
+    "weapons/position a la bretelle.png",
+    "weapons/position sur l'epaule.png",
+    "weapons/position a la main.png",
+    "weapons/position au coude.png",
+    "math/foundations/arithmetic",
+    "math/foundations/logic",
+    "math/foundations",
+    "math/discrete math",
+    "math/discrete math/graph theory",
+    "math/random",
+    "math/number theory",
     "biology/concept map/division cellulaire.canvas",
     "biology/concept map/replication de l'adn.canvas",
     "biology/concept map/Transport.canvas",
@@ -252,18 +286,6 @@
     "biology/concept map/Lipides.canvas",
     "biology/concept map/Glucides.canvas",
     "biology/concept map/Cellule.canvas",
-    "biology/concept map/Acides nucleiques.canvas",
-    "fonts/cmunrm.ttf",
-    "fonts",
-    "Excalidraw/cellule.png",
-    "Pasted Image 20240923081344_299.png",
-    "Pasted Image 20240905225331_311.png",
-    "Excalidraw/Pasted Image 20240905224610_862.png",
-    "Excalidraw/Pasted Image 20240905215130_532.png",
-    "Excalidraw/Pasted image 20240905222342.png",
-    "Excalidraw/Pasted Image 20240905224548_539.png",
-    "Excalidraw/Screenshot from 2024-09-05 21-49-44.png",
-    "Excalidraw/Pasted Image 20240829185434_494.png",
-    "Excalidraw/Pasted Image 20240829184733_408.png"
+    "biology/concept map/Acides nucleiques.canvas"
   ]
 }

@@ -6,4 +6,4 @@ abstract:
 | status:    | #studied       |
 | #tags      |                |
 | level      | #high-school   |
-| type       | #                         |
+| type       | #              |

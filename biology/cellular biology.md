@@ -3,7 +3,7 @@ abstract:
 ---
 | precursors | [[]]                     |
 | ---------- | ------------------------ |
-| status:    | #learning                |
+| status:    | #studied                 |
 | #tags      | #flashcards/sciences/bio |
 | level      | #college                 |
 | type       | #                        |

@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[complex numbers]] |
+| ---------- | ------------------- |
+| status:    | #tolearn            |
+| #tags      |                     |
+| level      | #                   |
+| type       | #                   |

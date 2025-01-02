@@ -1,9 +1,11 @@
 ---
-abstract: analysis of complex variables
+abstract: 
 ---
-| precursors | [[multi vars calc]] [[real anal]] [[LA]] |
-| ---------- | ---------------------------------------------------- |
-| status:    | #tolearn                                             |
-| #tags      |                                                      |
-| level      | #bachelor                                            |
-| type       | #purenatsc                          |
+
+| precursors | [[complex numbers]] |
+| ---------- | ------------------- |
+| status:    | #tolearn            |
+| #tags      |                     |
+| level      | #bachelor           |
+| type       | #purenatsc          |
+# #english-note 

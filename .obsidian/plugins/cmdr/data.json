@@ -9,12 +9,25 @@
       "icon": "align-vertical-distribute-center",
       "name": "Mind Map: Preview the current note as a Mind Map",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-book-search-plugin:open-book-search-modal",
+      "icon": "lucide-album",
+      "name": "Book Search: Create new book note",
+      "mode": "any"
     }
   ],
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
-  "statusBar": [],
+  "statusBar": [
+    {
+      "id": "workspace:export-pdf",
+      "icon": "lucide-archive-restore",
+      "name": "Export to PDF...",
+      "mode": "any"
+    }
+  ],
   "pageHeader": [],
   "macros": [],
   "explorer": [],
