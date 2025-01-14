@@ -1,9 +1,9 @@
 ---
 abstract:
 ---
-| precursors | [[]]       |
-| ---------- | ---------- |
-| status:    | #tolearn   |
-| #tags      |            |
-| level      | #bachelor  |
-| type       | #                         |
+| precursors | [[]]      |
+| ---------- | --------- |
+| status:    | #tolearn  |
+| #tags      |           |
+| level      | #bachelor |
+| type       | #         |

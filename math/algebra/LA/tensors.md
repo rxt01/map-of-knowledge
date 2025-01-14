@@ -1,12 +1,12 @@
 ---
 abstract:
 ---
-| precursors | [[abstract LA]] [[multilinear algebra]] |
-| ---------- | --------------------------------------- |
-| status:    | #tolearn                                |
-| #tags      |                                         |
-| level      | #                                       |
-| type       | #                                       |
+| precursors | [[abstract LA]] [[multilinear algebra]]  |
+| ---------- | ---------------------------------------- |
+| status:    | #tolearn                                 |
+| #tags      |                                          |
+| level      | #                                        |
+| type       | #                                        |
 # #english-note 
 - rank 0: scalars
 - rank 1: vectors

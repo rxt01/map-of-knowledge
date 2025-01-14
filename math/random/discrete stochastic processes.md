@@ -6,4 +6,4 @@ abstract:
 | status:    | #tolearn |
 | #tags      |          |
 | level      | #grad    |
-| type       | #                         |
+| type       | #        |

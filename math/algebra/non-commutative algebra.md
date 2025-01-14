@@ -1,9 +1,9 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
-| type       | #                         |
+| precursors | [[algebra]] |
+| ---------- | ----------- |
+| status:    | #tolearn    |
+| #tags      |             |
+| level      | #grad       |
+| type       | #           |

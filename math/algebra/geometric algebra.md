@@ -1,9 +1,10 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+
+| precursors | [[tensors]] |
+| ---------- | ----------- |
+| status:    | #tolearn    |
+| #tags      |             |
+| level      | #           |
+| type       | #           |
