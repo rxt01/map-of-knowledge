@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[logic]]  |
+| precursors | [[logic]]   |
 | ---------- | ---------- |
-| status:    | #          |
-| #tags      |            |
-| level      | #          |
-| type       | #purenatsc |
+| #tags                    |
+| level                    |
+| degrees                  |

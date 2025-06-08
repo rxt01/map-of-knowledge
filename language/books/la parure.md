@@ -1,13 +1,20 @@
 ---
-title: la parure
-subtitle: 
-category: 
-isbn13: 
+title: 
+- la parure
 tags:
   - book
-author: guy de maupassant
+  - tags
+author: 
+- guy de maupassant
+contributors: 
+abstract: 
+publishDate: 
+totalPage: 
+link: 
+type: 
+isbn13: 
+isbn10:
 ---
-#tags
 # #french-note 
 ## la parure
 ### survol du recit

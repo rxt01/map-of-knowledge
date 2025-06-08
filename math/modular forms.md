@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[algebra]] [[riemannian geo]] |
+| ---------- | ------------------------------ |
+| #tags      |                                |
+| level      | #grad                          |
+| degrees    | #math/maths/option/maths       |
+

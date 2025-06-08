@@ -2,12 +2,12 @@
 abstract:
 ---
 
-| precursors | [[probability and stats]] [[]] |
-| ---------- | ------------------------------ |
-| status:    | #tolearn                       |
-| #tags      |                                |
-| level      | #                              |
-| type       | #                         |
+| precursors | [[probability and stats]] [[]]                  |
+| ---------- | ----------------------------------------------- |
+| #tags      |                                                 |
+| level      | #bachelor                                       |
+| degrees    | #chem/all/mandatory #physics/honours/mandatory  |
+
 # #english-note
 ## laws
 ### zeroth

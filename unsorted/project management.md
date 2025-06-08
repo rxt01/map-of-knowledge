@@ -3,7 +3,6 @@ abstract:
 ---
 | precursors | [[]] |
 | ---------- | ---- |
-| status:    | #    |
 | #tags      |      |
 | level      | #    |
-| type       | #    |
+| degrees    |      |

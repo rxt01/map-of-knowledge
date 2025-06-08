@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors |          |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
-| type       | #        |
+| precursors | [[LA]] [[real anal]] [[point set top]] [[func anal]]  |
+| ---------- | ---------------------------------------------------- |
+| #tags                                                              |
+| level      | #g                                                    |
+| degrees                                                            |

@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #bachelor |
-| type       | #                         |
+| precursors | [[SM]]                  |
+| ---------- | ----------------------- |
+| #tags      |                         |
+| level      | #grad                   |
+| degrees    | #physics/general/option |

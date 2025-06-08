@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]       |
-| ---------- | ---------- |
-| status:    | #          |
-| #tags      |            |
-| level      | #bachelor  |
-| type       | #    |
+| precursors | [[polymer chem]] [[polymer physics]] |
+| ---------- | ------------------------------------ |
+| #tags      |                                      |
+| level      | #bachelor                            |
+| degrees    |                                      |

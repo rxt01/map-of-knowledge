@@ -3,10 +3,10 @@ abstract:
 ---
 | precursors | [[basic geo]] [[elementary algebra]] |
 | ---------- | ------------------------------------ |
-| status:    | #studied                             |
 | #tags      |                                      |
 | level      | #high-school                         |
-| type       | #appliednatsc                        |
+| degrees    |                                      |
+
 # #english-note 
 ## trig identities
 $$\tan x = \frac{\sin x}{\cos x}$$

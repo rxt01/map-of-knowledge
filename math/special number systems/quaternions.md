@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[complex numbers]] |
-| ---------- | ------------------- |
-| status:    | #tolearn            |
-| #tags      |                     |
-| level      | #                   |
-| type       | #                   |
+| precursors | [[complex numbers]] [[LA]] [[algebra]] |
+| ---------- | -------------------------------------- |
+| #tags      |                                        |
+| level      | #                                      |
+| degrees    |                                        |
+

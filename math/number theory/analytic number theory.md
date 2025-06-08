@@ -3,9 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[complex anal]] [[number theory]] |
+| ---------- | ---------------------------------- |
+| #tags      |                                    |
+| level      | #bachelor                          |
+| degrees    | #math/maths/option/maths           |

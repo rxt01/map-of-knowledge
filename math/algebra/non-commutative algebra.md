@@ -1,9 +1,9 @@
 ---
 abstract:
 ---
-| precursors | [[algebra]] |
-| ---------- | ----------- |
-| status:    | #tolearn    |
-| #tags      |             |
-| level      | #grad       |
-| type       | #           |
+| precursors | [[algebra]] [[representation theory]] [[func anal]] |
+| ---------- | --------------------------------------------------- |
+| #tags      |                                                     |
+| level      | #grad                                               |
+| degrees    |                                                     |
+

@@ -1,15 +1,15 @@
 ---
-abstract:
+abstract: 
+other names: canadian firearm asfety course - cour canadien de securite dans le maniement des armes a feu
 ---
 
 
-| precursors | [[]]                                                                                        |
-| ---------- | ------------------------------------------------------------------------------------------- |
-| status:    | #learning                                                                                   |
-| #tags      | #flashcards/CFSC                                                                            |
-| level      | #certification                                                                              |
-| type       | #                                                                                           |
-| other name | canadian firearm safety course; cour canadien de securite dans le maniement des armes a feu |
+| precursors | [[]]             |
+| ---------- | ---------------- |
+| #tags      | #flashcards/CFSC |
+| level      | #certification   |
+| degrees    | #pal             |
+
 # #french-note 
 ## non restreinte
 ### regles du maniment (TPTO)

@@ -1,12 +1,12 @@
 ---
 abstract:
 ---
-| precursors | [[logic]] |
-| ---------- | --------- |
-| status     | #learnt   |
-| #tags      |           |
-| level      | #         |
-| type       | #purenatsc                          |
+| precursors | [[logic]]            |
+| ---------- | -------------------- |
+| #tags      |                      |
+| level      | #bachelor            |
+| degrees    | #math/honours/option |
+
 # #english-note 
 a set is a "collection" of things
 these things are called elements
@@ -28,3 +28,4 @@ if $S\sim\mathbb{N}$ then $S$ is countably infinite
 if $S$ is infinite but $S\nsim\mathbb{N}$ then $S$ is uncountable
 $|s|<|P(S)|$
 the number of transfinite cardinalities is larger than the cardinality of any set
+

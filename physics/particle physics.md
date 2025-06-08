@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[QFT]] [[PDE]] |
-| ---------- | -------------------------------- |
-| status:    | #tolearn                         |
-| #tags      |                                  |
-| level      | #                                |
-| type       | #                         |
+| precursors | [[QFT]] [[PDE]]         |
+| ---------- | ----------------------- |
+| #tags      |                         |
+| level      | #bachelor               |
+| degrees    | #physics/honours/option |

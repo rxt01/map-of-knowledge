@@ -1,10 +1,11 @@
 ---
-abstract:
+abstract: 
+other names: statistical mechanics - stat mech
 ---
-| precursors | [[QM]]                |
-| ---------- | --------------------- |
-| status:    | #tolearn              |
-| #tags      |                       |
-| level      | #grad                 |
-| type       | #                     |
-| other name | statistical mechanics |
+| precursors | [[QM]]                                                 |
+| ---------- | ------------------------------------------------------ |
+| #tags      |                                                        |
+| level      | #bachelor                                              |
+| degrees    | #physics/all/option/physics #physics/honours/mandatory |
+
+

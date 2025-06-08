@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[algebra]] |
-| ---------- | ----------- |
-| status:    | #tolearn    |
-| #tags      |             |
-| level      | #grad       |
-| type       | #purenatsc  |
+| precursors | [[algebra]]                                           |
+| ---------- | ----------------------------------------------------- |
+| #tags      |                                                       |
+| level      | #grad                                                 |
+| degrees    | #math/maths/option/maths  #math/actuaria/option/maths |

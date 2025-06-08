@@ -1,12 +1,12 @@
 ---
 abstract: the study of algebraic structures
 ---
-| precursors | [[proof]] [[elementary algebra]] [[set theory]] |
-| ---------- | ----------------------------------------------- |
-| status:    | #learning                                       |
-| #tags      | #toreoganize                                    |
-| level      | #bachelor                                       |
-| type       | #purenatsc                                      |
+|            | I                                                                   | II        |
+| ---------- | ------------------------------------------------------------------- | --------- |
+| precursors | [[proof]] [[elementary algebra]] [[set theory]]                     |           |
+| #tags      | #toreoganize                                                        |           |
+| level      | #bachelor                                                           | #bachelor |
+| degrees    | #math/maths/mandatory #math/sc/option/maths #math/honours/mandatory |           |
 # #english-note
 ## set properties
 ### operations

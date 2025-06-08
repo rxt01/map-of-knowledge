@@ -2,12 +2,12 @@
 abstract:
 ---
 
-| precursors | [[set theory]]   |
-| ---------- | ---------------- |
-| status:    | #studied         |
-| #tags      |                  |
-| level      | #primary-school #high-school   |
-| type       | #                         |
+| precursors | [[set theory]]               |
+| ---------- | ---------------------------- |
+| #tags      |                              |
+| level      | #primary-school #high-school |
+| degrees    |                              |
+
 # #english-note 
 
 ## area of some regular polygon

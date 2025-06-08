@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[manifolds]] |
-| ---------- | ------------- |
-| status:    | #tolearn      |
-| #tags      |               |
-| level      | #             |
-| type       | #             |
+| precursors | [[manifolds]] [[LA]]  |
+| ---------- | --------------------- |
+| #tags      |                       |
+| level      | #bachelor             |
+| degrees    | #math/maths/mandatory |

@@ -3,9 +3,7 @@ abstract:
 ---
 
 
-| precursors | [[]] |
-| ---------- | ---- |
-| status:    |      |
-| #tags      |      |
-| level      | #    |
-| type       | #    |
+| precursors | [[lie theory]] [[algebraic number theory]] [[algebraic geo]] [[modular forms]] [[representation theory]]  |
+| ---------- | -------------------------------------------------------------------------------------------------------- |
+| #tags                                                                                                                  |
+

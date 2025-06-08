@@ -1,9 +1,9 @@
 ---
 abstract:
 ---
-| precursors |           |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #bachelor |
-| type       | #                         |
+| precursors | [[proof]]                                                           |
+| ---------- | ------------------------------------------------------------------- |
+| #tags      |                                                                     |
+| level      | #bachelor                                                           |
+| degrees    | #math/maths/option/maths #math/sc/option/maths #math/honours/option |
+

@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[1st order logic]] |
-| ---------- | --------------------- |
-| status:    | #tolearn              |
-| #tags      |                       |
-| level      | #                     |
-| type       | #purenatsc                          |
+| precursors | [[1st order logic]] [[set theory]]  |
+| ---------- | ----------------------------------- |
+| #tags      |                                     |
+| level      | #                                   |
+| degrees    |                                     |

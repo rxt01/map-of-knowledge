@@ -1,12 +1,11 @@
 ---
 abstract:
 ---
-| precursors | [[algebra]] |
-| ---------- | ----------- |
-| status:    | #tolearn    |
-| #tags      |             |
-| level      | #bachelor   |
-| type       | #           |
+| precursors | [[algebra]] [[LA]]                                                  |
+| ---------- | ------------------------------------------------------------------- |
+| #tags      |                                                                     |
+| level      | #bachelor                                                           |
+| degrees    | #math/maths/option/maths #math/sc/option/maths #math/honours/option |
 # #english-note 
 ## galois group
 let $K$ be the splitting field of $g/F$

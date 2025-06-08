@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #         |
-| type       | #                         |
+| precursors | [[LA]] [[diff and int calc]] [[discrete math]] [[algorithms]] [[data structures]] |
+| ---------- | --------------------------------------------------------------------------------- |
+| #tags      |                                                                                   |
+| level      | #                                                                                 |
+| degrees    |                                                                                   |

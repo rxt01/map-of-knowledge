@@ -4,27 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3920c87ce1d6000c",
+        "id": "cff8b5ab96185a7f",
         "type": "tabs",
         "children": [
           {
-            "id": "c52b54e52c95e369",
+            "id": "da397aeea454fed1",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "58c9a779b3d02906",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
             }
           }
         ]
@@ -46,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -58,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tags",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 228.50247192382812
   },
   "right": {
     "id": "b152b1f360a50ab6",
@@ -105,24 +96,10 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
-            }
-          },
-          {
-            "id": "d4a17bfd7043e2b2",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "biology/cellular biology.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from cellular biology"
             }
           },
           {
@@ -132,7 +109,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -143,19 +122,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
               "title": "Outline"
-            }
-          },
-          {
-            "id": "d1a70031aac7cbd4",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
             }
           },
           {
@@ -174,8 +147,31 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "87edfe2ae5a3ffa4",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "71abb86011aa0c78",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           }
         ],
@@ -183,8 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5,
-    "collapsed": true
+    "width": 214.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,66 +197,66 @@
       "vim-toggle:Toggle Vim Mode": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "random-note:Open random note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c52b54e52c95e369",
+  "active": "da397aeea454fed1",
   "lastOpenFiles": [
-    "philosophy/philosophy & rationality.md",
-    "philosophy/invitation a la philosophie.md",
-    "language/english culture & literature.md",
-    "language/french writing & literature.md",
-    "language/language acquisition.md",
-    "chemistry/general chem.md",
-    "biology/cellular biology.md",
-    "math/calc/vector calc.md",
-    "math/random/discrete stochastic processes.md",
-    "math/proof list.md",
-    "math/anal/quaternion anal.md",
-    "language/phonology.md",
-    "physics/SM.md",
-    "math/unsolved problems/milenium probems/P vs. NP.md",
-    "math/algebra/LA/LA.md",
-    "math/algebra/non-commutative algebra.md",
-    "math/algebra/lie theory.md",
-    "math/algebra/geometric algebra.md",
-    "math/algebra/galois theory.md",
-    "math/algebra/frobenius algebra.md",
-    "math/algebra/elementary algebra.md",
-    "math/algebra/commutative algebra.md",
-    "math/geo/algebraic geo.md",
-    "math/algebra/algebra.md",
-    "math/algebra/LA/tensors.md",
-    "math/algebra/LA/spinors.md",
-    "math/category theory",
-    "math/diagrams",
-    "weapons/position a deux mains.png",
-    "weapons/tir a la carabine a genou.png",
-    "weapons",
-    "weapons/tir au fusil de chasse.png",
-    "weapons/tir a la carabine couche.png",
-    "weapons/tir a la carabine assis.png",
-    "weapons/tir a la carabine debout.png",
-    "weapons/position a la bretelle.png",
-    "weapons/position sur l'epaule.png",
-    "weapons/position a la main.png",
-    "weapons/position au coude.png",
-    "math/foundations/arithmetic",
-    "math/foundations/logic",
-    "math/foundations",
-    "math/discrete math",
-    "math/discrete math/graph theory",
-    "math/random",
-    "math/number theory",
-    "biology/concept map/division cellulaire.canvas",
-    "biology/concept map/replication de l'adn.canvas",
-    "biology/concept map/Transport.canvas",
-    "biology/concept map/Mitose.canvas",
-    "biology/concept map/Molecules de la vie.canvas",
-    "biology/concept map/Proteines.canvas",
-    "biology/concept map/Lipides.canvas",
-    "biology/concept map/Glucides.canvas",
-    "biology/concept map/Cellule.canvas",
-    "biology/concept map/Acides nucleiques.canvas"
+    "physics/black hole geometry.md",
+    "physics/GR.md",
+    "language/linguistics/morphology.md",
+    "language/linguistics/language acquisition.md",
+    "language/linguistics/syntax.md",
+    "language/linguistics/semantics.md",
+    "language/linguistics/pragmatics.md",
+    "language/linguistics/phonology.md",
+    "language/linguistics/phonetics.md",
+    "CS/software engineering.md",
+    "unsorted/polymer physics.md",
+    "chem/polymer chem.md",
+    "unsorted/adaptive dynamics.md",
+    "physics/computational physics.md",
+    "economics/finance/financial maths/economical analysis.md",
+    "CS/AI.md",
+    "language/linguistics",
+    "language/Untitled.canvas",
+    "unsorted/type theory.md",
+    "unsorted/signal processing.md",
+    "unsorted/project management.md",
+    "unsorted/polymer engineering.md",
+    "unsorted/perturbation theory.md",
+    "unsorted/information theory.md",
+    "unsorted/greek mythology.md",
+    "unsorted/boolean algebra.md",
+    "unsorted/bifurcation theory.md",
+    "unsorted/Antibiotics, Toxins, and Protein Engineering.md",
+    "history",
+    "economics/finance",
+    "economics/acounting",
+    "law/laws",
+    "engineering/mechanical",
+    "engineering/bio",
+    "medicine/immunology",
+    "earth sciences/geology",
+    "earth sciences",
+    "bio/concept map/Acides nucleiques.canvas",
+    "bio/tree of life.canvas",
+    "bio/concept map/Transport.canvas",
+    "bio/concept map/replication de l'adn.canvas",
+    "bio/concept map/Proteines.canvas",
+    "bio/concept map/Molecules de la vie.canvas",
+    "bio/concept map/Mitose.canvas",
+    "bio/concept map/Lipides.canvas",
+    "bio/concept map/Glucides.canvas",
+    "cell.svg",
+    "weapons/pictures/position a deux mains.png",
+    "weapons/pictures/tir a la carabine a genou.png",
+    "weapons/pictures/tir au fusil de chasse.png",
+    "weapons/pictures/tir a la carabine couche.png",
+    "weapons/pictures/tir a la carabine assis.png",
+    "weapons/pictures/tir a la carabine debout.png",
+    "weapons/pictures/position a la bretelle.png",
+    "weapons/pictures/position sur l'epaule.png",
+    "weapons/pictures/position a la main.png"
   ]
 }

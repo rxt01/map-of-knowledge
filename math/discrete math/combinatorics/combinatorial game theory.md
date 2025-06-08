@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[game theory]] [[combinatorics]] [[real anal]] [[LA]] |
+| ---------- | ------------------------------------------------------ |
+| #tags      |                                                        |
+| level      | #                                                      |
+| degrees    |                                                        |
+

@@ -1,13 +1,20 @@
 ---
-title: invitation a la philosophie
-subtitle: 
-category: philosophy
-isbn13: 
+title:
+- invitation a la philosophie
 tags:
   - book
-author: aristotle
+  - tags
+author: 
+- aristotle
+contributors: 
+abstract: 
+publishDate: 
+totalPage: 
+link: 
+type: 
+isbn13: 
+isbn10:
 ---
-#tags
 # #french-note 
 
 ## 1

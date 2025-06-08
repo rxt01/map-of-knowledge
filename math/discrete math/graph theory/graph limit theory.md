@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[graph theory]] [[LA]] |
+| ---------- | ----------------------- |
+| #tags      |                         |
+| level      | #                       |
+| degrees    |                         |
+

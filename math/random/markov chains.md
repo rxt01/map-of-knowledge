@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[probability theory]]  |
-| ---------- | ----------------------- |
-| status:    | #tolearn                |
-| #tags      |                         |
-| level      | #                       |
-| type       | #                         |
+| precursors | [[probability theory]] |
+| ---------- | ---------------------- |
+| #tags      |                        |
+| level      | #                      |
+| degrees    |                        |

@@ -1,6 +1,7 @@
 ---
 title: 
-tags: 
+tags:
+  - "#article"
 author: 
 contributors: 
 abstract: 

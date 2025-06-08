@@ -1,10 +1,10 @@
 ---
-abstract:
+abstract: 
+other names: quantum chromodynamics
 ---
-| precursors | [[QM]] [[QED]] [[SR]]  |
-| ---------- | ---------------------- |
-| status:    | #tolearn               |
-| #tags      |                        |
-| level      | #                      |
-| type       | #                         |
-| other name | quantum chromodynamics |
+| precursors | [[QM]] [[QED]] [[SR]] |
+| ---------- | --------------------- |
+| #tags      |                       |
+| level      | #                     |
+| degrees    |                       |
+

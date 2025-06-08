@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[graph theory]]  |
-| ---------- | ----------------- |
-| status:    | #tolearn          |
-| #tags      |                   |
-| level      | #grad             |
-| type       | #                         |
+| precursors | [[graph theory]] [[LA]]                               |
+| ---------- | ----------------------------------------------------- |
+| #tags      |                                                       |
+| level      | #grad                                                 |
+| degrees    | #math/maths/option/maths  #math/actuaria/option/maths |

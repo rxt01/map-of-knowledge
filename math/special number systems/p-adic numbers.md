@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[algebra]] [[number theory]] [[real anal]]   |
+| ---------- | -------------------------------------------- |
+| #tags                                                      |
+| level                                                      |
+| degrees                                                    |
+

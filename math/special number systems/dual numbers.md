@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[diff and int calc]] [[hypercomplex numbers]] |
+| ---------- | ---------------------------------------------- |
+| #tags      |                                                |
+| level      | #                                              |
+| degrees    |                                                |
+

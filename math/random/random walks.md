@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #         |
-| type       | #                         |
+| precursors | [[probability and stats]] [[algebra]] [[real anal]] |
+| ---------- | --------------------------------------------------- |
+| #tags      |                                                     |
+| level      | #bachelor                                           |
+| degrees    | #math/all/option/maths                              |

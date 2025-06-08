@@ -1,12 +1,12 @@
 ---
 abstract:
 ---
-| precursors | [[diff and int calc]] |
-| ---------- | --------------------- |
-| status:    | #learning             |
-| #tags      |                       |
-| level      | #college              |
-| type       | #appliednatsc         |
+|            | I                     | II                                                           |
+| ---------- | --------------------- | ------------------------------------------------------------ |
+| precursors | [[diff and int calc]] |                                                              |
+| #tags      |                       |                                                              |
+| level      | #college              | #bachelor                                                    |
+| degrees    |                       | #math/all/mandatory #econ/option #cs/mandatory #EE/mandatory |
 # #french-note
 ## definitions
 ### population

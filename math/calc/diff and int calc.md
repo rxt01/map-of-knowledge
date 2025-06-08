@@ -4,10 +4,10 @@ abstract:
 
 | precursors | [[elementary algebra]] [[trig]] [[analytic geo]] |
 | ---------- | ------------------------------------------------ |
-| status:    | #learnt                                          |
 | #tags      |                                                  |
 | level      | #college                                         |
-| type       | #appliednatsc                                    |
+| degrees    | #natsc                                           |
+
 # #english-note
 
 ## find root of a function using newton's method
@@ -82,10 +82,13 @@ $$(\lim_{x\to a}f(x)=0\land\lim_{x\to a}g(x)=0)\lor(\lim_{x\to a}f(x)=\pm\infty\
 
 ## integral tricks
 [[trig]]
+$$\int kf(x)dx=k\int f(x)dx$$
 $$\int f^{-1}(x)dx=xf^{-1}(x)-(F\circ f^{-1})(x)+C$$
+$$\int (f \circ G)g= F \circ G +C$$
+
+
 $$\int x^n=\frac{x^{n+1}}{n+1}+C$$
 $$\int f(x)+g(x)=F(x)+G(x)+C$$
-$$\int fg'\ dx = f\circ g - \int f'g\ dx$$
 $$\int udv = uv - \int vdu$$
 $$\int_a^b f(x)g'(x)dx = f(x)g(x)|_a^b - \int_a^b f'(x)g(x)dx$$
 $$\int_a^\infty f(x) dx = \lim_{t\to\infty}\int_a^tf(x)dx = \lim_{t\to\infty} F(x)|_a^t$$
@@ -93,6 +96,20 @@ $$\int_{-\infty}^\infty f(x)dx = \lim_{t\to -\infty}\int_t^af(x)dx + \lim_{t\to\
 $$f(x)\ge g(x)\ge 0 \implies \int_a^b f(x)dx \ge \int_a^bg(x)dx \ge 0$$
 $$\text{Arc length} = \int_a^b \sqrt{1+(f'(x))^2}dx$$
 $$SA = \int_a^b 2\pi f(x)\sqrt{1+(f'(x))^2}dx$$
+![[hyperbolic trig#integrals]]
+$$\int \frac{1}{x}dx=\ln(|x|)+C$$
+$$\int a^{x}dx=\frac{a^x}{\ln a}+C$$
+$$\int \frac{1}{\sqrt{ 1-x^{2 }}}dx=\arcsin x+C$$
+$$\int \frac{1}{1+x^{2}}dx=\arctan x+C$$
+$$\int \frac{1}{x\sqrt{ x^{2}-1 }}dx=arc\sec x+C$$
+$$$$
+
+
+
+
+
+
+
 ## extrema
 $$extrema(f(x)): 0_s\ of\ f'(x)$$
 ### 2nd derivative

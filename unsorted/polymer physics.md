@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #         |
-| #tags      |           |
-| level      | #bachelor |
-| type       | #         |
+| precursors | [[CM]] [[thermodynamics]] [[SM]] [[organic chem]] [[physical chem]] [[polymer chem]] |
+| ---------- | ------------------------------------------------------------------------------------ |
+| #tags      |                                                                                      |
+| level      | #bachelor                                                                            |
+| degrees    |                                                                                      |

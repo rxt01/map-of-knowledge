@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #         |
-| type       | #                         |
+| precursors | [[finance]] |
+| ---------- | ----------- |
+| #tags      |             |
+| level      | #           |
+| degrees    |             |

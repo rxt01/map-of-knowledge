@@ -2,9 +2,9 @@
 abstract:
 ---
 
-| precursors | [[tensors]] |
-| ---------- | ----------- |
-| status:    | #tolearn    |
-| #tags      |             |
-| level      | #           |
-| type       | #           |
+| precursors | [[tensors]] [[LA]] [[vector calc]] [[complex numbers]] [[algebra]] [[tensor calc]]  |
+| ---------- | ---------------------------------------------------------------------------------- |
+| #tags                                                                                            |
+| level                                                                                            |
+| degrees                                                                                          |
+

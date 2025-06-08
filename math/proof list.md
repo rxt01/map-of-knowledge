@@ -3,9 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[]] |
-| ---------- | ---- |
-| status:    | #    |
-| # tags     |      |
-| level      | #    |
-| type       | #    |
+| precursors | [[proof]] |
+| ---------- | --------- |
+| # tags     |           |
+
+

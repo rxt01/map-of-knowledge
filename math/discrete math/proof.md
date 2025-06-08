@@ -1,9 +1,8 @@
 ---
-abstract: how to proov stuff
+abstract: how to prove stuff
 ---
 | precursors | [[set theory]] |
 | ---------- | -------------- |
-| status:    | #learnt        |
 | #tags      |                |
 | level      | #              |
-| type       | #                         |
+| degrees    |                |

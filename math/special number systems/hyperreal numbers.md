@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[real anal]] |
+| ---------- | ------------- |
+| #tags      |               |
+| level      | #             |
+| degrees    |               |
+

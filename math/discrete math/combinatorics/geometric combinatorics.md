@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
-| type       | #                         |
+| precursors | [[LA]] [[point set top]] [[combinatorics]] |
+| ---------- | ------------------------------------------ |
+| #tags      |                                            |
+| level      | #grad                                      |
+| degrees    |                                            |

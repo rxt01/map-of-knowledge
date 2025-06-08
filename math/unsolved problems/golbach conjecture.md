@@ -3,9 +3,7 @@ abstract:
 ---
 
 
-| precursors | [[]] |
-| ---------- | ---- |
-| status:    | #    |
-| # tags     |      |
-| level      | #    |
-| type       | #    |
+| precursors | [[number theory]] |
+| ---------- | ----------------- |
+| #tags      |                   |
+

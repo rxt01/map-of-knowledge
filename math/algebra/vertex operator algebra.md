@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #         |
-| type       | #                         |
+| precursors | [[algebra]] [[complex anal]] [[lie theory]] [[representation theory]] [[QFT]]  |
+| ---------- | ------------------------------------------------------------------------------ |
+| #tags      |                                                                                |
+| level      | #                                                                              |
+| degrees    |                                                                                |

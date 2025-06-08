@@ -1,14 +1,16 @@
 ---
+tags:
+  - "#tags"
+  - conference
+title: La geometrie des trous noirs
+date: 10/08/24
+lecturer: Frederic Rochon
+location: Cegep de Rosemont
 abstract:
 ---
-| precursors | [[]] |
-| ---------- | ---- |
-| status:    | #    |
-| #tags      |      |
-| level      | #    |
-| type       | #                         |
+
 # #french-note 
-## principe d'equivalence 
+## [principe d'equivalence](GR.md#equivalence%20principle) 
 sans informations exterieurs, un observateur ne peut distinguer entre un etat de chute libre et en etat d’apesanteur
 il ne peut non plus distinguer une force due a la gravite d'une force du a l'acceleration
 ### experience de pensee

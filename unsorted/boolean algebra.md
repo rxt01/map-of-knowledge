@@ -1,9 +1,9 @@
 ---
 abstract:
 ---
-| precursors | [[]] |
-| ---------- | ---- |
-| status:    | #    |
-| #tags      |      |
-| level      | #    |
-| type       | #    |
+| precursors | [[logic]] [[algebra]] [[LA]]  |
+| ---------- | ---------------------------- |
+| #tags                                      |
+| level                                      |
+| degrees                                    |
+

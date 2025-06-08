@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #                         |
+| precursors | [[multi vars calc]] [[PDE]] [[LA]] |
+| ---------- | ---------------------------------- |
+| #tags      |                                    |
+| level      | #                                  |
+| degrees    |                                    |

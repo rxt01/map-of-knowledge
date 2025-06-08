@@ -2,12 +2,12 @@
 abstract: 
 ":":
 ---
-| precursors | [[algebra]](optional, recommended) [[top]](optional, recommended) [[graph theory]](optional) [[abstract LA]](optional) [[measure theory]](optional) |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| status:    | #learning                                                                                                                                           |
-| #tags      |                                                                                                                                                     |
-| level      | #bachelor                                                                                                                                           |
-| type       | #purenatsc                                                                                                                                          |
+| precursors | [[algebra]](optional, recommended) [[point set top]](optional, recommended) [[graph theory]](optional) [[abstract LA]](optional) [[measure theory]](optional) |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| #tags      |                                                                                                                                                               |
+| level      | #bachelor                                                                                                                                                     |
+| degrees    |                                                                                                                                                               |
+
 # #english-note 
 ## category
 

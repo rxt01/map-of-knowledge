@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[multi vars calc]] [[top]] [[real anal]] [[LA]] [[ODE]] |
-| ---------- | ------------------------------------------------------------------------- |
-| status:    | #tolearn                                                                  |
-| #tags      |                                                                           |
-| level      | #                                                                         |
-| type       | #                         |
+| precursors | [[multi vars calc]] [[point set top]] [[real anal]] [[LA]] [[ODE]] |
+| ---------- | ------------------------------------------------------------------ |
+| #tags      |                                                                    |
+| level      | #                                                                  |
+| degrees    |                                                                    |

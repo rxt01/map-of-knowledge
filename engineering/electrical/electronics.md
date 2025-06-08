@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #bachelor |
-| type       | #                         |
+| precursors | [[vector calc]] [[EM]]                                 |
+| ---------- | ------------------------------------------------------ |
+| #tags      |                                                        |
+| level      | #bachelor                                              |
+| degrees    | #EE/mandatory #computerE/mandatory #physics/all/option |

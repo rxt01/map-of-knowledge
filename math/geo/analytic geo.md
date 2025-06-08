@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]         |
-| ---------- | ------------ |
-| status:    | #studied     |
-| #tags      |              |
-| level      | #high-school |
-| type       | #                         |
+| precursors | [[elementary algebra]] [[basic geo]] |
+| ---------- | ------------------------------------ |
+| #tags      |                                      |
+| level      | #high-school                         |
+| degrees    |                                      |

@@ -3,10 +3,9 @@ abstract:
 ---
 | precursors | [[set theory]]  |
 | ---------- | --------------- |
-| status:    | #studied        |
 | #tags      |                 |
 | level      | #primary-school |
-| type       | #               |
+
 # #english-note 
 ## peano axioms
 1. $0\in \mathbb{N}$

@@ -2,12 +2,12 @@
 abstract:
 ---
 
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #studied  |
-| #tags      |           |
-| level      | #college  |
-| type       | #         |
+| precursors | [[]]       |
+| ---------- | ---------- |
+| #tags      |            |
+| level      | #college   |
+| degrees    | #generalEd |
+
 # #french-note 
 ## mythe (μῦθος)
 récit (raconter)

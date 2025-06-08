@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #bachelor |
-| type       | #                         |
+| precursors | [[complex anal]] [[LA]]  |
+| ---------- | ------------------------ |
+| #tags      |                          |
+| level      | #bachelor                |
+| degrees    |                          |

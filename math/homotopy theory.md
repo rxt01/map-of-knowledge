@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[algebraic top]] [[algebra]] [[category theory]] |
+| ---------- | ------------------------------------------------- |
+| #tags      |                                                   |
+| level      | #                                                 |
+| degrees    |                                                   |
+

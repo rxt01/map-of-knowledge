@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #                         |
+| precursors | [[cellular biology]] [[molecular biology]] |
+| ---------- | ------------------------------------------ |
+| #tags      |                                            |
+| level      | #bachelor                                  |
+| degrees    |                                            |

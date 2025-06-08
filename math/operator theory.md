@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[LA]] [[func anal]] [[real anal]] |
+| ---------- | ---------------------------------- |
+| #tags      |                                    |
+| level      | #                                  |
+| degrees    |                                    |
+

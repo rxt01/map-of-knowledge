@@ -3,7 +3,7 @@ abstract:
 ---
 | precursors | [[real anal]] [[diff geo]] [[riemannian geo]] [[PDE]] |
 | ---------- | ----------------------------------------------------- |
-| status:    | #tolearn                                              |
 | #tags      |                                                       |
 | level      | #grad                                                 |
-| type       | #                         |
+| degrees    | #math/maths/option/maths                              |
+

@@ -1,9 +1,9 @@
 ---
 abstract:
 ---
-| precursors | [[real anal]] |
-| ---------- | ------------- |
-| status:    | #tolearn      |
-| #tags      |               |
-| level      | #bachelor     |
-| type       | #appliednatsc |
+| precursors | [[complex anal]] |
+| ---------- | ---------------- |
+| #tags      |                  |
+| level      | #bachelor        |
+| degrees    |                  |
+

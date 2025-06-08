@@ -1,13 +1,21 @@
 ---
-title: boule de suif
-subtitle: 
-category: 
-isbn13: 
+title: 
+- Boule de suif
 tags:
   - book
-author: guy de maupassant
+  - tags
+author: 
+- guy de maupassant
+contributors: 
+abstract: 
+publishDate: 
+totalPage: 
+link: 
+type: 
+isbn13: 
+isbn10:
 ---
-#tags 
+
 # #french-note 
 ## boule de suif
 - probablement le texte le mieux connu de guy de maupassant

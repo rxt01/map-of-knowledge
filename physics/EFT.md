@@ -1,10 +1,10 @@
 ---
-abstract:
+abstract: 
+other names: effective field theory
 ---
-| precursors | [[QFT]]                |
-| ---------- | ---------------------- |
-| status:    | #tolearn               |
-| #tags      |                        |
-| level      | #grad                  |
-| type       | #                         |
-| other name | effective field theory |
+| precursors | [[QFT]] |
+| ---------- | ------- |
+| #tags      |         |
+| level      | #grad   |
+| degrees    |         |
+

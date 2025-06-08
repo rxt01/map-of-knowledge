@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
-| type       | #                         |
+| precursors | [[CM]] [[general chem]] [[thermodynamics]]  |
+| ---------- | ------------------------------------------ |
+| #tags                                                    |
+| level      | #g                                      d   |
+| degrees                                                  |

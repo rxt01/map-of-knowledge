@@ -1,12 +1,12 @@
 ---
 abstract: the study of vector and linear maps
 ---
-| precursors | [[elementary algebra]] |
-| ---------- | ---------------------- |
-| status:    | #learnt                |
-| #tags      |                        |
-| level      | #college               |
-| type       | #                      |
+|            | I                      | II                                                                                         |
+| ---------- | ---------------------- | ------------------------------------------------------------------------------------------ |
+| precursors | [[elementary algebra]] |                                                                                            |
+| #tags      |                        |                                                                                            |
+| level      | #college               | #bachelor                                                                                  |
+| degrees    | #natsc                 | #math/all/mandatory #econ/option #cs/mandatory #physics/all/mandatory #softwareE/mandatory |
 # #english-note 
 ## solving equations
 $$\begin{align}
@@ -35,6 +35,10 @@ $$x=\frac{du-bv}{ad-bc}=\frac{bv-du}{bc-ad}$$
 
 
 ## vectors
+### absolute value
+$$let\ \vec{v}=\begin{bmatrix}a_{1}\\ \vdots\\ a_{n}
+\end{bmatrix} $$
+$$||\vec{v}||=(a_1+\cdots+a_n)^{\frac{1}{n}}$$
 ### vector addition
 $$let\ \vec{v}=\begin{bmatrix}a_{1}\\ \vdots\\ a_{n}
 \end{bmatrix} \land  \vec{u}=\begin{bmatrix}b_{1}\\ \vdots\\ b_{n}
@@ -50,6 +54,7 @@ $$x\vec{v}=\begin{bmatrix}xa_{1}\\ \vdots\\ xa_{n}
 \end{bmatrix}$$
 ### span
 $$span(\vec{v},\vec{u},\cdots, \vec{w})=\{\vec{x}:a\vec{v}+b\vec{u}+\cdots+c\vec{w} , st \ a,b,\cdots, c\in \mathbb{R}\}$$
+the span of a subset is a subspace
 #### linear dependence
 $\vec{v}$ and $\vec{u}$ are linearly dependent $\iff$ $span(\vec{v},\vec{u})=span(\vec{v})\lor span(\vec{v},\vec{u})=span(\vec{u})$
 otherwise they are linearly independent
@@ -178,15 +183,17 @@ number of dimension of the image of the matrix
 ### column space
 image of the transformation
 span of the columns of the matrix
+
 ### null space 
 ie kernel
 $\{\vec{x}:M \vec{x}=\vec{0}\}$
-
+$\text{ker}(M)$ is a subspace
 ### eigenvector
 $\vec{v}$ is an eigenvector of $M \iff span(\vec{v})=span(M \vec{v})$
 
 #### eigenvalue
 for a given eigenvector $\vec{v}$ : $\lambda \vec{v}=M \vec{v}$
+all $\lambda_{i}\in \mathbb{R}$
 
 ##### solving for eigenvector and eigenvalues
 
@@ -201,3 +208,99 @@ $\lambda_{1},\lambda_{2}=\frac{tr(M)}{2} \pm \sqrt{ \frac{tr(M)}{2}-\det (M) }$
 
 ###### for diagonal matrices
 each basis is an eigenvector with an eigenvalue equal to the diagonal entries of the matrix
+### characteristic polynomial (II)
+let $M$ be an $n\times n-$matrix
+the characteristic polynomial of $M$ is $$\chi_{M}(x):=\det(M-x\mathbb{I} )$$
+the eigenvalues of $M$ are exactly the roots of the characteristic polynomial of $M$
+
+## vector spaces (II)
+let $V$ be a $\mathbb{R}-$[vector space](abstract%20LA.md#vector%20spaces)
+the opposite vector is unique ie. $u+v=v+u=\vec{0}=v+w=w+v \implies u=w$
+
+### subspace
+a subset $W$ of $V$ is a subspace provided that
+- $\vec{0}\in W$
+- $x+y\in W\forall x,y\in W$
+- $\lambda x\in W\forall \lambda\in \mathbb{R},x\in W$
+#### trivial
+$V$ and $\{ \vec{0} \}$ are trivial subspaces
+
+### linear combination
+let $\vec{v}_{1},\vec{v_{2}},\cdots,\vec{v}_{n}\in V$
+let $\lambda_{1},\lambda_{2},\cdots,\lambda_{n}\in \mathbb{R}$
+then $\lambda_{1}\vec{v}_{1}+\lambda_{2}\vec{v}_{2}+\cdots+\lambda_{n}\vec{v}_{n}$ is a linear combination
+
+### finitely generated vector spaces
+$V$ is finitely generated if $\exists B\subset V$ st. $|B|<\infty \land \text{span}(B)=V$
+
+every finitely generated vector space has a basis
+
+#### coordinates
+let $V$ be a finitely generated vector space
+let $v=\{ \vec{v}_{1},\vec{v}_{2},\cdots, \vec{v}_{k}\}$ be a basis of $V$
+$\forall x\in V$ $\exists!(\lambda_1,\lambda_{2},\cdots,\lambda_{k})\in \mathbb{R}\times^k\mathbb{R}$ st. $$x=\lambda_{1}\vec{v}_{1}+\lambda_{2}\vec{v}_{2}+\cdots+\lambda_{k}\vec{v}_{k}$$
+these are the coordinates of $x$ w.r.t the basis $v$
+##### coordinate map
+$$[\_]_{v}\in GL(k,\mathbb{R} ):V\to \mathbb{R}^k$$
+the coordinate map is a bijective linear map ie. it's a $k\times k$ invertible matrix
+### dimension
+the number of element in a basis of the vector space $V$ is the dimension of $V$
+
+### change of basis
+let $V$ be a vector space
+let $v$ be a basis of $V$
+let $w$ be a basis of V
+
+the transformation matrix from $v$ to $w$ $$T_{v}^w=\left(\begin{matrix}
+|  & | & \cdots & |  \\
+[w_{1}]_{v} & [w_{2}]_{v} & \cdots & [w_{k}]_{v} \\
+|  & | & \cdots & | 
+\end{matrix}\right)$$
+the transformation matrix is invertible
+$$[x]_{v}=T_{v}^w[x]_{w}$$
+$$T_{w}^v=(T_{v}^w)^{-1}$$
+
+## euclidean space (II)
+### inner product
+a map $\langle\_,\_\rangle:V\times V\to \mathbb{R}$ is an inner product provided that
+- $\langle x,y\rangle=\langle y,x\rangle \forall x,y\in V$
+- $\langle x+y,z\rangle=\langle x,z\rangle+\langle y,z\rangle \forall x,y,z \in V$
+- $\langle x,y+z\rangle=\langle x,y\rangle+\langle x,z\rangle \forall x,y,z\in V$
+- $\langle \lambda x,y\rangle=\lambda \langle x,y\rangle\forall x,y\in V,\lambda \in \mathbb{R}$
+- $\langle x,\lambda y\rangle=\lambda\langle x,y\rangle\forall x,y\in V,\lambda \in \mathbb{R}$
+- $\langle x,x\rangle \geq 0\forall x \in V$ $\langle x,x\rangle>0\forall 0\ne x \in V$
+### euclidean space
+an euclidean space is a paire $\mathbb{E}:=(V,\langle \_,\_\rangle)$ where $V$ is a vector space and $\langle \_,\_\rangle$ is an inner product on $V$
+### geometry of an euclidean space
+for $v\in \mathbb{E}$ the norm of $v$ is defined as $|v|:=\sqrt{ \langle v,v\rangle }$
+for non zero $x,y \in \mathbb{E}$ the angle $\varphi$ between $x$ and $y$ is defined via $\cos \varphi:=\frac{\langle x,y\rangle}{|x||y|}$
+two elements $x,y \in \mathbb{E}$ are orthogonal provided that $\langle x,y\rangle=0$
+$$|x+y| \le |x|+|y|\ \forall x,y \in \mathbb{E} $$
+### orthonormal basis
+a basis $e=(e_{1},e_{2},\cdots,e_{k})$ of $\mathbb{E}$ is orthonormal if  $\langle e_{i},e_{j}\rangle=\delta_{ij}$
+every finite dimensional euclidean space has an orthonormal basis
+$$\forall v\in \mathbb{E},\ v=\sum_{i=1}^k \langle v,e_{i}\rangle e_{i}$$
+$$\forall v,y\in \mathbb{E},\ \langle v,w\rangle =\sum_{i=1}^k\langle v,e_{i}\rangle \langle w,e_{i}\rangle  $$
+### orthogonal complement
+the orthogonal complement of $V$ is:$$V^\perp:=\{ w\in \mathbb{E}|\langle w,v\rangle =0\ \forall v\in V  \}$$
+$\vec{0}\in V^\perp$
+$V^\perp$ is a subspace
+$V \cap V^\perp=\{ \vec{0} \}$
+every $w\in \mathbb{E}$ can be written as $w=x+y$ where $x \in V$ and $y\in V^\perp$
+#### orthogonal projection
+$w\in \mathbb{E}$ can be written as $w=x+y$ where $x \in V$ and $y\in V^\perp$
+the vector $x$ is the orthogonal projection of $w$ onto $V$
+$x=\text{pr}_{V}(w)$
+#### length
+let $v+w=u\in \mathbb{E}$ with $v\in V$ and $w\in V^\perp$
+$\forall x \in V$ $|u-x| \ge |u-v|=|w|$
+#### distance
+the length $|w|$ of $w$ is  the distance from $u$ to $V$ 
+### orthogonal matrices
+a matrix $A\in \mathbb{R}^{k\times k}$ is orthogonal if $A^tA=\mathbb{I}$
+$A^{-1}=A^t$
+$A^t$ and $A^{-1}$ are also orthogonal
+### isometries
+let $F:\mathbb{E}\to \mathbb{E}$ be a linear map
+$F$ is an isometry provided that $|F(v)|=|v|$ $\forall v\in \mathbb{E}$
+

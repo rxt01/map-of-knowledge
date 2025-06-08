@@ -1,9 +1,6 @@
 ---
 abstract:
 ---
-| precursors | [[]] |
-| ---------- | ---- |
-| status:    | #    |
-| #tags      |      |
-| level      | #    |
-| type       | #appliednatsc                          |
+| precursors | [[relativistic QFT]] [[lie theory]]  |
+| ---------- | ------------------------------------ |
+| #tags      |                                      |

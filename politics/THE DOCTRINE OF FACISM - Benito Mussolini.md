@@ -1,25 +1,21 @@
 ---
-title: THE DOCTRINE OF FACISM
-subtitle: Benito Mussolini
-author: Benito Mussolini
-authors: Benito Mussolini
-category: Political Science
-categories: Political Science
-publisher: 
-publishDate: 1932-01-01
-totalPage: 41
-coverUrl: http://books.google.com/books/content?id=NkHtEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-coverSmallUrl: http://books.google.com/books/content?id=NkHtEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api
-description: Benito Mussolini was an Italian politician, teacher, and journalist who wrote for left-wing newspapers. He enlisted in the army, rising to the rank of sergeant. In 1922, he organized the "March on Rome," and with the support of King Victor Emmanuel III, he took over the cabinet as the Prime Minister of Italy. In 1925, Mussolini became " Il Duce" (the supreme leader of Italy). Mussolini founded the National Fascist Party and became the most representative politician of fascist ideology. In " The Doctrine of Fascism," Mussolini synthesizes fascist doctrine and its principles while also pointing out what he considers the limitations of other ideologies such as liberalism and socialism.
-link: https://play.google.com/store/books/details?id=NkHtEAAAQBAJ
-previewLink: http://books.google.ca/books?id=NkHtEAAAQBAJ&pg=PT24&dq=the+doctrine&hl=&as_pt=BOOKS&cd=36&source=gbs_api
-isbn13: 9786558943716
-isbn10: 6558943719
+title: the Doctrine of Facism
 tags:
   - book
+  - tags
+author: 
+- benito mussolini
+contributors: 
+abstract: 
+publishDate: 
+totalPage: 
+link: 
+type: 
+isbn13: 
+isbn10:
 ---
-#tags
-# doctrine
+# #english-note 
+## doctrine
 a conception of the state is a conception of life
 fascism can only be understood when considering its general attitude toward life
 for fascism, life is spiritual, based on moral law and tradition

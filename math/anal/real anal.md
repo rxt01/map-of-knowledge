@@ -1,12 +1,13 @@
 ---
 abstract: hardcord and more rigorous version of calc
 ---
-| precursors | [[top]] [[diff and int calc]] [[proof]] [[multi vars calc]](anal II) [[vector calc]](anal III) |
-| ---------- | ---------------------------------------------------------------------------------------------- |
-| status:    | #learnt up to anal I                                                                           |
-| #tags      | #toreoganize                                                                                   |
-| level      | #bachelor                                                                                      |
-| type       | #purenatsc                                                                                     |
+
+|            | anal I                                  | anal II                                                                                                                                       | anal III                                                                                                                                      | IV                   |
+| ---------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| precursors | [[point set top]] [[diff and int calc]] [[proof]] | [[multi vars calc]]                                                                                                                           | [[vector calc]]                                                                                                                               |                      |
+| #tags      | #toreoganize                            |                                                                                                                                               |                                                                                                                                               |                      |
+| level      | #bachelor                               | #bachelor                                                                                                                                     | #bachelor                                                                                                                                     | #bachelor            |
+| degrees    | #math/all/mandatory                     | #math/actuaria/option/maths #math/maths/mandatory #math/stats/mandatory #math/finance/mandatory #math/sc/option/maths #math/honours/mandatory | #math/actuaria/option/maths #math/maths/mandatory #math/stats/mandatory #math/finance/option/maths #math/sc/option/maths #math/honours/option | #math/honours/option |
 # #english-note 
 
 
@@ -42,7 +43,7 @@ $|\mathbb{R}| >|\mathbb{N}|$
 ![[set theory#cardinality]]
 ###### continuum hypothesis (CH)
 there is no set $S$ with $|\mathbb{N}|<|S|<|\mathbb{R}|$
-Godel showed that CH doesn't lead to a contradiction with set theory
+Godel showed that CH doesn't lead to a contradiction with [[set theory]]
 Cohen showed that $\sim$CH doesn't lead to a contradiction
 CH is undecidable
 ###### one to one and onto
@@ -62,7 +63,7 @@ a sequence $(a_n)$ converges to $L\in \mathbb{R}$ when:
 $$\forall\varepsilon>0,\exists N\in\mathbb{N}, n\geq N \implies |a_n-a|<\varepsilon$$
 if $(a_n)$ converges, then the limit is unique
 ##### topological view of convergence
-for $a\in \mathbb{R}$ and $\varepsilon>0$, the [$\varepsilon$](top.md) of a is $V_\varepsilon (a)  = \{x\in \mathbb{R}|\ |x-a|<\varepsilon\} = (a-\varepsilon,a+\varepsilon)$
+for $a\in \mathbb{R}$ and $\varepsilon>0$, the [$\varepsilon$](point%20set%20top.md) of a is $V_\varepsilon (a)  = \{x\in \mathbb{R}|\ |x-a|<\varepsilon\} = (a-\varepsilon,a+\varepsilon)$
 $(a_n)\to a$ when $$\forall\varepsilon>0,\exists N\in\mathbb{N},n\geq N \implies a_n \in V_\varepsilon(a)$$
 #### divergence
 $(a_n)$ does not converges to a when:
@@ -248,3 +249,4 @@ when $f_n\to f$ converges uniformly, then :
 - $(\int_a^b f_n(x)dx)\to\int_a^bf(x)dx$
 
 
+## 

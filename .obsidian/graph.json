@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "tag:#tags  ",
+  "search": "tag:#tags",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -15,31 +15,52 @@
       }
     },
     {
-      "query": "path:\"computer science\"  ",
+      "query": "tag:#conference  ",
       "color": {
         "a": 1,
-        "rgb": 14069084
+        "rgb": 6888303
+      }
+    },
+    {
+      "query": "tag:#law  ",
+      "color": {
+        "a": 1,
+        "rgb": 5901324
+      }
+    },
+    {
+      "query": "tag:#article  ",
+      "color": {
+        "a": 1,
+        "rgb": 1006689
+      }
+    },
+    {
+      "query": "tag:#table  ",
+      "color": {
+        "a": 1,
+        "rgb": 65531
       }
     },
     {
       "query": "path:physics  ",
       "color": {
         "a": 1,
-        "rgb": 11392604
+        "rgb": 14344570
       }
     },
     {
-      "query": "path:chemistry  ",
+      "query": "path:chem",
       "color": {
         "a": 1,
-        "rgb": 6084188
+        "rgb": 65280
       }
     },
     {
-      "query": "path:biology  ",
+      "query": "path:bio  ",
       "color": {
         "a": 1,
-        "rgb": 6084269
+        "rgb": 6740916
       }
     },
     {
@@ -64,38 +85,10 @@
       }
     },
     {
-      "query": "path:engineering/genetic  ",
-      "color": {
-        "a": 1,
-        "rgb": 14048429
-      }
-    },
-    {
-      "query": "path:engineering/computer  ",
+      "query": "path:engineering",
       "color": {
         "a": 1,
         "rgb": 15142234
-      }
-    },
-    {
-      "query": "path:engineering/software  ",
-      "color": {
-        "a": 1,
-        "rgb": 16731392
-      }
-    },
-    {
-      "query": "path:engineering/electrical  ",
-      "color": {
-        "a": 1,
-        "rgb": 16774912
-      }
-    },
-    {
-      "query": "path:engineering/industrial  ",
-      "color": {
-        "a": 1,
-        "rgb": 8453888
       }
     },
     {
@@ -139,6 +132,27 @@
         "a": 1,
         "rgb": 5395026
       }
+    },
+    {
+      "query": "path:CS",
+      "color": {
+        "a": 1,
+        "rgb": 16746496
+      }
+    },
+    {
+      "query": "path:\"earth sciences/geology\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9796955
+      }
+    },
+    {
+      "query": "path:unsorted  ",
+      "color": {
+        "a": 1,
+        "rgb": 8166912
+      }
     }
   ],
   "collapse-display": true,
@@ -147,10 +161,10 @@
   "nodeSizeMultiplier": 1.08255208333333,
   "lineSizeMultiplier": 0.546614583333333,
   "collapse-forces": true,
-  "centerStrength": 0.505208333333333,
-  "repelStrength": 16.25,
+  "centerStrength": 0.346686185786532,
+  "repelStrength": 17.495342028214,
   "linkStrength": 1,
   "linkDistance": 122,
-  "scale": 0.11224832506194148,
+  "scale": 0.029613173412291,
   "close": false
 }

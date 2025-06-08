@@ -3,12 +3,12 @@ abstract: trig over a negative curvature surface
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[trig]] [[basic geo]] |
+| ---------- | ---------------------- |
+| #tags      |                        |
+| level      | #                      |
+| degrees    |                        |
+
 # #english-note 
 ## euler's formula equivalent
 $$e^{a+bi}=(\cosh a+\sinh a)(\cos b+i\sin b)$$
@@ -21,9 +21,9 @@ $$\tanh x=\frac{\sinh x}{\cosh x} = \frac{e^x-e^{-x}}{e^x+e^{-x}} =\frac{e^{2x}-
 $$\tanh(-x)=-\tanh x$$
 $$\coth x=\frac{\cosh x}{\sinh x} = \frac{e^x+e^{-x}}{e^x-e^{-x}} =\frac{e^{2x}+1}{e^{2x}-1}=i\cot(ix)$$
 $$\coth(-x)=-\coth(x)$$
-$$\text{sech}\ x=\frac{1}{\cosh x}\frac{2}{e^x+e^{-x}} = \frac{2e^x}{e^{2x}+1}=\frac{2e^-x}{1+e^{-2x}}=\sec(ix)$$
+$$\text{sech}\ x=\frac{1}{\cosh x}\frac{2}{e^x+e^{-x}} = \frac{2e^x}{e^{2x}+1}=\frac{2e^{-x}}{1+e^{-2x}}=\sec(ix)$$
 $$\text{sech}(-x)=\text{sech}\ x$$
-$$\text{csch}\ x=\frac{1}{\sinh x}\frac{2}{e^x-e^{-x}} = \frac{2e^x}{e^{2x}-1}=\frac{2e^-x}{1-e^{-2x}}=i\csc(ix)$$
+$$\text{csch}\ x=\frac{1}{\sinh x}\frac{2}{e^x-e^{-x}} = \frac{2e^x}{e^{2x}-1}=\frac{2e^{-x}}{1-e^{-2x}}=i\csc(ix)$$
 $$\text{csch}(-x)=-\ \text{csch}\ x$$
 ### inverses
 $$\text{arsinh}\ x=\ln(x+\sqrt{ x^2+1 })$$
@@ -84,3 +84,16 @@ $$\text{artanh}'x=\frac{1}{1-x^2}$$
 $$\text{arcoth}'x=\frac{1}{1-x^2}$$
 $$\text{arsech}'x=\frac{1}{x\sqrt{ 1-x^2 }}$$
 $$\text{arscsh}'x=\frac{1}{|x|\sqrt{ 1+x^2 }}$$
+### integrals
+$$\int \sinh xdx=\cosh x+C$$
+$$\int \cosh xdx=\sinh x+C$$
+$$\int \tanh xdx=\ln(\cosh x)+C$$
+$$\int \coth xdx=\ln(\sinh x)+C$$
+$$\int \text{sech}\ xdx=2\tan^{-1}\tanh\frac{x}{2}+C$$
+$$\int \text{csch}\ xdx=\ln \tanh \frac{x}{2}+C$$
+$$\int \text{arsinh}\ xdx=x \text{arsinh}\ x-\sqrt{ x^2+1 } +C$$
+$$\int \text{arcosh}\ xdx=x \text{arcosh}\ x-\sqrt{x^2-1  }\sqrt{ x^2+1 } +C$$
+$$\int \text{artanh}\ xdx=\frac{1}{2}\ln(1-x^{2}) + x \text{artanh}\ x+C$$
+$$\int \text{arcoth}\ xdx=\frac{1}{2}\ln(1-x^{2}) + x \text{arcoth}\ x+C$$
+$$\int \text{arsech}\ xdx= \frac{2\sqrt{ \frac{1-x}{x+1} }\sqrt{ 1-x^{2} } \text{artanh}\ \left( \frac{\sqrt{ 1-x }}{\sqrt{ x+1 }} \right)}{x-1}+x \text{arsech}\ x+C$$
+$$\int \text{arscsh}\ xdx= x\left(\frac{\sqrt{ \frac{1}{x^{2}}+1 } \text{artanh}\ \left( \frac{x}{\sqrt{ x^2+1 }} \right)}{\sqrt{ x^2+1 }}+\text{arscsh}\ x\right)+C$$

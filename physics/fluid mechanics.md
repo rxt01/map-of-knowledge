@@ -1,9 +1,10 @@
 ---
 abstract:
 ---
+
 | precursors | [[PDE]]  [[chaos theory]] |
 | ---------- | ------------------------- |
-| status:    | #tolearn                  |
 | #tags      |                           |
-| level      | #                         |
-| type       | #                         |
+| level      | #grad                     |
+| degrees    | #math/maths/option/maths  |
+

@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
-| type       | #                         |
+| precursors | [[QM]] [[GR]] [[SM]] |
+| ---------- | -------------------- |
+| #tags      |                      |
+| level      | #grad                |
+| degrees    |                      |

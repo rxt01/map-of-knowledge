@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[set theory]] |
+| ---------- | -------------- |
+| #tags      |                |
+| level      | #              |
+| degrees    |                |

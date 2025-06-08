@@ -2,9 +2,7 @@
 abstract:
 ---
 
-| precursors | [[]] |
-| ---------- | ---- |
-| status:    | #    |
-| #tags      |      |
-| level      | #    |
-| type       | #    |
+| precursors | [[algorithms]] [[computability theory]] [[theory of computation]] |
+| ---------- | ----------------------------------------------------------------- |
+| #tags      |                                                                   |
+

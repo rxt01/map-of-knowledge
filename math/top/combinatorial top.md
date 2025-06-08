@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #grad    |
-| type       | #                         |
+| precursors | [[set theory]] [[combinatorics]] [[LA]] [[algebra]] [[real anal]] [[point set top]] |
+| ---------- | ----------------------------------------------------------------------------------- |
+| #tags      |                                                                                     |
+| level      | #grad                                                                               |
+| degrees    |                                                                                     |

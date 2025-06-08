@@ -1,11 +1,12 @@
 ---
-abstract:
+abstract: 
+other names: quantum mechanics
 ---
 
-| precursors | [[CM]] [[EM]] [[probability theory]] |
-| ---------- | ------------------------------------ |
-| status:    | #tolearn                             |
-| #tags      |                                      |
-| level      | #grad                                |
-| type       | #                         |
-| other name | quantum mechanics                    |
+|            | I                      | II                          |
+| ---------- | ---------------------- | --------------------------- |
+| precursors | [[CM]] [[EM]]          | [[probability theory]]      |
+| #tags      |                        |                             |
+| level      | #bachelor              | #bachelor                   |
+| degrees    | #physics/all/mandatory | #physics/all/option/physics |
+

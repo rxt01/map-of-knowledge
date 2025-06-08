@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[elementary algebra]] [[combinatorics]] |
+| ---------- | ---------------------------------------- |
+| #tags      |                                          |
+| level      | #                                        |
+| degrees    |                                          |
+

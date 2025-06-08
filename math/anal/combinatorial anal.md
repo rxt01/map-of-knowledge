@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]      |
-| ---------- | --------- |
-| status:    | #tolearn  |
-| #tags      |           |
-| level      | #bachelor |
-| type       | #         |
+| precursors | [[LA]] [[combinatorics]] [[diff and int calc]] [[logic]] |
+| ---------- | -------------------------------------------------------- |
+| #tags      |                                                          |
+| level      | #bachelor                                                |
+| degrees    |                                                          |

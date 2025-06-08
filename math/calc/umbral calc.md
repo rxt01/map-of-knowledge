@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[complex anal]] [[lie theory]] |
+| ---------- | ------------------------------- |
+| #tags      |                                 |
+| level      | #                               |
+| degrees    |                                 |
+

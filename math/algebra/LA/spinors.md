@@ -1,12 +1,12 @@
 ---
 abstract:
 ---
-| precursors | [[tensors]] |
-| ---------- | ----------- |
-| status:    | #tolearn    |
-| #tags      |             |
-| level      | #           |
-| type       | #           |
+| precursors | [[LA]] [[algebra]] [[vector calc]] [[complex numbers]] [[geometric algebra]] [[lie theory]] |
+| ---------- | ------------------------------------------------------------------------------------------- |
+| #tags      |                                                                                             |
+| level      | #                                                                                           |
+| degrees    |                                                                                             |
+
 # #english-note 
 ## definition
 a rank 1/2 [[tensors]] that is used in quantum mechanic to represent fermions

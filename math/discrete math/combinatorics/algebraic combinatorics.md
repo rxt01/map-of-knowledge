@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[LA]] [[algebra]] |
-| ---------- | ------------------------------ |
-| status:    | #tolearn                       |
-| #tags      |                                |
-| level      | #bachelor                      |
-| type       | #                         |
+| precursors | [[LA]] [[algebra]] [[combinatorics]] |
+| ---------- | ------------------------------------ |
+| #tags      |                                      |
+| level      | #bachelor                            |
+| degrees    | #math/maths/option                   |

@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[quaternions]] |
-| ---------- | --------------- |
-| status:    | #tolearn        |
-| #tags      |                 |
-| level      | #               |
-| type       | #               |
+| precursors | [[quaternions]] [[algebra]] |
+| ---------- | --------------------------- |
+| #tags      |                             |
+| level      | #                           |
+| degrees    |                             |
+

@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #                         |
+| precursors | [[organic chem]] [[biochem]] [[bio-organic chem]] |
+| ---------- | ------------------------------------------------- |
+| #tags      |                                                   |
+| level      | #                                                 |
+| degrees    |                                                   |

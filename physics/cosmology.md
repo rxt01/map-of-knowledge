@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[GR]] |
-| ---------- | ---------------------- |
-| status:    | #tolearn               |
-| #tags      |                        |
-| level      | #                      |
-| type       | #                         |
+| precursors | [[GR]]                  |
+| ---------- | ----------------------- |
+| #tags      |                         |
+| level      | #grad                   |
+| degrees    | #physics/general/option |

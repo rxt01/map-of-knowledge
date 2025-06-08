@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[]]     |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[PDE]] [[LA]] [[CM]] [[EM]] [[SM]] |
+| ---------- | ----------------------------------- |
+| #tags      |                                     |
+| level      | #                                   |
+| degrees    |                                     |
+

@@ -1,9 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[LA]]   |
-| ---------- | -------- |
-| status:    | #tolearn |
-| #tags      |          |
-| level      | #        |
-| type       | #        |
+| precursors | [[LA]] |
+| ---------- | ------ |
+| #tags      |        |
+| level      | #      |
+| degrees    |        |
