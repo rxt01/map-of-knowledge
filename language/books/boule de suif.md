@@ -18,8 +18,8 @@ isbn10:
 
 # #french-note 
 ## boule de suif
-- probablement le texte le mieux connu de guy de maupassant
-- peu apres la parution, gustave flaubert dira qu'il s'agit d'un chef d'oeuvre
+- probablement le texte le mieux connu de [[french writing & literature#guy de maupassant (1850-1893) |guy de maupassant]]
+- peu apres la parution, [[french writing & literature#gustave flaubert (1821-1880)|gustave flauvert]] dira qu'il s'agit d'un chef d'oeuvre
 - reedite de nombreuses fois. plusieurs adaptations egalement produites pour le theatre, le cinema, la telivision. representation en peinture des 1884
 - a ce jour, considere comme l'une des nouvelles les plus representatives du genre realiste
 ### guerre franco-prussienne

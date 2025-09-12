@@ -1,5 +1,5 @@
 ---
-abstract:
+abstract: chemistry of carbon
 ---
 
 |            | I                | II                  |
@@ -219,4 +219,278 @@ C1CC2CC(C1)C2
 ### diol
 have two alcohol groups
 
-##
+
+# #french-note 
+## representation
+### formule moleculaire
+que le nombre des atomes
+### formule develope
+structure de lewis
+### formule semi-developpe
+liaison avec les H et halogenes non montre
+### formule simplife
+squelettes de carbon represente par les liaison (liaison C-H non represente)
+### tridimensionelle
+les atomes sont place en 3d
+## classification des chaines carbones
+### compose acyclciques
+pas de cycle
+ex.
+```smiles
+CCCCC
+CC(C)CC
+CCCCO
+CC(O)CC
+```
+### compose carbocycliques
+au moins un cycle compose seulement de carbone
+```smiles
+C1CC1
+C1CCC1
+C1CCCC1
+C1CCCCC1
+C1CCCC(C)C1
+C1CCCC(O)C1
+C1C=C(C)CCC1
+C1=CC=CC=C1
+```
+### compose heterocyclique
+cycle compose de carbon et au moins un heteroatome
+```smiles
+C1CCOC1
+C1=CC=CN=C1
+C1=CSC=C1
+```
+### classification des carbones
+depend du nombre de C relie au carbone observe
+
+|carbones|classification|
+|---|---|
+|0|nulaire|
+|1|primaire|
+|2|secondaire|
+|3|tertiaire|
+|4|quaternaire|
+## groupement fonctionnels
+### alcane
+seulemnt C et H
+```smiles
+CCCC
+```
+### alcene
+```smiles
+*C=C*
+```
+### alcyne
+```smiles
+*C#C*
+```
+### compose halogene
+```smiles
+*F
+*Cl
+*Br
+*I
+*[As]
+*[Ts]
+```
+
+
+### alcool
+```smiles
+*O
+```
+### ether
+```smiles
+*O*
+```
+### peroxyde
+```smiles
+*OO*
+```
+### thiol
+```smiles
+*S
+```
+### thioether
+```smiles
+*S*
+```
+### amine
+```smiles
+*N(*)*
+```
+### aldehyde
+```smiles
+*C=O
+```
+### cetone
+```smiles
+*C(=O)*
+```
+### nitrile
+```smiles
+*C#N
+```
+### nitro
+```smiles
+*N(=O)O
+```
+### acide carboxylique
+```smiles
+*C(=O)O
+```
+### ester
+```smiles
+*C(=O)O*
+```
+### anhydride
+```smiles
+*C(=O)OC(=O)*
+```
+### halogenure d'acide
+```smiles
+*C(=O)F
+*C(=O)Cl
+*C(=O)Br
+*C(=O)I
+*C(=O)[As]
+*C(=O)[Ts]
+```
+### amide
+```smiles
+*C(=O)N(*)*
+```
+### compose aromatique (benzene)
+```smiles
+C1=CC=CC=C1
+c1ccccc1
+```
+## ismoerie et confomeres
+### isomeres de position (regioisomeres)
+meme fonction a un autre endroit
+### isomeres de fonction
+meme formule moleculaire mais pas la meme fonction chimique
+### insaturations
+liaison $\pi$ et cycle
+$$n_{insat}= \frac{(2n_{C}+2)-(n_{H_{r}}+n_{halogene}-n_{N})}{2}$$
+### stereoisometrie
+#### isomere des alcenes cis et trans
+alcenes avec un substituant sur chacun des carbonnes de l'alcens (sauf H)
+##### cis
+les substituants sont du meme cote de la double liaison
+```smiles
+*/C=C\*
+```
+##### trans 
+les substituants sont du cote opose de la double liaison
+```smiles
+*/C=C/*
+```
+#### isomeres des compose cycliques cis et trans
+composes cycliques avec deux substituants places sur deux carbonnes differents
+##### cis
+les substituants sont du meme cote du cycle
+```smiles
+C2[C@](*)CC[C@](*)C2
+```
+##### trans 
+les substituants sont du cote oppose dans le cycle
+```smiles
+C2[C@](*)CC[C@@](*)C2
+```
+#### isomeres des alcenes Z et E
+seulement pour les alcenes
+au moin deux substituants
+##### Z
+les groupement prioritaires sont du meme cote de la double liaison
+
+##### E
+les groupement prioritaires sont du cote oppose de la double liaison
+
+#### enantiomerie (chiralité)
+si un carbon a 4 groupement different, il est chirale
+
+nombre de stereoisomere: $2^n$ 
+nombre de pair: $2^{n-1}(2^{n}-1)$
+
+si plusieurs C$^*$
+##### enantiomere
+tout les C$^*$ doivent etre inverse (images miroir)
+
+##### diastereoisomere
+certains C$^*$ ne sont pas inverse
+##### compose meso
+molecules achiral malgre C$^*$ (plan de symetrie)
+### conformeres
+molecules identiques qui peuvent etre converti par une simple rotation d'une liaison simple
+
+## reactivite chimique
+### type de fleche
+reactifs $\to$ produits: reactionnel 
+$\rightleftharpoons$: equilibre
+$\leftrightarrow$: resonance 
+courbe (montre mouevment d'une paire d'e$^-$)
+demi courbe (montre mouvement d'un seul e$^-$)
+### intermediaires reactionnels
+#### rupture heterolytique
+carbon beaucoup moins electronegatif $\to$ carbocation (sp$^2$)
+carbon beaucoup plus electronegatif $\to$ carbanion sp$^3$
+#### rupture homolytique
+electronegativite similaire: radical neutre avec e$^-$ celibataire (sp$^2$)
+
+### classement des reactions
+#### substitution
+un groupement remplace un autre
+#### adition
+groupement ajouter a une molecule ayant une liaison multiple
+adition d'atomes sur une liaison $\pi$
+#### elimination
+une molecule pers un groupement pour former une liaison multiple
+formation d'une lisaison $\pi$
+#### rearrangement
+pas de changement de constitution en termes d'atomes
+reorganisation des liasions
+#### oxydoreduction
+changement du nombre d'oxydation
+##### oxydation
+perte d'e$^-$ du substrat = augmentation du nombre d'oxydation
+##### reduction
+gain d'e$^-$ du substrat = diminution du nombre d'oxydation
+### categories des reactifs
+#### electrophiles
+pauvre en e$^-$ donc les atire = reaction avec molecule avec doublet disponible (doublet non lian ou liaison multiple)
+- octet incomplet
+- charg + et octet complet
+- $\delta^+$ et octet complet
+#### nucleophile
+riche en e$^-$ (liaison multiple ou doublet non lian) donc partage = reaction avec molecule pauvre en e$^-$
+- charge -
+- doublet libres
+- e$^{-}\pi$
+charge plus reactif que molecules neutre
+plus electronegatif $\implies$ moins nucleophile
+plus petite $\implies$ plus nucleophile
+#### electro et nucleo phile
+electrophile et nucleophile sur 2 parties differentes de la molecules
+#### molecules diatomiques non polaire
+reaction sur alcanes alcenes ou alcynes
+#### metaux
+formation d'organometaux
+catalyseurs
+#### reducteurs
+porteur de H
+#### oxydants
+porteur de O
+### bases et acides
+#### acide
+acceptent une paire d'e$^-$ pour former une liaison covalente
+electrophile
+#### base
+donnent une paire d'e$^-$ pour fomer une liaison covalente
+nucleophile
+### mecanismes
+les fleches vont d'un doublet du nucleophile vers un atome de l'electrophile
+si l'electrophile n'est pas charge, il y a parfois des groupement partant
+plus le $pK_{A}$ de l'acide conjugue est petit plus le groupement partant sera bon
+

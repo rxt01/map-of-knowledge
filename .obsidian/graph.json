@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "tag:#tags",
+  "collapse-filter": false,
+  "search": "tag:#tags ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -40,6 +40,13 @@
       "color": {
         "a": 1,
         "rgb": 65531
+      }
+    },
+    {
+      "query": "tag:video",
+      "color": {
+        "a": 1,
+        "rgb": 16756224
       }
     },
     {
@@ -161,10 +168,10 @@
   "nodeSizeMultiplier": 1.08255208333333,
   "lineSizeMultiplier": 0.546614583333333,
   "collapse-forces": true,
-  "centerStrength": 0.346686185786532,
-  "repelStrength": 17.495342028214,
-  "linkStrength": 1,
-  "linkDistance": 122,
-  "scale": 0.029613173412291,
+  "centerStrength": 0.318565756452621,
+  "repelStrength": 17.1617535054032,
+  "linkStrength": 0.75,
+  "linkDistance": 47,
+  "scale": 0.1555487216885834,
   "close": false
 }

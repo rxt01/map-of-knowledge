@@ -20,8 +20,8 @@ compare a λόγος  : discours/parole raisonnable (expliquer)
 - théogonie (θεογονία)
 - les travaux et le jours
 #### sources plus tardives
-- poètes tragiques(Ἀισχύλος, Σοφοκλῆς, Ευριπίδης)
-- poètes romains (Vergillius, Horacius, Ovidius)
+- poètes tragiques(Αἰσχύλος, Σοφοκλῆς, Εὐρῑπίδης)
+- poètes romains (Vergillius, Horātius, Ovidius)
 ### caractéristiques du mythe
 1. fonde, explique, raconte l'origine de quelque chose
 2. l'origine des phénomènes naturelles n'est pas naturelle

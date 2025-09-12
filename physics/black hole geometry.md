@@ -31,12 +31,12 @@ il a introduit la courbure pour les surface (courbure de Gauss)
 elle ne depende que de la geometrie intrinseque de la surface
 elle mesure la distortion des distances lorsqu'on aplanit la surface
 Bernhard Riemann a introduit le tenseur de courbure de Riemann pour des espaces d'autres dimension
-le tenseur de courbure de riemann d'un espace courbe en un point donne compare en quelque sorte avec l'espace euclidien usuel: $$g_{ab}=\delta_{ab}-\frac{1}{3}\sum_{c,d}R_{acbd}(0)x^cx^d+O(|x|^3)$$
-lorsqu'on s'interesse aux volumes et non aux distances on utilise le tenseur de Ricci:$$R_{cd}=\sum_aR^a_{cad}$$
+le [tenseur de courbure de riemann](diff%20geo.md#riemann%20tensor) d'un espace courbe en un point donne compare en quelque sorte avec l'espace euclidien usuel: $$g_{ab}=\delta_{ab}-\frac{1}{3}\sum_{c,d}R_{acbd}(0)x^cx^d+O(|x|^3)$$
+lorsqu'on s'interesse aux volumes et non aux distances on utilise le [tenseur de Ricci](diff%20geo.md#ricci%20tensor):$$R_{cd}=\sum_aR^a_{cad}$$
 
 
 
-## relativite generale
+## [relativite generale](GR)
 en relativite generale pas juste l'espace est courbe mais l'espace temps 
 les tenseurs de riemann et de ricci existent aussi dans ce cadre
 $$(R_{ab}-\frac{1}{2}Rg_{ab})=kT_{ab}$$

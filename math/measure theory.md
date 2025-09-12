@@ -6,3 +6,4 @@ abstract:
 | #tags      |                                                                                                                               |
 | level      | #bachelor                                                                                                                     |
 | degrees    | #math/actuaria/option/maths #math/maths/option/maths #math/stats/option/maths #math/finance/option/maths #math/honours/option |
+# #english-note 

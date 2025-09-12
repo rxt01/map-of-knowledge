@@ -8,8 +8,8 @@ abstract: linear algebra over abstract vector spaces
 | degrees    |                                  |
 
 # #english-note
-## vector spaces
-let $\mathbb{F}$ be a field
+## [vector](LA.md#vectors) spaces
+let $\mathbb{F}$ be a [field](algebra.md#fields)
 a set $V\ne\varnothing$ together with two operations
 - vector addition $+:V\times V\to V$
 - scalar multiplication $\cdot:\mathbb{F}\times V\to V$

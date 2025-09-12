@@ -24,7 +24,7 @@ s.t.
 a category $\mathcal{C}$ is called small if $ob(\mathcal{C})$ is a set
 a category s.t. $\mathcal{C}(X,Y)$ are sets $\forall X,Y$ is called locally small
 
-a locally small category with only one object is a monoid
+a locally small category with only one object is a [monoid](algebra.md#monoids)
 
 
 ### opposite category
@@ -64,7 +64,7 @@ monoid can also have deloopings
 the core of $\mathcal{C}$ is the groupoid whose objects are objects of $\mathcal{C}$ and whose morphisms are isomorphisms of $\mathcal{C}$
 
 ### diagram
-a diagram in a category $\mathcal{C}$ is a directed graph formed of objects and arrows of $\mathcal{C}$ st:
+a diagram in a category $\mathcal{C}$ is a [directed graph](graph%20theory.md#directed%20graphs) formed of objects and arrows of $\mathcal{C}$ st:
 - each objects and morphism may appear more than once 
 - between any two objects, there may be more than one morphism
 - the identities are implicitly present

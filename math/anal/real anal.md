@@ -2,12 +2,12 @@
 abstract: hardcord and more rigorous version of calc
 ---
 
-|            | anal I                                  | anal II                                                                                                                                       | anal III                                                                                                                                      | IV                   |
-| ---------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+|            | anal I                                            | anal II                                                                                                                                       | anal III                                                                                                                                      | IV                   |
+| ---------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
 | precursors | [[point set top]] [[diff and int calc]] [[proof]] | [[multi vars calc]]                                                                                                                           | [[vector calc]]                                                                                                                               |                      |
-| #tags      | #toreoganize                            |                                                                                                                                               |                                                                                                                                               |                      |
-| level      | #bachelor                               | #bachelor                                                                                                                                     | #bachelor                                                                                                                                     | #bachelor            |
-| degrees    | #math/all/mandatory                     | #math/actuaria/option/maths #math/maths/mandatory #math/stats/mandatory #math/finance/mandatory #math/sc/option/maths #math/honours/mandatory | #math/actuaria/option/maths #math/maths/mandatory #math/stats/mandatory #math/finance/option/maths #math/sc/option/maths #math/honours/option | #math/honours/option |
+| #tags      | #toreoganize                                      | #toreoganize                                                                                                                                  |                                                                                                                                               |                      |
+| level      | #bachelor                                         | #bachelor                                                                                                                                     | #bachelor                                                                                                                                     | #bachelor            |
+| degrees    | #math/all/mandatory                               | #math/actuaria/option/maths #math/maths/mandatory #math/stats/mandatory #math/finance/mandatory #math/sc/option/maths #math/honours/mandatory | #math/actuaria/option/maths #math/maths/mandatory #math/stats/mandatory #math/finance/option/maths #math/sc/option/maths #math/honours/option | #math/honours/option |
 # #english-note 
 
 
@@ -248,5 +248,325 @@ when $f_n\to f$ converges uniformly, then :
 - if $f_n$ is differentiable $\forall n$, then $f$ is differentiable (when $f'_n$ converges uniformly)
 - $(\int_a^b f_n(x)dx)\to\int_a^bf(x)dx$
 
+## topology of $\mathbb{R}^n$
+### closed rectangles
+$$[a_{1},b_{1}]\times\cdots\times[a_{n},b_{n}]\subset \mathbb{R}^n $$
+where $a_{i}\leq b_{i}\forall i$
+### open rectangles
+$$(a_{1},b_{1})\times\cdots\times(a_{n},b_{n})\subset \mathbb{R}^n $$
+where $a_{i}\leq b_{i}\forall i$
+### open sets
+a subset $U\subseteq \mathbb{R}^n$ is open $\iff \forall x\in U\exists$ an open rectangle $R$ st. $x\in R\subseteq U$
+### closed sets
+a subset $C\subseteq \mathbb{R}^n$ is closed $\iff \mathbb{R}^{n}\backslash C$ is open
+### interior
+let $A\subseteq \mathbb{R}^n$
+ $$A^{\circ}:=\cup_{R\subseteq A}R$$
+st $R$ are open rectangles
+### exterior
+$$\text{ext}A:=(\mathbb{R}^{n}\backslash A )^\circ$$
+### closure
+$$\bar{A}:=\mathbb{R}^{n}\backslash \text{ext}A $$
+### boundary
+$$\partial A:=\mathbb{R}^{n}\backslash(A^{\circ}\cup \text{ext}A) $$
+### nested rectangles
+a nested sequence of nonempty closed rectangles in $\mathbb{R}^n$ has nonempty intersection
+### bounded subsets
+$A\subseteq \mathbb{R^n}$ is bounded $\iff \exists R>0$ st $A\subseteq V_{R}(0)$ 
+### open cover
+an open cover of $A\subseteq \mathbb{R}^{n}$ is a set $\mathcal{O}$ of open subsets of $\mathbb{R}^{n}$ st $A\subseteq \cup_{u\in \mathcal{O}}U$
+### compactness
+$A$ is compact $\iff \forall$ open cover of $A$, there exists a finite subcover of $A$ 
+every closed rectangles in $\mathbb{R}^{n}$ is compact
+### connectedness
+a subset $E\subseteq \mathbb{R}^{n}$ is disconnected $\iff \exists$ open subsets $U,V \subseteq E$ st. $U\cap V=\varnothing$ and $U\cup V=E$
+otherwise, $E$ is connected
+### convex
+a subset $C\subseteq \mathbb{R}^{n}$ is convex $\iff$ for any two distinct points $x,y\in C$, $(1-t)x+ty\in C \forall t\in[0,1]$
+every convex subset of $\mathbb{R}^{n}$ is connected
+## functions 
+### limits
+let $A\subseteq \mathbb{R}^{n}$, $c$ be a limit point of $A$, and $f:A\to \mathbb{R}^{m}$. a limit of $f$ as $x$ approaches $c$ is a vector $L\in \mathbb{R}^{m}$ satisfying: $$\forall \epsilon>0 \exists \delta>0, st. f(x)\in V_{\epsilon}(L) \forall x\in V_{\delta}(c)\cap A$$
+### continuity
+a fonction $f:A\to \mathbb{R}^{m}$ where $A\subseteq \mathbb{R}^{n}$ is continuous at $c\in A \iff \forall \epsilon>0 \exists \delta>0$ st whenever $x\in V_{\delta}(c)\cap A$ then $f(x)\in V_{\epsilon}(f(c))$
 
-## 
+a function $f:A\to \mathbb{R}^{m}$ is continuous at $c\in A\subseteq \mathbb{R}^{n} \iff \pi_{i}\circ f:A\to \mathbb{R}$ is continuous at $c$ $\forall i\in \{ 1,\cdots,m \}$ 
+### paths
+let $A \subseteq \mathbb{R}^{n}$
+a path in $A$ is a continuous function of the form $[a,b] \xrightarrow[]{\gamma}A$
+#### path connctedness
+$A \subseteq \mathbb{R}^{n}$ is path connected $\iff \forall x,y\in A \exists a,b\in \mathbb{R}$ with $a\leq b$ and $\exists \gamma:[a,b]\to A$ with $\gamma(a)=x \land \gamma(b)=y$ 
+
+every convex subset of $\mathbb{R}^{n}$ is path connected
+
+every path connected subset of $\mathbb{R}^{n}$ is connected
+### differential
+let $\mathbb{R}^{n}\xrightarrow[]{f}\mathbb{R}^{m}$ and let $c\in \mathbb{R}^{n}$
+$f$ is differentiable at $c$ $\iff \exists$ a linear transformation $D_{c}f:\mathbb{R}^{n}\to \mathbb{R}^{m}$ s.t. $$\lim_\limits{ h \to 0 } \frac{|f(c+h)-f(c)-(D_{c}f)(h)|}{|h|}=0$$ $D_{c}f$ is the differential of $f$ at $c$
+$f$ is differentiable on its domain $D \iff$ it is differentiable $\forall c\in D$
+#### jacobian
+$$[D_{c}f]=\begin{bmatrix}
+\langle e_{1},(D_{c}f)(e_{1})\rangle & \cdots & \langle e_{1},(D_{c}f)(e_{n})\rangle  \\
+\vdots &\vdots &\vdots \\
+\langle e_{m},(D_{c}f)(e_{1})\rangle & \cdots & \langle e_{m},(D_{c}f)(e_{n})\rangle
+\end{bmatrix}$$
+
+#### partial derivatives
+$$\mathbb{R}\ni h\mapsto \varphi_{c:i}(h):=(c_{1},\cdots,c_{i-1},h,c_{i+1},\cdots,c_{n})$$
+if $f\circ \varphi_{c:i}$ is differentiable at $c_{i}$ then $(\partial_{i}f)(c):=(f\circ\varphi_{c:i})'(c_{i})$
+define $\gamma_{c_{i}:e_{i}}:\mathbb{R}\to \mathbb{R}^{n}$ $\gamma_{c_{i}:e_{i}}(t):=c+te_{i}$
+if $f$ is differentiable at $c$
+$$[D_{c}f]=\begin{bmatrix}
+(\partial_{1}f_{1})(c) & \cdots & (\partial_{n}f_{1})(c) \\
+\vdots & \vdots & \vdots  \\
+(\partial_{1}f_{m})(c) & \cdots & (\partial_{n}f_{m})(c)
+\end{bmatrix}$$
+
+if $f:A\to \mathbb{R}^{m},A\subseteq \mathbb{R}^{n}$ is open  $\land c\in A\land \exists U\subseteq \mathbb{R}^{n}$ open s.t $c\in U\land \partial_{i}f_{j}$ exists and are continuous on $U$ then $f$ is differentiable at $c$ and $f\in C^n$ where $n \geq 1$
+#### derivative functor
+$$A\ni x\mapsto D_{x}f\in \text{Hom}(\mathbb{R}^{m},\mathbb{R}^{n})$$
+$$A\xrightarrow[]{D_{\square}f}\text{Hom}(\mathbb{R}^{m},\mathbb{R}^{n})$$
+
+$$(D_{\square}f)(e_{i}:A\to \mathbb{R}^{m})$$
+$$A\ni x \mapsto (D_{x}F)(e_{i})=(\partial_{i}f)(x)$$
+#### vector field
+a vector field on $A\subseteq \mathbb{R}^{n}$ is a function $V:A\to \mathbb{R}^{n}$
+$(D_{x}f)(V(x))$ defines a function 
+$A\xrightarrow[]{\mathcal{V}f}\mathbb{R}^{m}$
+$x\mapsto (D_{x}f)(V(x))$
+$$V=\sum\limits_{i=1}^{n}\langle E_{i},V\rangle E_{i}$$
+where $x\xmapsto[]{\langle E_{i},V\rangle}\langle e_{i},V(x)\rangle$
+##### properties
+- $V(f+g)=Vf+Vg$
+- $V(cf)=cVf$
+- $m=1 \implies V(fg)=(Vf)g+f(Vg)$
+#### commutativity of partial derivatives
+let $A \subseteq \mathbb{R}^{n}$ open, $c\in A$ $f:A\to \mathbb{R}^{m}$ satisfying:
+- $\partial_{i}f$ exist on some open subset $U\ni c$
+- $\partial_{i}\partial_{j}f$ exist on $U$
+- $\partial_{i}\partial_{j}f$ is continuous at $c$
+$\forall i,j$
+then 
+$(\partial_{i}\partial_{j}f)(c)=(\partial_{j}\partial_{i}f)(c)$
+#### continuous differentability
+$A \subseteq \mathbb{R}^{n}, c\in A,f:A\to \mathbb{R}^{m}$ is $k$-times continuously differentiable at $c \iff \exists U\subseteq \mathbb{R}^{n}$ open with $c\in U\subseteq A$ st $\partial_{i_{1}},\cdots \partial_{i_{l}}f_{j}$ exist in $U$ and are continuous at $c \forall i_{p}\in \{ 1,\cdots,n \},l\in \{ 1,\cdots,k \}$
+$f\in C^\infty(\mathbb{R}^{m},A)$ at $c \iff f\in C^{k}(\mathbb{R}^{m},A)\forall k\in \mathbb{N}$
+
+
+#### differentiability
+$f:A\to \mathbb{R}^{m}$ is $k$-times differentiable $\iff U$ open neighborhood of $c\in A$ st
+- $D_{x}f$ is defined $\forall x\in U$
+- $\mathcal{V}f$ is $k-1$-times differentiable at $c$ $\forall$ $k-1$-times differentiable vector fields $V:U\to \mathbb{R}^{n}$
+
+#### differential equations
+##### integral curves
+given a vector field $V:\mathbb{R}^{n}\to \mathbb{R}^{n}$
+an integral curve of $V$ through $c\in \mathbb{R}^{n}$ consists of an open set $U\subseteq \mathbb{R}$ with $0\in U$ and a differentiable  function $\gamma\text:U\to \mathbb{R}^{n}$ satisfying:
+- $\gamma(0)=c$
+- $\gamma'(t)=V(\gamma(t)) \forall t\in U$
+#### inverse differential
+$A\subseteq \mathbb{R}^{n}$open, $c\in A,f:A\to \mathbb{R}$ differentiable at $c$ and supose $\exists U,V\subseteq \mathbb{R}^{n}$ open st $c\in U\subseteq A, f(U)=V\land \exists g:V\to \mathbb{R}^{n}$ satisfying $g$ is differentiable at $f(c) \land f\circ g=id_{V}\land g\circ f=id_{U}$
+then $D_{f(c)}g=(D_{c}f)^{-1}$
+#### inverse function theorem
+let $A\subseteq \mathbb{R}^{n}$ open, $c\in A,f:A\to \mathbb{R}^{n}$ of class $C^1$ on $A$ and supose $\text{det}(D_{c}f)\ne 0$
+then $\exists U,V\subseteq \mathbb{R}^{n}, g:V\to \mathbb{R}^{n}$ st
+- $c\in U\subseteq A,f(c)\in V$
+- $f\circ g=id_{V} \land g\circ f=id_{U}$
+- $g$ is continuous on $V$ and differentiable at $f(c)$
+- $D_{f(c)}g=(D_{c}f)^{-1}$
+#### implicit function theorem
+<!-- TODO -->
+### diffeomorphisms
+$V,U \subseteq \mathbb{R}^{m}$
+$U$ and $V$ are diffeomorphic $\iff \exists V\xleftrightharpoons[\psi]{\varphi}U$
+st $\varphi,\psi$ are differentiable and are inverses
+
+### critical point
+let $U\subseteq \mathbb{R}^{n}$, $f:U\to \mathbb{R}^{m}$
+a crtical point of $f$ is a point $c\in U$ st. $D_{c}f$ has rank $<m$ denote $C_{f}$
+#### regular value
+a regular value of $f$ is a point $b\in \mathbb{R}^{m}\setminus f(C_{f})$ denote $R_{f}$
+#### regular point
+a regular point of $f$ is a point in $f^{-1}(R_{f})$
+### derivation
+a derivation of $\mathbb{R}^{n}$ at $c\in \mathbb{R}^{n}$
+is a linear function $\mathcal{V}_{c}:C^\infty(\mathbb{R},\mathbb{R}^{n})\to \mathbb{R}$
+satisfying $\mathcal{V}_{c}(fg)=(\mathcal{V}_{c}f)g(c)+f(c)(\mathcal{V}_{c}g)$
+
+$\mathcal{V}_{c}(constant)=0$
+$f(c)=g(c)=0\implies\mathcal{V}_{c}(fg)=0$
+
+let $\mathcal{V}_{c}$ be a derivation of $\mathbb{R}^{n}$ at $c\in \mathbb{R}^{n}$ then $\exists!$ vector $v_{c}\in T_{c}\mathbb{R}^{n}$ st $\mathcal{V}_{c}f=(D_{c}f)(v_{c})$
+### hadamard lemma
+if $f:\mathbb{R}^{n}\to \mathbb{R}$
+$\exists g:\mathbb{R}^{n}\to \mathbb{R}^{n}$ st
+the folowing diagram commutes
+<iframe class="quiver-embed" src="https://q.uiver.app/#q=WzAsNSxbNCwwLCJcXG1hdGhiYntSfV5uIl0sWzQsNCwiXFxtYXRoYmJ7Un1eblxcdGltZXNcXG1hdGhiYntSfV5uIl0sWzAsNCwiXFxtYXRoYmJ7Un1eblxcdGltZXNcXG1hdGhiYntSfV5uIl0sWzAsMiwiXFxtYXRoYmJ7Un0iXSxbMCwwLCJcXG1hdGhiYntSfSJdLFswLDEsIlxcRGVsdGEiXSxbMSwyLCJpZFxcdGltZXMgZyJdLFsyLDMsIlxcbGFuZ2xlO1xccmFuZ2xlIl0sWzMsNCwiK2YoMCkiXSxbMCw0LCJmIiwyXV0=&embed" width="786" height="688" style="border-radius: 8px; border: none;"></iframe>
+ie $f(x)=f(0)+\sum\limits_{i=1}^{n}x_{i}g_{i}(x)$
+and $g_{i}(0)=(\partial_{i}f)(0)$
+## manifolds
+a subset $M \subseteq \mathbb{R}^{k}$ is an $m$-dimensional manifold $\iff \forall c\in M \exists U,V\subseteq \mathbb{R}^{k}$ and a diffeomorphisms $U\xleftrightharpoons[\psi]{\varphi}V$ st. 
+- $c\in U$
+- $\varphi(U\cap M)=(\mathbb{R}^{m}\times \{ 0 \})\cap V$
+equivalently
+a subset $M \subseteq \mathbb{R}^{k}$ is an $m$-dimensional manifold $\iff \forall c\in M \exists U\subseteq \mathbb{R}^{k},W\subseteq \mathbb{R}^{m}$ open together with $\alpha:W\to \mathbb{R}^{k}$
+satisfying $c\in U\land \alpha(W)=U\cap M$
+- $\alpha$ is differentiable and 1 to 1
+- $D_{y}\alpha:\mathbb{R}^{m}\to \mathbb{R}^{k}$ has rank $m$
+- $\alpha^{-1}:U\cap M\to W$ is continuous
+
+$f^{-1}(r)$ is an $(m-n)$-dimensional manifold if $r\in R_{f}$
+### tangent space
+let $U\subseteq \mathbb{R}^{n}$ be open, $c\in U$
+the tangent space of $U$ at $c$ is the set $T_{c}U:=\{ c\}\times \mathbb{R}^{n}\ni(c;v)=v_{c}$
+with the following vector space structure
+- $0_{c}$ is the zero vector
+- $u_{c}+v_{c}:=(u+v)_{c}$
+- $\lambda(v_{c}):=(\lambda v)_{c}$
+#### tangent space of a manifold
+let $M\subseteq \mathbb{R}^{k}$ be an $m$-dimmensional manifold, $c\in M$
+let $U\subseteq \mathbb{R}^{m},V\subseteq \mathbb{R}^{k}$ open st $c\in V$ and $\varphi:U\to M\cap V$ be a parametarization
+set the tangent space of $M$ at $c$ to be $T_{c}M:=(D_{\varphi^{-1}(c)}\varphi)(T_{\varphi^{-1}(c)}U)$
+equivalently 
+given all $R\xrightarrow[]{\gamma}M$ satisfying:
+- $\gamma(0)=c$
+- $\gamma$ is differentiable at $0$
+span $\{ \gamma'(0)=(D_{0}\gamma)(1) \}=T_{c}M$
+### differentials
+let $N\subseteq \mathbb{R}^{l},M\subseteq \mathbb{R}^{k}$ be manifold, $f:N\to M$
+let $\tilde{f}$ be extension of $f$ in an open neighborhoud $V$ of $c$
+$\tilde{f}|_{V\cap N}=f$
+then $\tilde{f}:V\to \mathbb{R}^{k}$
+$D_{c}\tilde{f}:T_{c}V\to T_{f(c)}\mathbb{R}^{k}$
+$T_{c}N\subseteq T_{c}V$
+
+####
+data: 
+- $W,V$ finite dimensional vector spaces
+- $V\xleftarrow[]{T}W$ a linear transformatiion
+- ordered bases $\mathcal{B}=\{ v_{1},\cdots v_{m}\}$ of $V$ & $\mathcal{C}={w_{1},\cdots,w_{n}}$ of $W$
+the matrix associated to $T$ with respect to the basis $\mathcal{B}$ and $\mathcal{C}$ is the matrix associated to the linear transformation $_{\mathcal{B}}T^\mathcal{C}:\mathbb{R}^{n}\to \mathbb{R}^{m}$ wich is uniquely determined by the commutativity of the diagram
+<iframe class="quiver-embed" src="https://q.uiver.app/#q=WzAsNCxbMiwwLCJXIl0sWzAsMCwiViJdLFswLDIsIlxcbWF0aGJie1J9Xm0iXSxbMiwyLCJcXG1hdGhiYntSfV5uIl0sWzAsMSwiVCIsMl0sWzAsMywiXFxQaGlfXFxtYXRoY2Fse0N9Il0sWzEsMiwiXFxQaGlfe1xcbWF0aGNhbHtCfX0iLDJdLFszLDIsIl9cXG1hdGhjYWx7Qn1UXlxcbWF0aGNhbHtDfSJdXQ==&embed" width="432" height="432" style="border-radius: 8px; border: none;"></iframe>
+where $\Phi_{\mathcal{C}}(w_{i}):=e_{i}$
+ie $_{\mathcal{B}}T^{\mathcal{C}}:=\Phi_{\mathcal{B}}\circ T\circ \Phi_{\mathcal{C}}^{-1}$
+### submanifold
+$N\subseteq M$ is a submanifold of $M$ of dimension $n$
+$\iff \forall c\in N\exists U\subseteq \mathbb{R}^{m},V\subseteq \mathbb{R}^{k},\varphi:V\cap M\to U$ satisfying:
+$$\varphi(V\cap M)\subseteq \mathbb{R}^{n}\times \{ 0 \}\subseteq \mathbb{R}^{m}$$
+$$\varphi(V\cap M)=(\mathbb{R}^{n}\times \{ 0 \})\cap U$$
+
+if $N\hookrightarrow M$ then $c\in N\implies T_{c}N\subseteq T_{c}M$
+#### normal vector
+let $N\hookrightarrow M$ and $c\in N$
+$$\mathcal{\nu}_{c}^MN:=\{ v\in T_{c}M:\langle u,v\rangle=0 \forall u\in T_{c}N \} $$
+### orientation
+an orientation on an $m$-dimensional manifold $M\subseteq \mathbb{R}^{k}$ is a choice of orientations on $T_{c}M \forall c\in M$ st
+$\forall c\in M\exists U\in \mathbb{R}^{m}$ and a diffeomorphism $\varphi:U\to M\cap V$ for some open $V\subseteq \mathbb{R}^{k}$st
+$D_{x}\varphi:T_{x}\mathbb{R}^{m}\to T_{\varphi(x)}M$
+is orientation preserving $\forall x\in U$
+
+a manifold is orientable if $\exists$ an orientation on it
+
+if $M$ is orientable, then only two orientation exist
+### degree
+let $M\xleftarrow[]{f}N$ be differentiable
+and $M$ & $N$ oriented $m$-dimensional manifolds
+then $f^{-1}(r)$ is a $0$-dimensional submanifold of $N$
+if $N$ is compact then $f^{-1}(r)$ is a finite subset of $N$
+
+asume $M$ is connected
+define the degree of $f$ at a regular value $r\in R_{f}$ is $$deg(f;r):=\sum\limits_{x\in f^{-1}(r)}signD_{x}f$$
+where $signD_{x}f$ is + if $D_{x}f$ is orientation preserving and - if it isnt
+
+$deg(f;r)=deg(f;r') \forall r,r'\in R_{f}$
+
+if $f$ is homotopic to $g$ then $deg(f)=deg(g)$ 
+### index
+let $A\subseteq \mathbb{R}^{m}$ open,  $V:A\to \mathbb{R}^{m}$
+let $c$ be an isolated crtitical point of $V$
+the index of $V$ at $c$ is the degree of the function $\partial V_{\epsilon}(c)\to S^{m-1}$ where $x\mapsto \frac{V(x)}{|V(x)|}$
+### vector fields on manifolds
+let $M\subseteq \mathbb{R}^{k}$ be a smooth manifold
+a smooth tanget vector field on $M$ is a smooth function $V:M\to \mathbb{R}^{k}$ st $V_{x}\in T_{x}M\forall x\in M$
+### homotopy
+let $M,N$ be smooth manifolds, $f,g:N\to M$ smooth functions
+a smooth homotopy from $f$ to $g$ is a smooth function $M\xleftarrow[]{H}[0,1]N$
+st $H(0,\_)=f,H(1,\_)=g$
+
+smooth homotopy is an equivalence relation
+
+
+if $f,g$ are diffeomorphisms and $H(t,\_)$ is a diffeomorphism $\forall t\in[0,1]$ then $H$ is a smooth isotopy
+### flow
+a flow on a manifold $M$ consists of a smooth funciton $\varphi:\mathbb{R}\times M\to M$ st.
+- $\varphi(t,\_)$ is a diffeomorphism
+- $\varphi(0,\_)$ is the identity
+- $\varphi(s+t,\_)=\varphi(s,\_)\circ\varphi(t,\_)$
+
+$\tilde{\varphi}:\mathbb{R}\to Diffeo(M)$ where $t\mapsto \varphi(t,\_)$
+$\tilde{\varphi}$ is a group homeomorphism where $\mathbb{R}$ is a group under $+$
+
+set $V:M\to \mathbb{R}^{k}$ where $x\mapsto V_{x}:=(D_{0}\varphi(\_,x))(1)$ as a vector field on $M$
+
+### triangulation
+a trangulation of a manifold $M$ is a cell complex $K$ together with a homeomorphism $K\to M$
+#### euler caracteristic
+the euler caracteristic of a cell complex $K$ is $\chi(K)=\sum\limits_{i=o}^{max}(-1)^i|K_{i}|$
+if $M$ is a manifold we choose triangulation $K$ and define $\chi(M)=\chi(K)$
+### poincare-hopf theorem
+if $M$ is a compact connected smooth manifold and $V$ is a tangent vector field on $M$ with isolated critical points
+$$\sum\limits_{c\in CP(V)}\imath(V,C)=\chi(M)$$
+#### hairy ball theorem
+there does not exist a nonvanishing vector field on $S^{2m} \forall m\in \mathbb{N}$
+## metric spaces
+a metric space consists of:
+- a set $X$
+- a metric $X\times X\xrightarrow[]{d} \mathbb{R}$
+st:
+- $d(x,y)=0 \implies x=y$
+- $d(x,y)=d(y,x)$
+- $d(x,z)\le d(x,y)+d(y,z)$
+### cauchy sequence
+a sequence in $X$ is a fucntion $x:\mathbb{N}\to X$
+$x$ is a cauchy sequence $\iff \forall \epsilon>0\exists N\in\mathbb{N}$ st $d(x_{n},x_{m})<\epsilon \forall n,m\ge N$
+$x$ converges to $limx\in X \iff \forall \epsilon>0\exists N\in \mathbb{N}$ st $d(limx,x_{n})<\epsilon \forall n\ge N$
+if $x$ converges then $x$ is cauchy
+### complete spaces
+$(X,d)$ is complete $\iff$ every cauchy sequence converges
+### topology
+a subset $A\subseteq X$ is open $\iff \forall x\in A\exists r>0$ st $B_{r}(x):=\{ y\in X:d(x,y)<r \} \subseteq$ 
+a subset $B\subseteq X$ is closed $\iff X\setminus B$ is open
+### functions
+let $(X,d_{x})$ and $(Y,d_{y})$ be metric spaces 
+$f:X\to Y$ is
+- an isometry $\iff d_{x}=d_{y}\circ (f\times f)$
+- a contraction $\iff \exists \alpha\in[0,1)$ st $d_{y}(f(x),f(x'))\le \alpha d_{x}(x,x')$
+- distance decreasing $\iff d_{y}(f(x),f(x'))<d_{x}(x,x')$ whenever $x,x'$ are distinct
+- lipsitz $\iff \exists M\in[0,\infty)$ st $d_{y}(f(x),f(x'))\le Md_{x}(x,x')$
+- continuous at $c\iff \forall \epsilon>0\exists \delta>0$ st $x\in B_{\delta}(c)\implies f(x)\in B_{\epsilon}(f(c))$
+#### fixed points
+a fixed point is a point $x\in X$ st $f(x)=x$
+every function which is distance decreasing on a complete metric space as a unique fix point
+if $\exists N$ st $f^N=f\circ_{i=2}^{N}f$ is a contraction then $\exists!$ fixed point
+#### contraction
+$[a,b]\xrightarrow[]{f}[a,b]$ differentiable is a contraction $\iff \exists k<1$ st $|f'(x)|<k\forall x\in[a,b]$
+
+### closure
+let $A\subseteq X$
+the closure of $A$ is the set $\bar{A}:=\cap_{B\supseteq A\land Bclosed}B$
+### limit point
+a limit point of $A$ is an element $x\in X$ st $(B_{r}(x)\cap A)\setminus\{ x \}\ne\varnothing$
+$\bar{A}=A\cup$(limit points of $A$)
+### completion
+a completion of $(X,d)$ is a complete metrix space $(\tilde{X},\tilde{d})$ with an isometry $\eta:(X,d)\to(\tilde{X},\tilde{d})$
+satisfying the following universal property:
+for any other complete metric space $(Z,\rho)$ with an isometry $\varphi:(X,d)\to(Z,\rho) \exists!$ isometry $h:(\tilde{x},\tilde{d})\to(z,\rho)$ st $h\circ \eta=\varphi$ 
+a completion always exist and $\bar{\eta(X)}=\tilde{X}$
+### compactness
+let $(X,d)$ be a metric space and $A\subseteq X$
+the folowing are equivalent:
+- $\forall$ sequence in $A \exists$ convergent subsequence whose limit is in $A$
+- every open cover of $A$ contains a finite subcover
+- $A$ is compact
+### boundedness
+$A\subseteq X$ is bounded $\iff \exists D>0$ st $D(a,b)\le D\forall a,b\in A$

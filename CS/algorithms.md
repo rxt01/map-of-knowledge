@@ -29,6 +29,7 @@ float Q_rsqrt( float number ){
 	return y;
 }
 ```
+
 ### karatsuba algorithm
 let $x$ and $y$ be represented as $n$-digit strings in some base $B$. for any positive integer $m$ less than $n$ 
 $$x=x_{1}B^m+x_{0}$$

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cff8b5ab96185a7f",
+        "id": "eb229e0079d92dc9",
         "type": "tabs",
         "children": [
           {
-            "id": "da397aeea454fed1",
+            "id": "b271668268073652",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "physics/EM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EM"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,12 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "physics/EM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of EM"
             }
           },
           {
@@ -167,11 +172,216 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS/other languages/latex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from latex"
+            }
+          },
+          {
+            "id": "7d199b57c4e4d6d2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "22b97b0e292310c2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "28f88c18a62b32ca",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ca62aae2c715cae6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "99d51acc0b01dda8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8e6e97bbcfb1786a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b0cc1ceb4e994ec8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "3b0a46e054d5bde6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "1fc1b1f5c06a2e72",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8d6ff5e4eb4bbe5a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "aae4b63dbab309c7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "768447bd1365c795",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "396fc08e04d483fa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "a6bdfd8a8b5f7dfe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "66c2b9c01fc24e77",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "f85acdf2f7995621",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "50907c34e695166f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "7f3fc453c3353bfc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c9644c2ce5066906",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
+          },
+          {
+            "id": "e226714615e8dd28",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
             }
           }
         ],
@@ -183,62 +393,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "vim-toggle:Toggle Vim Mode": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "random-note:Open random note": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da397aeea454fed1",
+  "active": "7f54eb05cbe9bb00",
   "lastOpenFiles": [
-    "physics/black hole geometry.md",
-    "physics/GR.md",
-    "language/linguistics/morphology.md",
-    "language/linguistics/language acquisition.md",
-    "language/linguistics/syntax.md",
-    "language/linguistics/semantics.md",
-    "language/linguistics/pragmatics.md",
-    "language/linguistics/phonology.md",
-    "language/linguistics/phonetics.md",
-    "CS/software engineering.md",
-    "unsorted/polymer physics.md",
-    "chem/polymer chem.md",
-    "unsorted/adaptive dynamics.md",
-    "physics/computational physics.md",
-    "economics/finance/financial maths/economical analysis.md",
-    "CS/AI.md",
+    "math/measure theory.md",
+    "chem/organic chem.md",
+    "math/proof list.md",
+    "math/algebra/operator algebra.md",
+    "math/algebra/representation theory.md",
+    "math/algebra/vertex operator algebra.md",
+    "math/geo/algebraic geo.md",
+    "math/algebra/commutative algebra.md",
+    "math/algebra/elementary algebra.md",
+    "math/diff/ODE.md",
+    "math/anal/func anal.md",
+    "math/anal/fourier anal.md",
+    "math/anal/diff anal.md",
+    "math/anal/complex anal.md",
+    "math/anal/combinatorial anal.md",
+    "math/anal/applied anal.md",
+    "math/anal/real anal.md",
+    "physics/EM.md",
+    "math/algebra/LA/LA.md",
+    "math/algebra/LA/abstract LA.md",
+    "unsorted/psychology of hapiness.md",
+    "CS/intro to programming in sciences.md",
+    "math/calc/diff and int calc.md",
+    "math/unsolved problems/milenium probems/riemann hypothesis.md",
+    "math/category theory/category theory.md",
+    "math/top/algebraic top.md",
+    "language/ancient languages/latin",
+    "language/ancient languages/ancient greek",
+    "language/ancient languages",
+    "language/PIE",
+    "math/SoME",
+    "CS/other languages",
+    "CS/programming languages",
     "language/linguistics",
     "language/Untitled.canvas",
-    "unsorted/type theory.md",
-    "unsorted/signal processing.md",
-    "unsorted/project management.md",
-    "unsorted/polymer engineering.md",
-    "unsorted/perturbation theory.md",
-    "unsorted/information theory.md",
-    "unsorted/greek mythology.md",
-    "unsorted/boolean algebra.md",
-    "unsorted/bifurcation theory.md",
-    "unsorted/Antibiotics, Toxins, and Protein Engineering.md",
     "history",
     "economics/finance",
-    "economics/acounting",
-    "law/laws",
-    "engineering/mechanical",
-    "engineering/bio",
-    "medicine/immunology",
-    "earth sciences/geology",
-    "earth sciences",
     "bio/concept map/Acides nucleiques.canvas",
     "bio/tree of life.canvas",
     "bio/concept map/Transport.canvas",

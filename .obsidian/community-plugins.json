@@ -26,7 +26,9 @@
   "obsidian-tikzjax",
   "table-editor-obsidian",
   "obsidian-dictionary-plugin",
-  "execute-code",
   "obsidian-desmos",
-  "chem"
+  "chem",
+  "graph-analysis",
+  "obsidian-living-graph",
+  "execute-code"
 ]

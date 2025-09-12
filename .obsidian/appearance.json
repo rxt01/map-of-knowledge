@@ -1,10 +1,11 @@
 {
   "accentColor": "#d40c95",
-  "cssTheme": "Dracula Gemini",
+  "cssTheme": "pywal-obsidianmd",
   "nativeMenus": false,
   "showViewHeader": true,
   "theme": "obsidian",
   "interfaceFontFamily": "CMU Serif",
   "textFontFamily": "CMU Serif",
-  "monospaceFontFamily": "CMU Serif"
+  "monospaceFontFamily": "CMU Serif",
+  "baseFontSize": 19
 }

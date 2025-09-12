@@ -29,11 +29,26 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
+  /**
+   * Default value for the notification setting, detailing the
+   * condition for sending a notification. (By default, it is set to true).
+   */
   notification: true,
+  /**
+   * Default value for the debug setting, detailing the condition
+   * for sending debug messages (By default, it is set to false).
+   */
   debug: false,
+  /**
+   * Default value for the canvasVim setting, detailing the condition
+   * for setting vim mode off by default for canvas files (By default, it is set to false).
+   */
   canvasVim: false
 };
 var VimToggle = class extends import_obsidian.Plugin {
+  /**
+   * On load method for the Vim Toggle plugin. Called when Vim Toggle is loaded.
+   **/
   async onload() {
     await this.loadSettings();
     this.addCommand({
@@ -65,8 +80,7 @@ var VimToggle = class extends import_obsidian.Plugin {
       this.app.workspace.on(
         "file-open",
         (file) => {
-          if (!file || !this.settings.canvasVim)
-            return;
+          if (!file || !this.settings.canvasVim) return;
           if (file.extension == "canvas") {
             this.turnOffVimMode();
           } else {
@@ -76,6 +90,9 @@ var VimToggle = class extends import_obsidian.Plugin {
       )
     );
   }
+  /**
+   * Toggles the state of vim mode in the current instance of obsidian.
+   **/
   toggleVimMode() {
     if (this.getVimMode()) {
       this.turnOffVimMode();
@@ -89,30 +106,65 @@ var VimToggle = class extends import_obsidian.Plugin {
       );
     }
   }
+  /**
+   * Turns off vim mode in the current instance of obsidian.
+   **/
   turnOffVimMode() {
-    this.app.vault.setConfig("vimMode", false);
+    if (this.app.isMobile) {
+      localStorage.removeItem("vim");
+      this.app.workspace.updateOptions();
+    } else {
+      this.app.vault.setConfig("vimMode", false);
+    }
   }
+  /**
+   * Turns on vim mode in the current instance of obsidian.
+   **/
   turnOnVimMode() {
-    this.app.vault.setConfig("vimMode", true);
+    if (this.app.isMobile) {
+      localStorage.setItem("vim", "true");
+      this.app.workspace.updateOptions();
+    } else {
+      this.app.vault.setConfig("vimMode", true);
+    }
   }
+  /**
+   * Returns the current state of vim mode in the current instance of obsidian.
+   **/
   getVimMode() {
-    return this.app.vault.getConfig("vimMode");
+    return this.app.isVimEnabled();
   }
+  /**
+   * Unload Method for unloading Vim Toggle.Called when the plugin is unloaded.
+   **/
   onunload() {
     console.log("unloading plugin: " + this.manifest.name);
   }
+  /**
+   * Loads the settings of the plugin, Vim Toggle, it is called in the onload function.
+   **/
   async loadSettings() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
   }
+  /**
+   * Saves the settings of the Vim Toggle plugin.
+   */
   async saveSettings() {
     await this.saveData(this.settings);
   }
 };
 var VimToggleSettingsTab = class extends import_obsidian.PluginSettingTab {
+  /**
+   * Constructor for the settings tab of the Vim Toggle plugin.
+   */
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
   }
+  /**
+   * This is the display method for the settings tab of the Vim Toggle Plugin.It is
+   * responsible for displaying the settings of the plugin.
+   */
   display() {
     const { containerEl } = this;
     containerEl.empty();

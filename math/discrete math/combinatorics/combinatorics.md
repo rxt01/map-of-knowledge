@@ -6,3 +6,4 @@ abstract:
 | #tags      |                |
 | level      | #              |
 | degrees    |                |
+# #french-note 

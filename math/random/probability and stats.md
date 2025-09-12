@@ -1,12 +1,12 @@
 ---
 abstract:
 ---
-|            | I                     | II                                                           |
-| ---------- | --------------------- | ------------------------------------------------------------ |
-| precursors | [[diff and int calc]] |                                                              |
-| #tags      |                       |                                                              |
-| level      | #college              | #bachelor                                                    |
-| degrees    |                       | #math/all/mandatory #econ/option #cs/mandatory #EE/mandatory |
+|            | I                                               | II                                                           |
+| ---------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| precursors | [[diff and int calc]] [[set theory]] [[combin]] |                                                              |
+| #tags      |                                                 |                                                              |
+| level      | #college                                        | #bachelor                                                    |
+| degrees    |                                                 | #math/all/mandatory #econ/option #cs/mandatory #EE/mandatory |
 # #french-note
 ## definitions
 ### population
@@ -86,3 +86,66 @@ $$\text{N(A}\cup\text{B)}=\text{N(A)}+\text{N(B)}-\text{N(A}\cap\text{B)}$$
 $$\text{P(A|B)}=\frac{\text{P(A}\cap\text{B)}}{\text{P(B)}}$$
 ##### evenements independents
 $$\text{P(A|B)}=\text{P(A)}$$
+$$\text{P}(\text{A}\cap \text{B})=\text{P}(\text{A})\cdot \text{P}(\text{B})$$
+### variables aleatoires
+#### variables discretes
+##### mesures de tendance centrale et de dispersion
+###### moyenne
+statistique d'un echantilon: $$\bar{x}=\frac{\sum x_{i}n_{i}}{n}=\sum x_{i}\left( \frac{n_{i}}{n} \right)$$
+ou $n_{i}$ represente la frequence observe de la valeur $x_{i}$
+parametre d'une population
+en replacent $\frac{n_{i}}{x_{i}}$ par $f(x_{i})$, on obtient la moyenne $\mu$ soit $$\mu=\sum x_{i}f(x_{i})$$
+###### ecart type
+statistique:
+$$s=\sqrt{ \frac{\sum(x_{i}-\bar{x})^2n_{i}}{n-1} }=\sqrt{ \sum(x_{i}-\bar{x})^2\left( \frac{n_{i}}{n-1} \right) }$$
+parametre:
+$$\sigma=\sqrt{ \sum(x_{i}-\mu)^2f(x_{i}) }$$
+###### variances
+carre de l'ecart type
+$$\sigma^2=\sum(x_{i}-\mu)^2f(x_{i})$$
+##### distribution binomiale
+###### epreuve de bernoulli
+que 2 resultats possibles: succes et echec
+probabilite de succes: $\pi$
+probabilite d'echec: $\pi-1$
+si on repete l'epreuve n fois de maniere independante, la variable aleatoire $X$=nombre de succes suit une distribution $\text{B}(n;\pi)$ 
+$$\mu=n\pi$$
+$$\sigma=\sqrt{ n\pi(1-\pi) }$$
+$$\text{P}(X=x)=\left(\begin{matrix}n\\x\end{matrix}\right)\pi^{x}(1-\pi)^{(n-x)}$$ 
+#### variables continues
+soit une fonction de densite $f(x)$:
+$$\int_{x\in \Omega}f(x)dx=1$$
+$$f(x)\geq 0\ \forall x$$
+$$\text{P}(a<X<b)=\int_{a}^{b}f(x)dx$$
+##### distribution normal
+$X$ a une distribution $\text{N}(\mu;\sigma^2)$ si 
+$$f(x)=\frac{1}{\sigma \sqrt{ 2\pi }}e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)},\ \forall x\in \mathbb{R} $$
+###### cotes Z
+la variable $Z$ a une distribution $\text{N}(0;1)$
+$$Z_{x}=\frac{x-\mu}{\sigma}$$$$\text{p}(a<X<b)=\text{P}(Z_{a}<Z<Z_{b})$$
+### distributions d'echantillonage
+#### distribution de proportion
+soit $X \in \Omega$ le resultat d'une epreuve de bernoulie
+$$P=\frac{X}{n}$$
+$$\mu_{p}=\pi$$
+$$\sigma_{p}=\sqrt{ \frac{\pi(1-\pi)}{n} }\sqrt{ \frac{N-n}{N-1} }$$
+#### distribution d'une moyenne
+soit $X$ et un echantillon de taille $n$
+$\bar{X}=$ moyenne des donnes de $X$ dans l'echantillon 
+$$\mu_{\bar{x}}=\mu_{x}$$
+$$\sigma_{\bar{x}}=\frac{\sigma_{x}}{\sqrt{ N }}\sqrt{ \frac{N-n}{N-1} }$$
+ou $N$ est la taile de la population
+## inference statistique
+### estimation
+$\bar{X}$ est un estimateur sans biais pour $\mu$; $\mu_{\bar{x}}=\mu$
+$P$ est un estimateur sans biais pour $\pi$;$\mu_{p}=\pi$
+$S^2$ est un estimateur sans biais pour $\sigma^2$
+#### estimation ponctuelle d
+$\bar{x}\approx \mu$
+$p\approx \pi$
+$s\approx \sigma$
+
+
+### tests d'hypothess
+$\text{H}_{0}:\mu=\mu_{0}$
+$\text{H}_{1}:\mu>\mu_{0}$ ou $\text{H}_{1}:\mu<\mu_{0}$ ou $\text{H}_{1}:\mu\ne\mu_{0}$
