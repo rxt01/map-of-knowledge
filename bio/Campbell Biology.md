@@ -68,6 +68,8 @@ chaque espèce a 1 nom en 2 parties:
 ###### l'unité et la diversité
 ##### Charles Darwin et la théorie de la selection naturelle
 les individu plus adapte a leur environnement on généralement plus de descendant
+[[ecology and evolution#evolution selon darwin]]
+
 ##### l'arbre de la vie
 les branches de l'arbre de la vie s'entremellent
 #### concept 1.3

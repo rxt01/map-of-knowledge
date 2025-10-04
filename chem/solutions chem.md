@@ -1,5 +1,6 @@
 ---
 abstract: chemistry of solutions
+lang: fr
 ---
 
 

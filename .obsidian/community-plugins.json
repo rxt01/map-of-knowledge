@@ -1,5 +1,4 @@
 [
-  "obsidian-banners",
   "obsidian-book-search-plugin",
   "code-emitter",
   "cmdr",
@@ -30,5 +29,7 @@
   "chem",
   "graph-analysis",
   "obsidian-living-graph",
-  "execute-code"
+  "execute-code",
+  "plugin-reloader",
+  "wiktionary-spellcheck"
 ]

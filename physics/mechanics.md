@@ -21,6 +21,8 @@ la position est representer par un point
 le passage d'une position a une autre est le deplacement $$\Delta x=x_{f}-x_{i}$$
 
 $\Delta x$ peut etre positif, negatif ou nul
+
+$$\Delta x=\int_{t_{i}}^{t_{f}}v_{x}dt$$
 #### vitesse moyenne
 $$v_{moy,x}=\frac{\Delta x}{\Delta t}$$
 
@@ -36,6 +38,7 @@ $$v_{x}=\frac{\Delta x}{\Delta t}\to x_{f}=x_{i}+v_{x}\Delta t$$
 $$a_{moy,x}=\frac{\Delta_{x}}{\Delta t}= \frac{v_{fx}-v_{ix}}{t_{f-t_{i}}}$$
 #### acceleration instantanee
 $$a_{x}=\dot{v}_{x}$$
+$$\Delta v_{x}=\int_{t_{i}}^{t_{f}}a_{x}dt$$
 #### signes des variable
 ##### position
 $x>0$: l'objet est a droite
@@ -69,7 +72,7 @@ $$v_{x}=v\cos \theta$$
 $$v_{y}=v\sin \theta$$
 $$\theta=\arctan \frac{v_{y}}{v_{x}}$$
 le vecteur acceleration est la difference entre deux vecteurs vitesses par rapport au temps: $\vec{a}=\frac{\vec{v}_{2}-\vec{v}_{1}}{t_{2}-t_{1}}$
-$\vec{a}=\frac{\Delta \vec{v}}{\Delta t}=\frac{\Delta v_{x}}{\Delta t}\hat{\imath}+\frac{\Delta v_{y}}{\Delta t}\hat{\jmath}$
+$$\vec{a}=\frac{\Delta \vec{v}}{\Delta t}=\frac{\Delta v_{x}}{\Delta t}\hat{\imath}+\frac{\Delta v_{y}}{\Delta t}\hat{\jmath}$$
 #### mouvement du projectile
 la trajectoire est une combinaison du MRU en x et d'un MRUA en y
 #### mcu

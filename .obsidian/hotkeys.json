@@ -7,5 +7,21 @@
       ],
       "key": "T"
     }
+  ],
+  "wiktionary-spellcheck:wiktionary-spellcheck-add-word-to-dictionary": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "wiktionary-spellcheck:wiktionary-spellcheck-open-wiktionary": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
   ]
 }

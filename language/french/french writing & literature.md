@@ -177,7 +177,6 @@ pas de question
 3. preparer la structure de l'analyse
 4. citations
 ## revolution francaise
-<!--- this should be in a history subject -->
 ![[french revolution]]
 ## autres evenements en france au XIXe sciecle
 <!-- this should be in a history subject -->
@@ -344,7 +343,6 @@ les poemes suivent presque tous la meme progression, le meme fil conducteur
 - la chute doit etre efficace
 
 ## revolution industrielle
-<!-- this should be in a history subject -->
 ![[industrial revolution]]
 
 ## realisme

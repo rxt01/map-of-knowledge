@@ -1,5 +1,6 @@
 ---
 abstract:
+lang: fr
 ---
 | precursors | [[cellular biology]] |
 | ---------- | -------------------- |

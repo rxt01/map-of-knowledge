@@ -102,7 +102,7 @@
 		{"id":"f3e3819a7e23d1fd","type":"text","text":"[great apes](ecology%20and%20evolution.md#super%20famille%20des%20hominoide)","x":-65,"y":1080,"width":250,"height":60},
 		{"id":"2ed661d756ab047b","type":"text","text":"tarsiers","x":355,"y":1050,"width":250,"height":60},
 		{"id":"7960d24884900055","type":"text","text":"lemurs","x":537,"y":944,"width":250,"height":60},
-		{"id":"74141058ba9624b9","x":172,"y":1182,"width":250,"height":60,"type":"text","text":"mokeys"}
+		{"id":"74141058ba9624b9","type":"text","text":"monkeys","x":172,"y":1182,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"ec663b739dc298d6","fromNode":"4f661c21197b9f38","fromSide":"left","toNode":"a53b1bd7b4134210","toSide":"right"},
@@ -187,7 +187,7 @@
 		{"id":"8ad78abeeb103e8a","fromNode":"ebbe7c99c11c4df9","fromSide":"left","toNode":"a57216f77bf3c1b3","toSide":"right"},
 		{"id":"3d31a74ae504017d","fromNode":"a57216f77bf3c1b3","fromSide":"top","toNode":"f999c368e84c04e8","toSide":"bottom"},
 		{"id":"831f3ab8365ea50d","fromNode":"a57216f77bf3c1b3","fromSide":"bottom","toNode":"d071aaa7ff4575c5","toSide":"top"},
-		{"id":"bd181bd027804d5e","fromNode":"d071aaa7ff4575c5","fromSide":"right","toNode":"ee215715c29a960e","toSide":"left"},
+		{"id":"bd181bd027804d5e","fromNode":"d071aaa7ff4575c5","fromSide":"right","toNode":"ee215715c29a960e","toSide":"left","label":"no milk"},
 		{"id":"14220830fe31d31e","fromNode":"ee215715c29a960e","fromSide":"right","toNode":"27bd7b7241a552e6","toSide":"left"},
 		{"id":"6f0e4319789ede32","fromNode":"ee215715c29a960e","fromSide":"right","toNode":"484fc220ed6e3e90","toSide":"left"},
 		{"id":"b45f76c0b47a273c","fromNode":"ee215715c29a960e","fromSide":"right","toNode":"452df61cb6a9f800","toSide":"left"},
@@ -195,7 +195,7 @@
 		{"id":"a4e849555b0bec2e","fromNode":"b1c10445b68605a1","fromSide":"bottom","toNode":"b1e620cbbbfbabf1","toSide":"top"},
 		{"id":"9c6d890afec4386b","fromNode":"b1e620cbbbfbabf1","fromSide":"right","toNode":"cb1d34c0e99e26f5","toSide":"left"},
 		{"id":"86d1ad666e12b5a7","fromNode":"b1e620cbbbfbabf1","fromSide":"left","toNode":"8cd6d1a3bb939ec4","toSide":"right"},
-		{"id":"63704f9301449c3b","fromNode":"d071aaa7ff4575c5","fromSide":"left","toNode":"57856565605b9c77","toSide":"right"},
+		{"id":"63704f9301449c3b","fromNode":"d071aaa7ff4575c5","fromSide":"left","toNode":"57856565605b9c77","toSide":"right","label":"milk"},
 		{"id":"6ecc3cbc86fbaea9","fromNode":"57856565605b9c77","fromSide":"bottom","toNode":"f375a24da0fe0657","toSide":"left"},
 		{"id":"eda609c1a40a0eb9","fromNode":"57856565605b9c77","fromSide":"top","toNode":"a2e65d797ba6e389","toSide":"bottom"},
 		{"id":"9a03b4e466e86a5e","fromNode":"57856565605b9c77","fromSide":"left","toNode":"36c89be235d41438","toSide":"right"},

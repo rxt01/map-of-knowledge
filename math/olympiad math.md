@@ -19,5 +19,6 @@ $$(a+b)^k=\sum_{n=0}^k\left(\begin{matrix}
 n \\
 k
 \end{matrix}\right)a^nb^{k-n}$$
+$$\left( \sum\limits_{i=1}^{m}a_{i} \right)^{n}=\sum\limits_{\sum\limits_{i=1}^{m}k_{i}=n} \frac{n!}{\prod\limits_{i=1}^{m}k_{i}!} \prod\limits_{r=1}^{m}x_{r}^{kr}$$
 
 

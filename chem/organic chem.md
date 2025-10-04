@@ -494,3 +494,170 @@ les fleches vont d'un doublet du nucleophile vers un atome de l'electrophile
 si l'electrophile n'est pas charge, il y a parfois des groupement partant
 plus le $pK_{A}$ de l'acide conjugue est petit plus le groupement partant sera bon
 
+### effet inductif
+la polarite d'une liaison creera des charges partielles dans une molecule. ces charges partiels seront transmises sur plusiers atomes, avec un effet qui diminue avec la distance
+#### groupement inductif donneur
+atomes peu electronegatifs comme l'hydrogene, les groupements carbonnes et les metaux. il y aura un effet accumulatif des effets inductifs donneur si l'on a beaucoup de groupement donneur
+#### groupement inductif receveur
+atomes tres electronegatif comme les halogenes, l'oxygene et l'azote
+#### stabilisation des anions et cations
+dans les cas des cations, l'espece a un defaut d'e$^-$ puisquel'ion est charge positivement. ainsi, pour stabiliser le cation, celui-ci voudra recevoir des e$^-$ donc des groupements inductifs donneurs stabiliseront les cations. a l'inverse un groupement inductif attracteur appauvrira encore plus le cation d'e$^-$ et donc le destabilisera
+
+Dans le cas des anions, l’espèce a un excès d’e$^-$ puisque l’ion est chargé
+négativement. Ainsi, pour stabiliser l’anion, celui-ci voudra donner des
+e$^-$ donc des groupements inductifs attracteurs stabiliseront les anions.
+À l’inverse, un groupement inductif donneur donnera encore plus de
+e$^-$ à l’anion et donc le déstabilisera.
+
+Plus il y aura des groupements I$^+$ (donneur), plus le carbocation sera stabilisé
+
+Plus il y aura des groupements I$^+$ (donneur), moins le carbanion sera stabilisé
+
+Similaire aux carbocations.
+Plus il y aura des groupements I$^+$ (donneur), plus le radical sera stabilisé
+
+#### facteurs influant l'effet inductif
+electronegativite: plus l'electronegativite est forte, plus l'effet influant attracteur est fort
+
+distance: l'effet diminue avec la distance
+
+amplification avec le nombre d'atome: accumulation des effets inductifs
+
+## alcanes
+proviennent du petrol et du gaz naturel
+### propiete physiques
+gazeux si moins de 4C, liquide entre 5C et 17C, solide si plus de C
+solubles dans les solvants organiques non polaires
+insolubles dans l'eau
+#### nomenclature
+
+| carbone | prefix |
+| ------- | ------ |
+| 1       | meth   |
+| 2       | eth    |
+| 3       | prop   |
+| 4       | but    |
+| 5       | pent   |
+| 6       | hex    |
+| 7       | hept   |
+| 8       | oct    |
+| 9       | non    |
+| 10      | dec    |
+| 11      | undec  |
+| 12      | duodec |
+
+##### non ramifies
+prefix + -ane
+##### ramifies
+nom de la plus longue chaine
+prefix des ramifications + -yl
+chosir la numerotation de sort a avoir le plus petit chiffre
+
+\[numerotation + ramifications\](ordre alphabetique) + chaine principal
+
+si plusieurs fois la meme ramifications
+
+list des numerotation et
+prefix devant le nom de la ramifications
+
+| nombre | prefix |
+| ------ | ------ |
+| 2      | di     |
+| 3      | tri    |
+| 4      | tetra  |
+| 5      | penta  |
+| 6      | hexa   |
+| 7      | hepta  |
+| 8      | octa   |
+| 9      | nona   |
+| 10     | deca   |
+
+##### ramification particuliere
+###### 3C:
+$n$-propyle
+```smiles
+*CCC
+```
+
+isopropyle
+```smiles
+*C(C)C
+```
+
+
+###### 4C:
+
+$n$-butyle
+```smiles
+*CCCC
+```
+
+isobutyle
+```smiles
+*CC(C)C
+```
+
+sec-butyle
+```smiles
+*C(C)CC
+```
+
+tert-butyle
+```smiles
+*C(C)(C)C
+```
+
+
+
+
+$n$, sec et tert ne compte pas dans l'ordre alphabetique
+
+###### cycle aromatique
+phenyle
+```smiles
+*c1ccccc1
+```
+
+
+benzyle
+```smiles
+*Cc1ccccc1
+```
+
+
+
+#### cyclyque
+meme chose mais avec prefix cyclo
+
+debut de la numerotation soit pour ordre alphabetique ou pour plus petite numerotation total
+
+### reaction
+
+halogenation radicalaire: reaction avec X$_2$ et source d'energie
+
+reaction seulement possible avec une source d'energie et qui se fait seulement avec les alcanes
+
+source d'energie: irridation lumineuse (hv) ou chaleur ($Delta$)
+
+$$\ce{R-H + X-X ->[h\nu ou \Delta] R-X + X-H}$$
+
+la reaction peut se faire avec Br$_2$ et Cl$_3$
+la reaction peut se faire avec I$_2$ n'est pas favorisee car endothermique et,
+avec F$_2$, la reaction est tres exothermique (risque d'explosion)
+#### ratio des produits
+##### avec Cl$_{2}$
+reaction avec radical intermediaire plus stable favorise
+
+| radical                       | primaire | secondaire | tertiaire |
+| ----------------------------- | -------- | ---------- | --------- |
+| vitesse relative de formation | 1.0      | 3.8        | 5.0       |
+##### avec Br$_{2}$
+seulement la stabilite des radicaux intermediares sera importante
+### formation
+- hydrogenation eds alcenes
+- hydrogenation des alcynes
+- hydrogenation des composes halogenes
+- reaction de wurtz
+- reaction d'un compose organometallique avec l'eau
+- hydrogenation des composes aromatique
+- deshalogenation

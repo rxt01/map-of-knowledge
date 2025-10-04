@@ -1,5 +1,6 @@
 ---
 abstract: biology of the cell
+lang: fr
 ---
 
 | precursors | [[]]                     |
@@ -141,7 +142,19 @@ source d'énergie a cours termes
 $$(\text{CH}_2\text{O})_n$$
 #### glucide simples
 ##### monosaccharides
-![[monosaccharides]]
+###### glucose
+
+```smiles
+C([C@@]1[C@]([C@@]([C@](C(O1)O)O)O)O)O
+```
+###### fructose
+```smiles
+C1[C@]([C@]([C@@](C(O1)(CO)O)O)O)O
+```
+###### galactose
+```smiles
+C([C@@]1[C@@]([C@@]([C@](C(O1)O)O)O)O)O
+```
 ##### disaccharides
 2 monosaccharides lié par des liaisons glycosodiques
 - lactose: galactose + glucose

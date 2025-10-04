@@ -87,6 +87,10 @@ $$\text{P(A|B)}=\frac{\text{P(A}\cap\text{B)}}{\text{P(B)}}$$
 ##### evenements independents
 $$\text{P(A|B)}=\text{P(A)}$$
 $$\text{P}(\text{A}\cap \text{B})=\text{P}(\text{A})\cdot \text{P}(\text{B})$$
+#### formule de bayes
+$$P(A_{i}|B)= \frac{P(B|A_{i})P(A_{i})}{\sum\limits_{j=1}^{n}P(B|A_{j})P(A_{j})}$$
+ou $\{ A_{1},\cdots,A_{n} \}$ est une partition
+
 ### variables aleatoires
 #### variables discretes
 ##### mesures de tendance centrale et de dispersion
@@ -94,7 +98,7 @@ $$\text{P}(\text{A}\cap \text{B})=\text{P}(\text{A})\cdot \text{P}(\text{B})$$
 statistique d'un echantilon: $$\bar{x}=\frac{\sum x_{i}n_{i}}{n}=\sum x_{i}\left( \frac{n_{i}}{n} \right)$$
 ou $n_{i}$ represente la frequence observe de la valeur $x_{i}$
 parametre d'une population
-en replacent $\frac{n_{i}}{x_{i}}$ par $f(x_{i})$, on obtient la moyenne $\mu$ soit $$\mu=\sum x_{i}f(x_{i})$$
+en replacent $\frac{n_{i}}{n}$ par $f(x_{i})$, on obtient la moyenne $\mu$ soit $$\mu=\sum x_{i}f(x_{i})$$
 ###### ecart type
 statistique:
 $$s=\sqrt{ \frac{\sum(x_{i}-\bar{x})^2n_{i}}{n-1} }=\sqrt{ \sum(x_{i}-\bar{x})^2\left( \frac{n_{i}}{n-1} \right) }$$

@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[category theory]] |
-| ---------- | ------------------- |
-| #tags      |                     |
-| level      | #                   |
-| degrees    |                     |
+| precursors | [[category theory]]  |
+| ---------- | -------------------- |
+| #tags      |                      |
+| level      | #                    |
+| degrees    |                      |
 

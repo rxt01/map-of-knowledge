@@ -26,6 +26,7 @@
     "type": "multitext",
     "date of creation": "text",
     "topics": "multitext",
-    "excalidraw-embed-md": "checkbox"
+    "excalidraw-embed-md": "checkbox",
+    "langs": "multitext"
   }
 }

@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "eb229e0079d92dc9",
+        "id": "10f3a2802d2462eb",
         "type": "tabs",
         "children": [
           {
-            "id": "b271668268073652",
+            "id": "16394fd069f454bd",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "cb3a8cc88407dd0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/EM.md",
+                "file": "language/ancient languages/ancient greek/ancient greek thru lain/Alexandros Chapter 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EM"
+              "title": "Alexandros Chapter 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "polymer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physics/EM.md",
+                "file": "language/books/familia romana.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EM"
+              "title": "Outline of familia romana"
             }
           },
           {
@@ -172,12 +183,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/other languages/latex.md",
+                "file": "language/books/familia romana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from latex"
+              "title": "Outgoing links from familia romana"
             }
           },
           {
@@ -186,8 +197,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -368,6 +379,198 @@
             "id": "c9644c2ce5066906",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e226714615e8dd28",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "afde8e315fec2ece",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9e5b40c03c6129d4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "35e18c6c6dbb55ee",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "3a7b5db6308733e7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "76eb5769887d4dfd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "94b295e68081e18c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "3ab5823086eea20f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "4f28977a6dc82583",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e802a9d427ab1d2a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "0ef58ad47e7d189b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "01e61be778299985",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ef2f374e87c505b9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8889abc93d8e211d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "4bbbd6a6132bd692",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "Dictionary"
+            }
+          },
+          {
+            "id": "2e7166b38818ee07",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d77d9e31deefa3c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "language/books/familia romana.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for familia romana"
+            }
+          },
+          {
+            "id": "424632d7a04d4412",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "95aa7b508af8736d",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -375,7 +578,7 @@
             }
           },
           {
-            "id": "e226714615e8dd28",
+            "id": "19090b8371e73168",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -385,11 +588,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 45
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 214.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -411,47 +615,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7f54eb05cbe9bb00",
+  "active": "cb3a8cc88407dd0d",
   "lastOpenFiles": [
-    "math/measure theory.md",
-    "chem/organic chem.md",
-    "math/proof list.md",
-    "math/algebra/operator algebra.md",
-    "math/algebra/representation theory.md",
-    "math/algebra/vertex operator algebra.md",
-    "math/geo/algebraic geo.md",
-    "math/algebra/commutative algebra.md",
-    "math/algebra/elementary algebra.md",
-    "math/diff/ODE.md",
-    "math/anal/func anal.md",
-    "math/anal/fourier anal.md",
-    "math/anal/diff anal.md",
-    "math/anal/complex anal.md",
-    "math/anal/combinatorial anal.md",
-    "math/anal/applied anal.md",
-    "math/anal/real anal.md",
+    "dictionaries/grc_wiktionary.json~",
+    "dictionaries/clean.py",
+    "language/ancient languages/ancient greek/ancient greek thru lain/Alexandros Chapter 1.md",
+    "chem/solutions chem.md",
+    "language/ancient languages/PIE.md",
+    "language/ancient languages/ancient greek/ancient greek thru lain",
+    "language/books/familia romana.md",
+    "language/books/la parure.md",
     "physics/EM.md",
-    "math/algebra/LA/LA.md",
-    "math/algebra/LA/abstract LA.md",
-    "unsorted/psychology of hapiness.md",
-    "CS/intro to programming in sciences.md",
-    "math/calc/diff and int calc.md",
-    "math/unsolved problems/milenium probems/riemann hypothesis.md",
-    "math/category theory/category theory.md",
-    "math/top/algebraic top.md",
-    "language/ancient languages/latin",
-    "language/ancient languages/ancient greek",
-    "language/ancient languages",
-    "language/PIE",
-    "math/SoME",
-    "CS/other languages",
-    "CS/programming languages",
-    "language/linguistics",
-    "language/Untitled.canvas",
-    "history",
-    "economics/finance",
-    "bio/concept map/Acides nucleiques.canvas",
+    "nominatīvus.md",
+    "weapons-military/the art of war.md",
+    "README.md",
+    "chem/organic chem.md",
+    "Untitled.base",
+    "bio/cellular biology.md",
+    "language/books/boule de suif.md",
+    "dictionaries/ang_wiktionary.json",
+    "dictionaries/non_wiktionary.json",
+    "dictionaries/fro_wiktionary.json",
+    "dictionaries/chu_wiktionary.json",
+    "dictionaries/cop_wiktionary.json",
+    "dictionaries/ine_wiktionary.json",
+    "dictionaries/gmy_wiktionary.json",
+    "bio/ecology and evolution.md",
+    "bio/ecology and environment.md",
+    "language/french/french writing & literature.md",
+    "history/enlightment.md",
+    "physics/aerodynamics.md",
+    "math/SoME/hackenbush.md",
+    "math/anal/func anal.md",
+    "math/random/probability theory.md",
+    "math/random/discrete stochastic processes.md",
+    "unsorted/polymer physics.md",
+    "engineering/aerospace/propulsion systems.md",
+    "engineering/aerospace/rocket propulsion.md",
+    "physics/SM.md",
     "bio/tree of life.canvas",
+    "language/Untitled.canvas",
+    "bio/concept map/Acides nucleiques.canvas",
     "bio/concept map/Transport.canvas",
     "bio/concept map/replication de l'adn.canvas",
     "bio/concept map/Proteines.canvas",
@@ -460,14 +664,14 @@
     "bio/concept map/Lipides.canvas",
     "bio/concept map/Glucides.canvas",
     "cell.svg",
-    "weapons/pictures/position a deux mains.png",
-    "weapons/pictures/tir a la carabine a genou.png",
-    "weapons/pictures/tir au fusil de chasse.png",
-    "weapons/pictures/tir a la carabine couche.png",
-    "weapons/pictures/tir a la carabine assis.png",
-    "weapons/pictures/tir a la carabine debout.png",
-    "weapons/pictures/position a la bretelle.png",
-    "weapons/pictures/position sur l'epaule.png",
-    "weapons/pictures/position a la main.png"
+    "weapons-military/pictures/position a deux mains.png",
+    "weapons-military/pictures/tir a la carabine a genou.png",
+    "weapons-military/pictures/tir au fusil de chasse.png",
+    "weapons-military/pictures/tir a la carabine couche.png",
+    "weapons-military/pictures/tir a la carabine assis.png",
+    "weapons-military/pictures/tir a la carabine debout.png",
+    "weapons-military/pictures/position a la bretelle.png",
+    "weapons-military/pictures/position sur l'epaule.png",
+    "weapons-military/pictures/position a la main.png"
   ]
 }

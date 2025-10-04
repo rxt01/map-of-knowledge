@@ -17,7 +17,7 @@ $$\frac{1}{g(y)} \frac{dy}{dt}=f(t)$$
 $$\int \frac{1}{g(y)} \frac{dy}{dt}dt =\int f(t)dt$$
 $$\int \frac{1}{g(y)}dy=F(t)$$
 ## existence and uniqueness theorem
-if $f$ and $\frac{\partial f}{\partial y}$ are continuous near $(x_{0},y_{0})$, then there is a unique solution on an interval $\alpha<x_{0}<\beta$ to the I.V.P $$y'=f(x,y),\ \ y(x_{0})=y_{0}$$
+if $f$ and $\frac{\partial f}{\partial y}$ are continuous near $(x_{0},y_{0})$, then $\exists!$ solution on an interval $\alpha<x_{0}<\beta$ to the I.V.P $$y'=f(x,y),\ \ y(x_{0})=y_{0}$$
 ## linear ODEs
 an ODE is linear $\iff$ $$a_{n}(x)y^{(n)}+a_{n-1}(x)y^{(n-1)}+\cdots + a_{1}(x)y'+a_{0}(x)y=b(x)$$
 a linear ODE is homogeneous $\iff b(x)=0$ 
@@ -36,6 +36,9 @@ $u=y^{1-n}$ $\implies$ $u'=(1-n)y^{-n}y'$
 $$y^{-n}y'+p(x)y^{1-n}=Q(x)$$
 $$\frac{1}{1-n}u'+p(x)u=Q(x)$$
 $$u'+(1-n)p(x)u=(1-n)Q(x)$$
+#### homogeneous
+let the differential equation be writable as $$y'=F\left( \frac{y}{x} \right)$$then $u=\frac{y}{x}\implies y'=u+xu'$
+hence the implicit solution is $$\int \frac{1}{F(v)-v}dv=\ln|x|+C$$
 
 ### 2nd order
 

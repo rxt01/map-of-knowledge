@@ -1,19 +1,20 @@
 ---
-title: 
-- Boule de suif
+title:
+  - Boule de suif
 tags:
   - book
   - tags
-author: 
-- guy de maupassant
-contributors: 
-abstract: 
-publishDate: 
-totalPage: 
-link: 
-type: 
-isbn13: 
+author:
+  - guy de maupassant
+contributors:
+abstract:
+publishDate:
+totalPage:
+link:
+type:
+isbn13:
 isbn10:
+lang: fr
 ---
 
 # #french-note 

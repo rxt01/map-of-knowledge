@@ -67,18 +67,9 @@ c&&d
 
 ## math mode
 ## packages
-### biblatex
-package for managing bibliography
-#### commands
-| command               | use                                       |
-| --------------------- | ----------------------------------------- |
-| `\addbibresource{#1}` | add file `#1` to the list of references   |
-| `\printbibliography`  | print the bibliography                    |
-| `\textcite{#1}`       | cite `#1` and adds it to the bibliography |
-|                       |                                           |
 ### graphicx
 handle images
 #### commands
-| command               | use                                  |
-| --------------------- | ------------------------- |
-| ` includes the image `#1`   `  `  `  `  `  `  `  `  `  `  `  |
+| command                                                     | use |
+| ----------------------------------------------------------- | --- |
+

@@ -111,8 +111,8 @@ if each $f_{i}$ is a homeoporphism, so is the product
 ## hausdorff spaces
 a topological space is $X$ is hausdorff if any pair of distinct points have disjoint neighborhood
 ## upper half-space
-$\mathbb{H}^n\subseteq \mathbb{R}^n$ is
-$\mathbb{H}^n:=\{ (x_{1},\cdots,x_{n})\in \mathbb{R}^{n} |x_{n}\ge 0\}$
+$\mathcal{H}^n\subseteq \mathbb{R}^n$ is
+$\mathcal{H}^n:=\{ (x_{1},\cdots,x_{n})\in \mathbb{R}^{n} |x_{n}\ge 0\}$
 ## locally eucledian spaces
 a space $M$ is locally eucledian of dimension $n$ if every point $x\in M$ has a neighborhood homeomorphic to an open ball $\mathbb{B}^{n}\subseteq \mathbb{R}^n$
 ## topological manifold
