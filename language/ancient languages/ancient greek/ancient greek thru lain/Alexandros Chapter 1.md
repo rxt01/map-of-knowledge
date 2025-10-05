@@ -40,3 +40,4 @@ graecae litterae sunt:
 - ψeῖ
 - ὦ
 
+ut salūtēmus ūnum hominem,  χαῖρε dīcimus, et ut salūtēmus plūrimum hominēs,  χάιρετε dīcimus 

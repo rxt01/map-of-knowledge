@@ -361,7 +361,7 @@ const EDITOR_THEME = EditorView.baseTheme({
 
 /**
  * The function that generates the actual CodeMirror Decorations, dynamically selecting the dictionary.
- * It now checks against ALL active dictionaries.
+ * (Now only processes the visible ranges - performance fix 1).
  */
 function getSpellcheckDecorations(view: EditorView, app: App, plugin: WiktionarySpellcheckPlugin): DecorationSet {
     const activeView = app.workspace.getActiveViewOfType(MarkdownView);
@@ -378,62 +378,88 @@ function getSpellcheckDecorations(view: EditorView, app: App, plugin: Wiktionary
     for (const code of langCodes) {
         const dict = plugin.dictionaries.get(code);
         if (dict) {
-            // Add all words from the dictionary set
             dict.forEach(word => allDictionaries.add(word));
         }
         
         const ignoredArray = plugin.settings.ignoredWords[code] || [];
-        // CRITICAL FIX: Add all words from the ignored list set, ensuring they are **NFD normalized**
         ignoredArray.map(w => w.normalize('NFD').toLowerCase()).forEach(word => allIgnoredWords.add(word));
     }
 
     if (allDictionaries.size === 0) return Decoration.none;
 
     const widgets: Range<Decoration>[] = [];
-    const text = view.state.doc.toString();
-    const tokens = tokenizeWithOffset(text);
+    
+    for (const { from, to } of view.visibleRanges) { 
+        // Slice the content of the visible range
+        const lineText = view.state.doc.sliceString(from, to);
+        const tokens = tokenizeWithOffset(lineText);
 
-    for (const token of tokens) {
-        const originalWord = token.word; 
-        const start = token.index;
-        const end = start + originalWord.length; 
-
-        if (originalWord.length <= 2) continue;
-        
-        // CRITICAL FIX: Ensure the word for lookup is **NFD normalized** and lowercased.
-        // This relies on tokenizeWithOffset capturing the full character sequence (including marks)
-        const wordForLookup = originalWord.normalize('NFD').toLowerCase(); 
-
-        // CRITICAL: Check against the combined dictionaries and ignore lists
-        if (!isWordCorrect(wordForLookup, allDictionaries, allIgnoredWords)) {
+        for (const token of tokens) {
+            const originalWord = token.word; 
             
-            const mark = Decoration.mark({ class: "cm-spellcheck-error" });
-            widgets.push(mark.range(start, end));
+            // Calculate global document offsets by adding the range's 'from' offset
+            const start = from + token.index; 
+            const end = start + originalWord.length; 
+
+            if (originalWord.length <= 2) continue;
+            
+            // Ensure the word for lookup is **NFD normalized** and lowercased.
+            const wordForLookup = originalWord.normalize('NFD').toLowerCase(); 
+
+            // Check against the combined dictionaries and ignore lists
+            if (!isWordCorrect(wordForLookup, allDictionaries, allIgnoredWords)) {
+                
+                const mark = Decoration.mark({ class: "cm-spellcheck-error" });
+                widgets.push(mark.range(start, end));
+            }
         }
     }
 
-    return Decoration.set(widgets);
+    return Decoration.set(widgets, true);
 }
 
 /**
  * The ViewPlugin that manages the decorations lifecycle.
+ * FIX: Debounces the expensive `getSpellcheckDecorations` call to prevent lag on keypress.
  */
 const spellcheckViewPlugin = (plugin: WiktionarySpellcheckPlugin) => {
+    
+    // Define the debounced calculation function outside the class instance for singleton management
+    const debouncedRecalculate = debounce((view: EditorView, instance: { decorations: DecorationSet }) => {
+        // 1. Calculate the new decorations (using the existing, optimized function)
+        const newDecorations = getSpellcheckDecorations(view, plugin.app, plugin);
+
+        // 2. Update the synchronous decorations property on the ViewPlugin instance
+        instance.decorations = newDecorations;
+        
+        // 3. Dispatch an empty transaction to force CodeMirror to re-read the decorations accessor.
+        // This is the critical step to prevent synchronous lag on input, while ensuring the
+        // view eventually updates when the user pauses typing.
+        view.dispatch({}); 
+    }, 1000, false); // 300ms delay, not immediate.
+
     return ViewPlugin.fromClass(
         class {
+            // Decorations are stored on the instance to be accessed synchronously
             decorations: DecorationSet;
             
             constructor(view: EditorView) {
+                // Initial synchronous calculation (needed for first load/initial view)
                 this.decorations = getSpellcheckDecorations(view, plugin.app, plugin);
             }
 
             update(update: ViewUpdate) {
+                // If only content or viewport changed, trigger the debounced calculation.
+                // The synchronous decorations getter below will return the *old* decorations 
+                // until the debounced function runs and forces a redraw. This prevents lag.
                 if (update.docChanged || update.viewportChanged) {
-                    this.decorations = getSpellcheckDecorations(update.view, plugin.app, plugin);
+                    // Pass the view and the instance itself to the debounced function
+                    debouncedRecalculate(update.view, this); 
                 }
             }
         },
         {
+            // Decoration source getter - always returns the last computed decoration set
             decorations: instance => instance.decorations,
         }
     );
@@ -1262,4 +1288,3 @@ export default class WiktionarySpellcheckPlugin extends Plugin {
         }
     }
 }
-
