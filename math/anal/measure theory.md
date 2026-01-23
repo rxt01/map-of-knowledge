@@ -5,7 +5,7 @@ abstract:
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | #tags      | #tocheck #toreoganize                                                                                                         |
 | level      | #bachelor                                                                                                                     |
-| degrees    | #math/actuaria/option/maths #math/maths/option/maths #math/stats/option/maths #math/finance/option/maths #math/honours/option |
+
 
 # #english-note 
 ## outer measure on $\mathbb{R}$

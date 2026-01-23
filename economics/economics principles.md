@@ -7,5 +7,5 @@ abstract:
 | ---------- | ---------------------------------------------------------------------------------- |
 | #tags      |                                                                                    |
 | level      | #bachelor                                                                          |
-| degree     | #math/all/option/finance; #econ/mandatory; #cs/option; #physics/all/option/others; |
+
 

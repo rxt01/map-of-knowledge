@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[EM]] [[fluid dynamics]] [[hydrodynamics]]   |
-| ---------- | -------------------------------------------- |
-| #tags                                                      |
-| level                                                      |
-| degrees                                                    |
+| precursors | [[EM]] [[fluid dynamics]] [[hydrodynamics]] |
+| ---------- | ------------------------------------------- |
+| #tags      |                                             |
+| level      |                                             |
+

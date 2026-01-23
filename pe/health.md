@@ -3,11 +3,11 @@ abstract:
 ---
 
 
-| precursors | [[]]        |
-| ---------- | ----------- |
-| #tags      |             |
-| level      | #college    |
-| degrees    | #generalEd  |
+| precursors | [[]]       |
+| ---------- | ---------- |
+| #tags      |            |
+| level      | #college   |
+
 # #french-note 
 
 ## habitudes de vie

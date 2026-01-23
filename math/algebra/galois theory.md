@@ -1,11 +1,11 @@
 ---
 abstract:
 ---
-| precursors | [[algebra]] [[LA]]                                                  |
-| ---------- | ------------------------------------------------------------------- |
-| #tags      |                                                                     |
-| level      | #bachelor                                                           |
-| degrees    | #math/maths/option/maths #math/sc/option/maths #math/honours/option |
+| precursors | [[algebra]] [[LA]] |
+| ---------- | ------------------ |
+| #tags      |                    |
+| level      | #bachelor          |
+
 # #english-note 
 ## fields
 ### polynomial rings

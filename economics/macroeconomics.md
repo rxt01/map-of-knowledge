@@ -5,4 +5,4 @@ abstract:
 | ---------- | ---------------------------------------------------------------------------------- |
 | #tags      |                                                                                    |
 | level      | #bachelor                                                                          |
-| degrees    | #math/all/option/finance; #econ/mandatory; #cs/option; #physics/all/option/others; |
+

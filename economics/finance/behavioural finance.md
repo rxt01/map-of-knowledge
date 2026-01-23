@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[finance]]  |
-| ---------- | ------------ |
-| #tags      |              |
-| level      | #bachelor    |
-| degrees    | #            |
+| precursors | [[finance]] |
+| ---------- | ----------- |
+| #tags      |             |
+| level      | #bachelor   |
+

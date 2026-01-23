@@ -7,7 +7,7 @@ abstract:
 | ---------- | ---- |
 | #tags      |      |
 | level      | #    |
-| degrees    | #    |
+
 # #english-note 
 ## set vector spaces
 let $S$ be a set and $V$ another set. $V$ is a set vector space over $S$ if $\forall v\in V,s\in S$ $vs,sv\in V$

@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[set theory]]  |
-| ---------- | --------------- |
-| #tags      |                 |
-| level      | #               |
-| degrees    |                 |
+| precursors | [[set theory]] |
+| ---------- | -------------- |
+| #tags      |                |
+| level      | #              |
+
 

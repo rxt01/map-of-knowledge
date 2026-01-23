@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[number theory]] [[algebra]] [[LA]] [[discrete math]]   |
+| precursors | [[number theory]] [[algebra]] [[LA]] [[discrete math]] |
 | ---------- | ------------------------------------------------------ |
-| #tags                                                                 |
-| level                                                                 |
-| degree                                                                |
+| #tags      |                                                        |
+| level      |                                                        |
+

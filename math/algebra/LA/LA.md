@@ -1,12 +1,12 @@
 ---
 abstract: the study of vector and linear maps
 ---
-|            | I                      | II                                                                                         |
-| ---------- | ---------------------- | ------------------------------------------------------------------------------------------ |
-| precursors | [[elementary algebra]] |                                                                                            |
-| #tags      |                        |                                                                                            |
-| level      | #college               | #bachelor                                                                                  |
-| degrees    | #natsc                 | #math/all/mandatory #econ/option #cs/mandatory #physics/all/mandatory #softwareE/mandatory |
+|            | I                      | II        |
+| ---------- | ---------------------- | --------- |
+| precursors | [[elementary algebra]] |           |
+| #tags      |                        |           |
+| level      | #college               | #bachelor |
+
 # #english-note 
 ## solving equations
 $$\begin{align}

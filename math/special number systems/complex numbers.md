@@ -7,7 +7,7 @@ abstract:
 | ---------- | ---------------------- |
 | #tags      |                        |
 | level      | #                      |
-| degrees    |                        |
+
 
 # #english-note 
 $$i^{2}=-1$$

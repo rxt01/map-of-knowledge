@@ -6,5 +6,5 @@ other names: effective field theory
 | ---------- | ------- |
 | #tags      |         |
 | level      | #grad   |
-| degrees    |         |
+
 

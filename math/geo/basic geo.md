@@ -6,7 +6,7 @@ abstract:
 | ---------- | ---------------------------- |
 | #tags      |                              |
 | level      | #primary-school #high-school |
-| degrees    |                              |
+
 
 # #english-note 
 

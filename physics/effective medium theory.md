@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[EM]] [[thermodynamics]]  |
-| ---------- | -------------------------- |
-| #tags      |                            |
-| level      | #                          |
-| degrees    | #                          |
+| precursors | [[EM]] [[thermodynamics]] |
+| ---------- | ------------------------- |
+| #tags      |                           |
+| level      | #                         |
+

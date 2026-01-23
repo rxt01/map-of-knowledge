@@ -5,7 +5,7 @@ abstract:
 | ---------- | ------------------------------------ |
 | #tags      |                                      |
 | level      | #grad                                |
-| degrees    | #math/maths/option/maths             |
+
 # #english-note 
 ## homotopy
 a homotopy is a continuous family of functions

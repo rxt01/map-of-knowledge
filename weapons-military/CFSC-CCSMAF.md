@@ -8,7 +8,7 @@ other names: canadian firearm asfety course - cour canadien de securite dans le 
 | ---------- | ---------------- |
 | #tags      | #flashcards/CFSC |
 | level      | #certification   |
-| degrees    | #pal             |
+
 
 # #french-note 
 ## non restreinte

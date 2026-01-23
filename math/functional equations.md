@@ -7,12 +7,12 @@ abstract:
 | ---------- | ----------------------------------------------------------------- |
 | #tags      |                                                                   |
 | level      | #                                                                 |
-| degrees    |                                                                   |
+
 
 # #english-note 
 
 
 
-## ![[integral equations# #english-note]]
-## ![[ODE# #english-note]]
-## ![[PDE# #english-note]]
+## ![[integral equations# english-note]]
+## ![[ODE# english-note]]
+## ![[PDE# english-note]]

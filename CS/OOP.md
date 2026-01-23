@@ -8,4 +8,4 @@ other names: object oriented programming
 | ---------- | ---------------------------------------------------------------------------- |
 | #tags      |                                                                              |
 | level      | #bachelor                                                                    |
-| degrees    | #physics/all/option/info #EE/mandatory #infoE/mandatory #softwareE/mandatory |
+

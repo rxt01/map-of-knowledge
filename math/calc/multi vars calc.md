@@ -5,7 +5,7 @@ abstract: calculus of multiple variables
 | ---------- | -------------------------------------------------------------------------------------------------------- |
 | #tags      |                                                                                                          |
 | level      | #bachelor                                                                                                |
-| degrees    | #math/all/mandatory #econ/option #cs/mandatory #physics/all/mandatory #EE/mandatory #computerE/mandatory |
+
 # #english-note 
 
 

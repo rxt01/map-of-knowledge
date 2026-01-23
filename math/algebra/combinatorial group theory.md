@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[algebra]] [[combinatorics]]  |
-| ---------- | ------------------------------ |
-| #tags      |                                |
-| level      | #                              |
-| degrees    | #                              |
+| precursors | [[algebra]] [[combinatorics]] |
+| ---------- | ----------------------------- |
+| #tags      |                               |
+| level      | #                             |
+

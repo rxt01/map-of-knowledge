@@ -8,4 +8,4 @@ other names: proto indo european
 | ---------- | ---- |
 | #tags      |      |
 | level      | #    |
-| degrees    | #    |
+

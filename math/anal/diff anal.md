@@ -1,8 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[LA]] [[real anal]] [[point set top]] [[func anal]]  |
+| precursors | [[LA]] [[real anal]] [[point set top]] [[func anal]] |
 | ---------- | ---------------------------------------------------- |
-| #tags                                                              |
-| level      | #g                                                    |
-| degrees                                                            |
+| #tags      |                                                      |
+| level      | #g                                                   |
+

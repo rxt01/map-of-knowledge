@@ -7,7 +7,7 @@ abstract: trig over a negative curvature surface
 | ---------- | ---------------------- |
 | #tags      |                        |
 | level      | #                      |
-| degrees    |                        |
+
 
 # #english-note 
 ## euler's formula equivalent

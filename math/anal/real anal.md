@@ -7,7 +7,7 @@ abstract: hardcord and more rigorous version of calc
 | precursors | [[point set top]] [[diff and int calc]] [[proof]] | [[multi vars calc]]                                                                                                                           | [[vector calc]]                                                                                                                               |                      |
 | #tags      | #toreoganize                                      | #toreoganize                                                                                                                                  |                                                                                                                                               |                      |
 | level      | #bachelor                                         | #bachelor                                                                                                                                     | #bachelor                                                                                                                                     | #bachelor            |
-| degrees    | #math/all/mandatory                               | #math/actuaria/option/maths #math/maths/mandatory #math/stats/mandatory #math/finance/mandatory #math/sc/option/maths #math/honours/mandatory | #math/actuaria/option/maths #math/maths/mandatory #math/stats/mandatory #math/finance/option/maths #math/sc/option/maths #math/honours/option | #math/honours/option |
+
 # #english-note 
 
 

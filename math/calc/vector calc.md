@@ -5,7 +5,7 @@ abstract: calculus of vectors
 | ---------- | ------------------------------------------------------------------------------ |
 | #tags      |                                                                                |
 | level      | #bachelor                                                                      |
-| degrees    | #math/all/mandatory  #physics/all/mandatory #EE/mandatory #computerE/mandatory |
+
 # #english-note 
 ## line integral
 $$\int_{C}f(x_{1}\cdots,x_{m})ds=\lim_{ n \to \infty }\sum_{k=1}^{n}f(x_{1_{k}}\cdots,x_{m_{k}})\Delta s_{k}=\int_{a}^{b}f(x_{1}(t)\cdots,x_{m}(t))|\begin{bmatrix}

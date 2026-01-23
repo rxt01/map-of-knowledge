@@ -7,7 +7,7 @@ abstract:
 | ---------- | ---- |
 | #tags      |      |
 | level      | #    |
-| degrees    | #    |
+
 # #french-note 
 les programmes d'informatique servent a collecter traiter stocker ou presenter l'information
 ## ordi

@@ -3,9 +3,9 @@ abstract:
 ---
 
 
-| precursors | [[algebraic geo]] [[commutative algebra]] [[category theory]] [[PDE]]  |
+| precursors | [[algebraic geo]] [[commutative algebra]] [[category theory]] [[PDE]] |
 | ---------- | --------------------------------------------------------------------- |
-| #tags                                                                               |
-| level                                                                               |
-| degrees                                                                             |
+| #tags      |                                                                       |
+| level      |                                                                       |
+
 

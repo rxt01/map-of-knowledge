@@ -1,6 +1,6 @@
 ---
 abstract:
 ---
-| precursors | [[relativistic QFT]] [[lie theory]]  |
-| ---------- | ------------------------------------ |
-| #tags      |                                      |
+| precursors | [[relativistic QFT]] [[lie theory]] |
+| ---------- | ----------------------------------- |
+| #tags      |                                     |

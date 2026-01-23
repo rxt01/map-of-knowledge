@@ -7,7 +7,7 @@ other names: complex variables
 | ---------- | ------------------------------------------------------------------------------------------------------------------------ |
 | #tags      |                                                                                                                          |
 | level      | #bachelor                                                                                                                |
-| degrees    | #math/actuaria/option/maths #math/maths/mandatory #math/stats/option/maths #math/sc/option/maths #math/honours/mandatory |
+
 
 # #english-note 
 ## sequences
@@ -248,4 +248,3 @@ $$S^{-1}(\infty)=-\frac{d}{c}$$
 $$S\left( -\frac{d}{c} \right)=\infty$$
 <!--- TODO --->
 
-### harmonic functions

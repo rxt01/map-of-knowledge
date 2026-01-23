@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[probability and stats]] [[diff and int calc]]  |
+| precursors | [[probability and stats]] [[diff and int calc]] |
 | ---------- | ----------------------------------------------- |
-| #tags                                                         |
-| level                                                         |
-| degrees                                                       |
+| #tags      |                                                 |
+| level      |                                                 |
+

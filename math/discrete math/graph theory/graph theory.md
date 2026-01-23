@@ -6,7 +6,7 @@ abstract:
 | ---------- | ------------------------------------------ |
 | #tags      |                                            |
 | level      | #                                          |
-| degrees    |                                            |
+
 # #english-note 
 ## graphs
 a graph $G$ consists of 2 sets:

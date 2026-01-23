@@ -5,7 +5,7 @@ abstract:
 | ---------- | ------------------------------------ |
 | #tags      |                                      |
 | level      | #high-school                         |
-| degrees    |                                      |
+
 
 # #english-note 
 ## trig identities

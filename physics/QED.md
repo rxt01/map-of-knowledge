@@ -6,6 +6,6 @@ other names: quantum electro dynamics
 | ---------- | -------------------------------------------------------------------- |
 | #tags      |                                                                      |
 | level      | #                                                                    |
-| degrees    |                                                                      |
+
 
 

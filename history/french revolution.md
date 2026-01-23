@@ -7,7 +7,7 @@ abstract:
 | ---------- | ---- |
 | #tags      |      |
 | level      | #    |
-| degrees    | #    |
+
 # #french-note 
 debut du liberalisme
 ## context

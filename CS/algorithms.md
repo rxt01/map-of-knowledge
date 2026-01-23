@@ -6,7 +6,7 @@ abstract:
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | #tags      |                                                                                                                                                                                    |
 | level      | #bachelor                                                                                                                                                                          |
-| degrees    | #math/maths/option/info #math/stats/option/info #math/sc/option/info #cs/mandatory #infoE/mandatory #softwareE/mandatory #computerE/mandatory #math/honours/mandatory #econ/option |
+
 
 # #english-note 
 

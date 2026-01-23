@@ -1,8 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[QM]]  |
-| ---------- | ------- |
-| #tags      |         |
-| level      | #grad   |
-| degrees    |         |
+| precursors | [[QM]] |
+| ---------- | ------ |
+| #tags      |        |
+| level      | #grad  |
+

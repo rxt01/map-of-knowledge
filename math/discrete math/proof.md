@@ -5,4 +5,4 @@ abstract: how to prove stuff
 | ---------- | -------------- |
 | #tags      |                |
 | level      | #              |
-| degrees    |                |
+

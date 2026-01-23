@@ -5,7 +5,7 @@ abstract: linear algebra over abstract vector spaces
 | ---------- | -------------------------------- |
 | #tags      |                                  |
 | level      | #                                |
-| degrees    |                                  |
+
 
 # #english-note
 ## [vector](LA.md#vectors) spaces

@@ -2,9 +2,9 @@
 abstract:
 ---
 
-| precursors | [[PDE]]  [[chaos theory]] |
-| ---------- | ------------------------- |
-| #tags      |                           |
-| level      | #grad                     |
-| degrees    | #math/maths/option/maths  |
+| precursors | [[PDE]]  [[chaos theory]] [[CM]] [[LA]] [[thermodynamics]] |
+| ---------- | ---------------------------------------------------------- |
+| #tags      |                                                            |
+| level      | #grad                                                      |
+
 

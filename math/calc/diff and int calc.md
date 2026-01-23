@@ -6,7 +6,7 @@ abstract:
 | ---------- | ------------------------------------------------ |
 | #tags      |                                                  |
 | level      | #college                                         |
-| degrees    | #natsc                                           |
+
 
 # #english-note
 
@@ -103,6 +103,8 @@ $$\int \frac{1}{\sqrt{ 1-x^{2 }}}dx=\arcsin x+C$$
 $$\int \frac{1}{1+x^{2}}dx=\arctan x+C$$
 $$\int \frac{1}{x\sqrt{ x^{2}-1 }}dx=arc\sec x+C$$
 $$$$
+[[ODE#orthogonality|orthogonality of eigenfunctions]]
+[[complex anal#cauchy's residue theorem|residue theorem]]
 
 
 

@@ -7,7 +7,7 @@ abstract:
 | ---------- | ---- |
 | #tags      |      |
 | level      | #    |
-| degrees    | #    |
+
 # #french-note 
 revolution socio-economique
 les systemes de production sont transformes

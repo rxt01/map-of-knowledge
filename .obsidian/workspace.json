@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "30f6099b9a3b8d31",
     "type": "split",
     "children": [
       {
-        "id": "10f3a2802d2462eb",
+        "id": "39b9d68ff76617e3",
         "type": "tabs",
         "children": [
           {
-            "id": "16394fd069f454bd",
+            "id": "7b39e192fc918d45",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -18,17 +18,13 @@
             }
           },
           {
-            "id": "cb3a8cc88407dd0d",
+            "id": "81d772b13fa26bde",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "language/ancient languages/ancient greek/ancient greek thru lain/Alexandros Chapter 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Alexandros Chapter 1"
+              "title": "New tab"
             }
           }
         ],
@@ -38,15 +34,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "26741132f792b366",
+    "id": "fc7dfdf1c6713686",
     "type": "split",
     "children": [
       {
-        "id": "f8cb3e0c50966441",
+        "id": "e6c69ab7a07d0feb",
         "type": "tabs",
         "children": [
           {
-            "id": "7f54eb05cbe9bb00",
+            "id": "5a41ad38db3dc12e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -59,12 +55,12 @@
             }
           },
           {
-            "id": "e9fd0df79beb1b9b",
+            "id": "973720d76d6c61da",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "polymer",
+                "query": "tag:#chem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +72,7 @@
             }
           },
           {
-            "id": "251a06a0a7069066",
+            "id": "8c991064719a9ba6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,18 +85,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.50247192382812
+    "width": 300
   },
   "right": {
-    "id": "b152b1f360a50ab6",
+    "id": "8502936d8e677980",
     "type": "split",
     "children": [
       {
-        "id": "cd6e5421ef554f8c",
+        "id": "51a901b7fad213f9",
         "type": "tabs",
         "children": [
           {
-            "id": "4b785360acffeade",
+            "id": "39a1cf0af372b6d2",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -111,14 +107,27 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
             }
           },
           {
-            "id": "12cb7384b56793ca",
+            "id": "d8ea7c5d1b0430ce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2c984e27d7e823f5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,76 +142,7 @@
             }
           },
           {
-            "id": "9dac06b1b1155eb7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "language/books/familia romana.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of familia romana"
-            }
-          },
-          {
-            "id": "db1c645b03832887",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "f1f93269e6e7395a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "87edfe2ae5a3ffa4",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "71abb86011aa0c78",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "language/books/familia romana.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from familia romana"
-            }
-          },
-          {
-            "id": "7d199b57c4e4d6d2",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "22b97b0e292310c2",
+            "id": "4208376e20589215",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -216,147 +156,21 @@
             }
           },
           {
-            "id": "28f88c18a62b32ca",
+            "id": "ba71d1d7fe85ab16",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
-            "id": "ca62aae2c715cae6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "99d51acc0b01dda8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "8e6e97bbcfb1786a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "b0cc1ceb4e994ec8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "3b0a46e054d5bde6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "1fc1b1f5c06a2e72",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "8d6ff5e4eb4bbe5a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "aae4b63dbab309c7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "768447bd1365c795",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "396fc08e04d483fa",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "a6bdfd8a8b5f7dfe",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "66c2b9c01fc24e77",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "f85acdf2f7995621",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "50907c34e695166f",
+            "id": "13de4fc0c7454915",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -366,7 +180,7 @@
             }
           },
           {
-            "id": "7f3fc453c3353bfc",
+            "id": "5c5c82e7a2d16125",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -376,7 +190,7 @@
             }
           },
           {
-            "id": "c9644c2ce5066906",
+            "id": "5de1ed061051803a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -386,7 +200,7 @@
             }
           },
           {
-            "id": "e226714615e8dd28",
+            "id": "2a392bcf145d7cbf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -396,7 +210,7 @@
             }
           },
           {
-            "id": "afde8e315fec2ece",
+            "id": "2edd04985243b699",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -406,7 +220,7 @@
             }
           },
           {
-            "id": "9e5b40c03c6129d4",
+            "id": "4abe1a9ea78e6a53",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -416,7 +230,7 @@
             }
           },
           {
-            "id": "35e18c6c6dbb55ee",
+            "id": "4349b5ad936eb862",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -426,159 +240,7 @@
             }
           },
           {
-            "id": "3a7b5db6308733e7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "76eb5769887d4dfd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "94b295e68081e18c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "3ab5823086eea20f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "4f28977a6dc82583",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "e802a9d427ab1d2a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "0ef58ad47e7d189b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "01e61be778299985",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "ef2f374e87c505b9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "8889abc93d8e211d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "4bbbd6a6132bd692",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {},
-              "icon": "quote-glyph",
-              "title": "Dictionary"
-            }
-          },
-          {
-            "id": "2e7166b38818ee07",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "d77d9e31deefa3c8",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "language/books/familia romana.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for familia romana"
-            }
-          },
-          {
-            "id": "424632d7a04d4412",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "95aa7b508af8736d",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
-            "id": "19090b8371e73168",
+            "id": "d6564204bfcebaa6",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -588,16 +250,15 @@
             }
           }
         ],
-        "currentTab": 45
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
-    "width": 214.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -605,6 +266,7 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
+      "bases:Create new base": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
@@ -615,62 +277,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cb3a8cc88407dd0d",
+  "active": "81d772b13fa26bde",
   "lastOpenFiles": [
-    "weapons-military/the art of war.md",
-    "language/ancient languages/ancient greek/ancient greek thru lain/Alexandros Chapter 1.md",
-    "dictionaries/grc_wiktionary.json~",
-    "dictionaries/clean.py",
-    "chem/solutions chem.md",
-    "language/ancient languages/PIE.md",
-    "language/ancient languages/ancient greek/ancient greek thru lain",
-    "language/books/familia romana.md",
-    "language/books/la parure.md",
-    "physics/EM.md",
-    "nominatīvus.md",
-    "README.md",
-    "chem/organic chem.md",
-    "Untitled.base",
-    "bio/cellular biology.md",
-    "language/books/boule de suif.md",
-    "dictionaries/ang_wiktionary.json",
-    "dictionaries/non_wiktionary.json",
-    "dictionaries/fro_wiktionary.json",
-    "dictionaries/chu_wiktionary.json",
-    "dictionaries/cop_wiktionary.json",
-    "dictionaries/ine_wiktionary.json",
-    "bio/ecology and evolution.md",
-    "bio/ecology and environment.md",
-    "language/french/french writing & literature.md",
-    "history/enlightment.md",
-    "physics/aerodynamics.md",
-    "math/SoME/hackenbush.md",
-    "math/anal/func anal.md",
-    "math/random/probability theory.md",
-    "math/random/discrete stochastic processes.md",
-    "unsorted/polymer physics.md",
-    "engineering/aerospace/propulsion systems.md",
-    "engineering/aerospace/rocket propulsion.md",
-    "physics/SM.md",
-    "bio/tree of life.canvas",
-    "language/Untitled.canvas",
-    "bio/concept map/Acides nucleiques.canvas",
-    "bio/concept map/Transport.canvas",
-    "bio/concept map/replication de l'adn.canvas",
-    "bio/concept map/Proteines.canvas",
-    "bio/concept map/Molecules de la vie.canvas",
-    "bio/concept map/Mitose.canvas",
-    "bio/concept map/Lipides.canvas",
-    "bio/concept map/Glucides.canvas",
-    "cell.svg",
-    "weapons-military/pictures/position a deux mains.png",
-    "weapons-military/pictures/tir a la carabine a genou.png",
-    "weapons-military/pictures/tir au fusil de chasse.png",
-    "weapons-military/pictures/tir a la carabine couche.png",
-    "weapons-military/pictures/tir a la carabine assis.png",
-    "weapons-military/pictures/tir a la carabine debout.png",
-    "weapons-military/pictures/position a la bretelle.png",
-    "weapons-military/pictures/position sur l'epaule.png",
-    "weapons-military/pictures/position a la main.png"
+    "engineering/physics/ultrafast photonics.md",
+    "engineering/physics/organic electronics.md",
+    "engineering/physics/nuclear/nuclear reactor kinetics.md",
+    "engineering/physics/lasers.md",
+    "physics/modern optics.md",
+    "engineering/mechanical/polyphasic discharges.md",
+    "engineering/mechanical/deformable bodies machanics.md",
+    "engineering/mechanical/hydraulic and pneumatic systems.md",
+    "engineering/physics/nuclear/thermohydraulics.md",
+    "engineering/physics/nuclear/statics of reactors.md",
+    "engineering/electrical/studies of large electric grids.md",
+    "engineering/physics/nuclear",
+    "engineering/electrical/electrical energy production.md",
+    "engineering/electrical/high voltage.md",
+    "engineering/electrical/distribution grids.md",
+    "engineering/electrical/electric grids.md",
+    "chem/electrochem.md",
+    "engineering/electrical/active circuits.md",
+    "engineering/material/biomaterials.md",
+    "engineering/material/structure and properties of materials.md",
+    "engineering/aerospace/transonic aerodynamics.md",
+    "engineering/material/materials.md",
+    "engineering/chemical/bioprocesses.md",
+    "engineering/chemical",
+    "engineering/physics/nuclear/nuclear technologies.md",
+    "engineering/material/composit materials.md",
+    "engineering/physics",
+    "engineering/electrical/numerical command systems.md",
+    "engineering/aerospace/fly and motor commands.md",
+    "engineering/material",
+    "engineering/aerospace",
+    "engineering/mechanical",
+    "engineering/industrial",
+    "engineering/genetic",
+    "engineering/electrical",
+    "engineering/bio"
   ]
 }

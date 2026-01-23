@@ -7,7 +7,7 @@ abstract:
 | ---------- | ---- |
 | #tags      |      |
 | level      | #    |
-| degrees    | #    |
+
 # #french-note 
 XVIIIe sciecle
 "quest-ce que les lumieres? La sortie de l'homme de sa minorite, dont il est lui-meme responsable. Minorite, c'est a dire incapacite de se servir de son entendement sans la direction d'autrui, minorite dont il est lui-meme responsable puisque la cause en reside non dans un defaut de l'entendement, mais dans un manque de decision et de courage de s'en servir sans la direction d'autrui. *sapere aude!* Aie le courage de te servir de ton propre entendement! voila la devise des lumieres pour ces lumieres, il n'est rien requis d'autre que la liberte. l'usage public de notre propre raison doit toujours etre libre, et lui seul peut amener les lumieres parmi les hommes"

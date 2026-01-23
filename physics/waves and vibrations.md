@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[CM]] [[EM]]                                                                                     |
-| ---------- | ------------------------------------------------------------------------------------------------- |
-| #tags      |                                                                                                   |
-| level      | #bachelor                                                                                         |
-| degrees    | #math/maths/option/others #math/stats/option/others #math/sc/option/others #physics/all/mandatory |
+| precursors | [[CM]] [[EM]] [[multi vars calc]] |
+| ---------- | --------------------------------- |
+| #tags      |                                   |
+| level      | #bachelor                         |
+

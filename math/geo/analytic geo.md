@@ -5,4 +5,4 @@ abstract:
 | ---------- | ------------------------------------ |
 | #tags      |                                      |
 | level      | #high-school                         |
-| degrees    |                                      |
+

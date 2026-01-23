@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[QFT]]    |
-| ---------- | ---------- |
-| #tags      |            |
-| level      | #bachelor  |
-| degrees    | #          |
+| precursors | [[QFT]]   |
+| ---------- | --------- |
+| #tags      |           |
+| level      | #bachelor |
+

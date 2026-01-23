@@ -7,7 +7,8 @@ abstract: chemistry of carbon
 | precursors | [[general chem]] |                     |
 | #tags      |                  |                     |
 | level      | #college         | #bachelor           |
-| degrees    | #natsc/option    | #chem/all/mandatory |
+
+
 # #english-note 
 ## names
 
@@ -23,8 +24,10 @@ abstract: chemistry of carbon
 | 8           | oct-  |
 | 9           | non-  |
 | 10          | dec-  |
-## types of molecules
-### alkanes
+## functional groups
+### carbon
+
+#### alkanes
 saturated (carbon filled with hydrogene)
 e.g
 ```smiles
@@ -40,7 +43,7 @@ CCCCCCCCC
 CCCCCCCCCC
 ```
 
-### cyclo alkanes
+#### cyclo alkanes
 cyclyc alkanes
 e.g
 ```smiles
@@ -51,7 +54,7 @@ C1CCCCCC1
 ```
 
 
-### alkenes
+#### alkenes
 contain at least one double bond
 e.g
 ```smiles
@@ -60,7 +63,7 @@ CC=C
 CC=CCC
 
 ```
-### aromatic rings
+#### aromatic rings
 cyclic alkenes with alternating double bonds
 e.g
 ```smiles
@@ -69,15 +72,26 @@ C1C=CC=CC=1
 ```smiles
 ```
 
-### alkynes
+#### alkynes
 contain at least one triple bond
 e.g
 ```smiles
 C#C
 C#CCC
 ```
-
-### alcohols
+#### bicycloalkanes
+have two cycles
+e.g
+```smiles
+C1CC2CC(C1)C2
+```
+#### benzyne
+benzene with an alkyne
+```smiles
+C1C=CC=CC#1
+```
+### oxygen
+#### alcohols
 contain an hydroxyl group connected to a carbon i.e a hydrogene bonded to an oxygene
 e.g
 ```smiles
@@ -86,7 +100,7 @@ CC[OH]
 CCC[OH]
 ```
 
-### aldehydes
+#### aldehydes
 contain a carbonyle group attached to an hydrogene i.e a carbon double bonded to an oxygene
 e.g
 ```smiles
@@ -95,14 +109,14 @@ CC=O
 CCC=O
 ```
 
-### ethers
+#### ethers
 contain an oxygene bonded to two carbons
 e.g
 ```smiles
 COC
 CCOC
 ```
-### ketones
+#### ketones
 contain a carbonyle group bonded to two carbons
 e.g
 ```smiles
@@ -110,114 +124,427 @@ CC(=O)C
 CC(=O)CC
 ```
 
-### esters
+#### esters
 contain an oxygene atoms bonded to a carbonyl group
 e.g
 ```smiles
 CC(=O)OC
 CC(=O)OCC
 ```
-### carboxylic acids
-contain an hydroxyle group bonded to a carbonyle group
+
+#### carboxylic acids
+contain an hydroxyl group bonded to a carbonyl group
 e.g
 ```smiles
 C(=O)O
 CC(=O)O
 ```
-### alkyl halides
+#### acid anhydrides
+have an oxygene in bonded to two carbonyl groups
+e.g
+```smiles
+CC(=O)OC(=O)CC
+CCC(=O)OC(=O)CC
+```
+
+#### enols
+have an alcool with an alkene
+e.g
+```smiles
+C=C(O)C
+```
+#### organic peroxides
+have two oxygene bonded to each other in a carbon chain
+```smiles
+COOC
+CCCOOCC
+```
+#### peroxy acids
+have a peroxyde bonded to a carbonyl group at one end and a hydrogene at the other
+e.g
+```smiles
+CC(=O)OO
+CCC(=O)OO
+```
+#### alkoxide
+$^-$OR
+#### epoxide
+```smiles
+C1OC1
+```
+#### oxetane
+```smiles
+C1COC1
+```
+#### crown ether
+ether groups in a ring
+eg.
+```smiles
+C1OCCOCCOCCOCC1
+```
+
+#### lactone
+cyclic ester
+eg.
+```smiles
+C1CCC(=O)O1
+```
+#### carbonate ester
+carbonyl with two oxygen attached
+eg.
+```smiles
+COC(=O)OC
+```
+#### ketal
+to OR on the same carbon
+eg.
+```smiles
+CC(OC)(OC)C
+```
+#### acetal
+ketal with one of the carbon replace by an hydrogen
+eg.
+```smiles
+CC(OC)(OC)
+```
+
+### halogen
+#### alkyl halides
 hydrocarbon chaine connected to a halogene
 e.g
 ```smiles
 CCCF
 CCBr
 ```
-### amines
+#### acid halides
+have a halogene X bonded to a carbonyl group
+e.g
+```smiles
+CC(=O)Cl
+CCC(=O)F
+```
+### nitrogen
+#### amines
 have a NH2 group at the end
 e.g 
 ```smiles
 CCN
 CCCN
 ```
-### amides
-have a NH2 group connected to a carboxyl group
+#### amides
+have a NH2 group connected to a carbonyl group
 e.g
 ```smiles
 CC(=O)N
 CCC(=O)N
 ```
-### nitrile
+#### nitrile
 have a CN group at the end
 e.g
 ```smiles
 CC#N
 CCC#N
 ```
-### acid anhydrides
-have an oxygene in bonded to two carboxyl groups
+
+#### enamines
+have an amine with an alkene
 e.g
 ```smiles
-CC(=O)OC(=O)CC
-CCC(=O)OC(=O)CC
+C=C(N)C
 ```
-### acid Xides
-have a halogene X bonded to a carboxyl group
+#### imines
+have a nitrogene double bonded to a carbon
 e.g
 ```smiles
-CC(=O)Cl
-CCC(=O)F
+CC(=N)C
 ```
-### thiols
+#### nitros
+have a NO2 group
+e.g
+```smiles
+CCN(=O)O
+```
+#### oxime
+hydroxyl group on imine
+eg.
+```smiles
+CC(=NO)C
+```
+#### lactam
+cyclo amide
+eg.
+```smiles
+C1CCC(=O)N1
+```
+#### amidine
+amine and imine 
+eg.
+```smiles
+CC(=N)N
+```
+#### imide
+anhydride with midle oxygen replaced by nitrogen
+eg.
+```smiles
+CC(=O)NC(=O)C
+```
+#### carbamide
+carbonyl group with to nitrogen
+eg.
+```smiles
+CNC(=O)NC
+```
+#### carbamate ester
+carbamide with one nitrogen replaced by oxygen
+eg.
+```smiles
+COC(=O)NC
+```
+#### nitroso
+have NO
+eg.
+```smiles
+CN=O
+```
+#### nitrosooxy
+oxygen atached to a nitroso
+eg.
+```smiles
+CON=O
+```
+#### azide
+have N$_{3}$
+eg.
+```smiles
+CN=[N+]=[N-]
+```
+#### azo
+two nitrogen double bonded in the midle of a chain
+eg.
+```smiles
+CN=NC
+```
+#### cyanate
+nitrile with an oxygen
+eg.
+```smiles
+COC#N
+```
+#### isocyanate
+cyanate with oxygen and nitrogen switched
+eg.
+```smiles
+CN=C=O
+```
+#### isonitrile
+nitrile with carbon and nitrogen switched
+eg.
+```smiles
+C[N+]#[C-]
+```
+#### thiocyanate
+cyanate with sulfur instead of oxygen
+eg.
+```smiles
+CSC#N
+```
+#### isothiocyanate
+isocyanate with oxygen replaced by sulfur
+```smiles
+CN=C=S
+```
+#### amino acid
+amine with carboxylic acid
+eg.
+```smiles
+NCC(=O)O
+```
+
+
+### sulfur
+#### thiols
 have a SH group at the end
 e.g
 ```smiles
 CS
 CCS
 ```
-### enols
-have an alcool with an alkene
-e.g
+#### thiolate ion
+$^-$SR
+#### organic sulfide
+RSR'
+also called thioether
 ```smiles
-C=C(O)C
+CSC
 ```
-### enamines
-have an amine with an alkene
-e.g
+#### thiirane
 ```smiles
-C=C(N)C
+C1SC1
 ```
-### imines
-have a nitrogene double bonded to a carbon
-e.g
+#### thial
+aldehyde with sulfur instead of oxygen
+eg.
 ```smiles
-CC(=N)C
+CC(=S)
 ```
-### organic peroxides
-have two oxygene bonded to each other in a carbon chain
+#### thioketone
+ketone with sulfur instead of oxygen
+eg.
 ```smiles
-COOC
-CCCOOCC
+CC(=S)C
 ```
-### peroxy acids
-have a peroxyde bonded to a carboxyl group at one end and a hydrogene at the other
-e.g
+### sulfoxide
+carbonyl group on an organic sulfide
+eg.
 ```smiles
-CC(=O)OO
-CCC(=O)OO
+CS(=O)C
 ```
-### nitros
-have a NO2 group
-e.g
+### sulfone
+2 carbonyl group on an organic sulfide
+eg.
 ```smiles
-CCN(=O)O
+CS(=O)(=O)C
 ```
-### bicycloalkanes
-have two cycles
-e.g
+#### thiocarboxylic acid
+carboxylic acid with one of the oxygen replaced by a sulfur
+eg.
 ```smiles
-C1CC2CC(C1)C2
+CC(=O)S
+CC(=S)O
 ```
-### diol
-have two alcohol groups
+#### sulfinic acid
+hydroxyl and carbonyl group on a sulfur
+eg.
+```smiles
+CS(=O)O
+```
+#### sulfonic acid
+hydroxyl and 2 carbonyl groups on a sulfur
+eg.
+```smiles
+CS(=O)(=O)O
+```
+#### dithiocarboxylic acid
+carboxylic acid with oxygen replace by sulfur
+eg.
+```smiles
+CC(=S)S
+```
+#### sulfenic acid
+carboxyl group on a sulfur
+eg.
+```smiles
+CSO
+```
+#### thioester
+ester with one of the oxygen replaced by sulfur
+eg.
+```smiles
+CC(=O)SC
+CC(=S)OC
+```
+#### sulfonate ester
+ester with another carbonyl group and carbon replaced by sulfur
+eg.
+```smiles
+CS(=O)(=O)OC
+```
+### phosphorus
+#### phosphoester
+phosphate attached to a alkyl
+eg.
+```smiles
+[O-]P(=O)(=O)OC
+```
+
+## nomenclature
+### bicyclic compound
+bicyclo\[numbers of carbon in decreasing order\]name of the carbon chain
+count starts at one of the connected carbons
+count starts in the larger ring
+### ethers
+common:
+ether as the main chain
+
+iupac:
+split the chain in two
+oxygen added to the shortest chain $\to$ "-oxy"
+### amines
+common:
+amine as the main chain
+
+iupac:
+"-amine"
+if not main: amino
+### carboxylic acids
+"-oic acid"
+### esters
+"-oate"
+splite the chain in two 
+main chain: the one that has both oxygen
+### acid anhydrides
+"-oic anhydride"
+### nitriles
+"-nitrile"
+### acid halide
+"-oyl Xide"
+### amides
+"-amide"
+ 
+
+## reactions
+### oxymercuration demurcuration
+from alkenes
+step 1:
+with Hg(OAc)$_{2}$ in water
+HgOAc added to one carbon of the alcene and OH the the other
+step 2:
+with NaBH$_{4}$
+replace HGOAc wih H
+recymic mixture of isomers
+### alkoxy mercuration demurcuration
+from alkenes
+step 1:
+with Hg(OAc)$_{2}$ in CH$_{3}$OH
+HgOAc added to one carbon of the alcene and OCH$_{3}$ the the other
+step 2:
+with NaBH$_{4}$
+replace HGOAc wih H
+recymic mixture of isomers
+### williamson ether synthesis
+from alcohol
+step 1:
+with NaH
+H removed from alcohol
+step 2:
+with alkyl alide
+replacement with the chain of the alide
+### carboxylic acid derivative
+from acid chloride, acid anhydride,  ester
+with water
+forms carboxylic acid
+### reduction of keton
+from keton
+step 1:
+with NaBH$_{4}$
+addition of H on the carbon of the keton breaking the double bond
+step 2:
+with H$_{3}$O$^+$
+hydrogen added to the oxygen
+
+### reduction of aldehyde
+from aldehyde
+step 1:
+with LiAlH$_{4}$
+step 2:
+H$_{3}$O$^{+}$
+## antiaromatic compounds
+cyclic
+no sp$^3$
+conjugated
+planar
+$4n$ movable e$^-$
+
 
 
 # #french-note 
@@ -366,6 +693,23 @@ CCCC
 C1=CC=CC=C1
 c1ccccc1
 ```
+### nomenclatures
+#### ethers-oxydes
+la chaine est couper en deux a l'oxygene et la chaine la plus courte est relier avec l'oxygene pour donner le nom de ramiffication de "-oxy" si il y a moins de 5 carbone et "-yloxy" si il y a au moins 5 carbone
+
+autre methode:
+l'oxygene est la chaine principale au nom de "oxyde" et les autres ramifications sont precedes de "de"
+#### aldehydes
+suffix "-al" ajoute devant le suffix de l'alcane, de l'alcene ou de l'alcyne
+numerotation a partir de l'aldehyde
+pour plusieurs aldehyde: "-carbaldehyde"
+pour aldehyde comme substituant:
+- dans la chaine principale: "oxo-"
+- sinon: "formyl-"
+#### cetones
+suffix "-one"
+pour cetone en substituant: "oxo-"
+
 ## ismoerie et confomeres
 ### isomeres de position (regioisomeres)
 meme fonction a un autre endroit
@@ -424,6 +768,19 @@ certains C$^*$ ne sont pas inverse
 molecules achiral malgre C$^*$ (plan de symetrie)
 ### conformeres
 molecules identiques qui peuvent etre converti par une simple rotation d'une liaison simple
+### lumiere polarise
+lorsque la lumiere polarise entre en contact avec une molecule chiral, il y a une rotation du plan de polarisation de la lumiere
+#### pouvoir rotatoire specifique
+$$[\alpha]_{\lambda}^{t}=\frac{\alpha}{lc}$$
+ou 
+$[\alpha]_{\lambda}^{t}$: pouvoir rotatoire specifique
+$t$: temperature
+$\lambda$: longueur d'onde de la lumiere polarisee incidente
+$\alpha$: rotation optique observee
+$l$: longueur de la cellule contenant l'echantillon
+$c$: concentration
+### exces racemique
+$$ee= \frac{[\alpha]_{\lambda;\text{melange}}}{[\alpha]_{\lambda;\text{enantiomere pur}}}$$
 
 ## reactivite chimique
 ### type de fleche
@@ -522,13 +879,57 @@ electronegativite: plus l'electronegativite est forte, plus l'effet influant att
 distance: l'effet diminue avec la distance
 
 amplification avec le nombre d'atome: accumulation des effets inductifs
+### effet mesomere
+
+
+## caracterisation
+### caracterisation chimique
+reactions chimiques pour verifier la presence ou l'absence de groupements fonctionnels
+### caracterisation physique
+propriete physique des composes:
+- aspect
+- couleur
+- odeur
+- viscosite ($\eta$)
+- solubilite ($s$)
+- pouvoir rotatoir specifique ($[\alpha]_{D}$)
+- masse volumique ($\rho$)
+- indice de refraction ($n_{D}$)
+- point de fusion (p.f)
+- point d'ebulition (p.eb)
+- gout
+
+### spectroscopie
+$$E_{photon}=h\nu$$
+$$c=\lambda \nu$$
+$$E=\frac{hc}{\lambda}=hc\bar{\nu}$$
+chaque groupement fonctionel absorbe certaine longueur d'onde
+$$\bar{\nu}=\frac{1}{2\pi c}\sqrt{ \frac{f(m_{x}+m_{y})}{m_{x}m_{y}} }$$
+ou:
+$\bar{\nu} =$ nombre d'onde
+$c =$ vitesse de la lumiere
+$f =$ constante de force de liaison
+$m_{x},m_{y}$ masse des atomes $x$ et $y$ formant la liaison
 
 ## alcanes
 proviennent du petrol et du gaz naturel
+
+| carbone | compose                                                | utilite                                                                                  |
+| ------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| 1-4     | gaz                                                    | bouteilles de gaz liquifie                                                               |
+| 5-8     | naphta leger                                           | essence pour auto                                                                        |
+| 8-12    | naphta lourd                                           | combustible, synthese de produit chimique                                                |
+| 10-16   | kerosene                                               | carburant pour avion                                                                     |
+| 14-20   | gazole                                                 | diesel, huile pour chaufage domestique                                                   |
+| 20-30   | huiles lubrifiantes                                    | huiles lubrifiantes, cremes a polir                                                      |
+| $>$ 30  | huiles lourdes (mazout), paraffines (cires) et residus | carburant pour batteaux, industries et centrales thermiques; bitume pour routes et toits |
+
 ### propiete physiques
 gazeux si moins de 4C, liquide entre 5C et 17C, solide si plus de C
 solubles dans les solvants organiques non polaires
 insolubles dans l'eau
+[[physical properties of alkans]]
+
 #### nomenclature
 
 | carbone | prefix |
@@ -631,9 +1032,11 @@ meme chose mais avec prefix cyclo
 
 debut de la numerotation soit pour ordre alphabetique ou pour plus petite numerotation total
 
-### reaction
+### reactions
 
-halogenation radicalaire: reaction avec X$_2$ et source d'energie
+
+#### halogenation radicalaire
+reaction avec X$_2$ et source d'energie
 
 reaction seulement possible avec une source d'energie et qui se fait seulement avec les alcanes
 
@@ -644,20 +1047,625 @@ $$\ce{R-H + X-X ->[h\nu ou \Delta] R-X + X-H}$$
 la reaction peut se faire avec Br$_2$ et Cl$_3$
 la reaction peut se faire avec I$_2$ n'est pas favorisee car endothermique et,
 avec F$_2$, la reaction est tres exothermique (risque d'explosion)
-#### ratio des produits
-##### avec Cl$_{2}$
+##### ratio des produits
+###### avec Cl$_{2}$
 reaction avec radical intermediaire plus stable favorise
 
 | radical                       | primaire | secondaire | tertiaire |
 | ----------------------------- | -------- | ---------- | --------- |
 | vitesse relative de formation | 1.0      | 3.8        | 5.0       |
-##### avec Br$_{2}$
+###### avec Br$_{2}$
 seulement la stabilite des radicaux intermediares sera importante
+#### combustion (oxydation)
+##### complete
+en presence d'oxygene en qtt sufisante
+completement transforme en dioxyde de carbone et eau
+
+##### incomplete
+qtt insufisante d'oxygene
+formation de monoxidede carbone, de carbone et d'aldehyde + eau
+
+
 ### formation
-- hydrogenation eds alcenes
+- hydrogenation des alcenes
 - hydrogenation des alcynes
 - hydrogenation des composes halogenes
 - reaction de wurtz
 - reaction d'un compose organometallique avec l'eau
 - hydrogenation des composes aromatique
-- deshalogenation
+- dehalogenation
+## alcenes et alcynes
+pas de rotation libre
+
+
+### proprietes physiques
+T$_{ebulition}$ et masse volumique augmentent avec la longueur de la chaine principal
+ismoeres Z et E des alcenes n'ont pas toujours les memes proprietes physiques
+alcenes et alcynes plus reactif que les alcanes
+### alcenes
+une liaison $\sigma$ et une liasion $\pi$
+carbones sp$^2$ (120$^o$)
+liaison plus courtes (134pm)
+
+inversion E-Z possibles avec lumiere ou chaleur, moins d'encombrement avec E
+
+#### nomenclature
+memes regles que pour alcanes mais terminaison "ene"
+numerotation de l'alcene juste avant "ene"
+numerotation de maniere a avoir la plus petite position pour l'alcene
+
+si plusieurs alcenes = polyenes
+
+#### addition electrophile
+##### addition d'acide
+si assymetrique: depend de la stabilite des carbocations
+produit markovnikov: produit majoritaire (du carbocation le plus stable)
+##### addtion d'eau en milieu acide
+mecanisme :
+1. formation d'un ion H$_{3}$O$^+$ par reaction entre H$_{2}$O et acide
+2. formation de carbocation
+3. ajout d'H$_{2}$O
+4. groupement H$_{2}$O devient groupement alcool
+##### hydroboration-oxydation
+produit majoritaire: produit anti-markovnikov
+##### addition radicalaire de bromure d'hydrogene
+en presence de ROOR
+produit majoritaire: anti-markovnikov
+#### adition non polaire
+##### hydrogenation catalytique
+H$_{2}$ avec (Pd, Ni, Pt)
+addition des deux atomes dirrectement sur l'alcene
+addition syn : meme cote de la double liason
+##### halogenation
+Br$_{2}$ ou Cl$_{2}$
+addition anti: cote oppose de la double liaison
+($\delta^{+}$ force de london)
+pont bromonium stabilise carbocation
+melange racemique (equimolaire de deux enantiomeres)
+
+#### oxydation
+avec KMnO$_{4}$ dilue, a froid
+ajout de deux groupements alcool an lieu de la liaison
+
+avec KMnO$_{4}$ concentre, a chaud
+double liaison brise et ajout d'O$_{2}$ sur la double liaison
+si hydrogene (aldehyde): suroxydation $\to$ formation d'acide carboxylique
+```smiles
+OC(=O)O
+```
+devient 
+CO$_{2}$ + H$_{2}$O
+(en equilibre mais CO$_{2}$ s'echape)
+##### ozonolyse
+avec O$_{3}$
+###### condition oxydantes
+double liaison brise et ajout d'O$_{2}$ sur la double liaison
+comme avec KMnO$_{4}$
+
+
+###### conditions reductrices
+pas de formation d'acide carboxylique
+
+##### epoxydation
+utilisation d'un peracide (m-CPBA)
+formation d'un cycle a trois avec de l'oxygene
+
+
+### alcynes
+une liaison $\sigma$ et deux liaison $\pi$
+carbones sp (180$^o$)
+liaision plus courtes (121pm)
+
+#### nomenclature
+meme regle que pour les alcenes mais avec une terminaison "yne"
+si il y a un mixte entre alcene et alcyne, l'alcene sera nomme en premier
+#### addition electrophile
+##### addition de HX
+double adition de H et de X sur l'alcyne avec le carbocation le plus stable
+meme que pour les alcenes
+le X aide a stabliser le carbocation
+
+##### addition de X$_{2}$
+addition anti puit deuxieme ajout de X$_{2}$ si asses de X$_{2}$
+##### hydratation
+ajout d'eau en milieu acide (H$_{2}$SO$_{4}$) (en presence de HgSO$_{4}$)
+produit markovnikov
+alcene avec OH $\to$ rearangement
+```smiles
+*C(=O)C
+```
+##### hydroboration oxydation
+produit anti marovnikov
+addition syn du B puit replacement par OH
+rearangement
+```smiles
+*CC=O
+```
+##### hydrogenation
+avec Pd/C, Ni, Pt
+addition de H jusqu'a avoir l'alcane correspondant (si H$_{2}$ en exces)
+
+avec catalyseur de Lindlar
+addition syn
+s'arrete a l'alcene
+
+avec Na/NH$_{3}$
+addition anti
+s'arrete a l'alcene
+#### oxydation
+avec KMnO$_{4}$ concentre a chaud ou ozonolyse: jusqu'a l'acide carboxylique
+
+
+#### utilisation de l'acidite des alcynes
+elongation de chaine
+
+si H au bout de l'alcyne
+
+formation du sel d'alcyne : pKa $\simeq$ 25
+
+reaction avec un electrophile
+
+si RX : ajout de R a la chaine
+si
+```smiles
+C1CO1
+```
+: ajout de \[CH$_{2}$\]$_{2}$OH
+
+si deux hydrogene: peut avoir plusieurs groupement ajouter
+
+
+## composes aromatique
+un compose est aromtique si :
+- il est cyclique
+- il a un system conjugue delocalisable dans tout le cycle
+- il possede 4$n+2$ e$^{-}$ delocalisbale ($\pi$ ou doublet non lian)
+### nomenclature
+#### benzene
+```smiles
+c1ccccc1
+```
+#### toluene
+```smiles
+c(C)1ccccc1
+```
+#### styrene
+```smiles
+c(C=C)1ccccc1
+```
+#### phenol
+```smiles
+c(O)1ccccc1
+```
+#### alcool benzylique
+```smiles
+c(CO)1ccccc1
+```
+#### anisole
+```smiles
+c(OC)1ccccc1
+```
+#### acide benzoique
+```smiles
+c(C(=O)O)1ccccc1
+```
+#### benzaldehyde
+```smiles
+c(C=O)1ccccc1
+```
+#### aniline
+```smiles
+c(N)1ccccc1
+```
+#### acetophenone
+```smiles
+c(C(=O)C)1ccccc1
+```
+#### tiophenol
+```smiles
+c(S)1ccccc1
+```
+#### xylene
+1,2
+```smiles
+c(C)1c(C)cccc1
+```
+1,3
+```smiles
+c(C)1cc(C)ccc1
+```
+1,4
+```smiles
+c(C)1ccc(C)cc1
+```
+#### autre substituant
+utiliser nom du substituant
+#### plusieurs substituants
+substituant prioritaire en 1 puis numerotation selon la priorite des substituants
+si aucune priorite : ordre alphabetique
+alcool = hydroxy si non prioritaire
+
+#### ordre de priorite
+alkyle, aryles, C-X, ethers, thioether, nitro < alcenes, alcyne < alcools, thiol < cetone < aldehyde < nitrile < amide < ester < halogeneure d'acide < acide carboxylique
+#### ortho meta para
+##### ortho
+```smiles
+c(C)1c(*)cccc1
+```
+```smiles
+c(C)1ccccc(*)1
+```
+##### meta
+
+```smiles
+c(C)1cc(*)ccc1
+```
+```smiles
+c(C)1cccc(*)c1
+```
+##### para
+
+```smiles
+c(C)1ccc(*)cc1
+```
+### reactions
+#### hydrogenation catalytique
+sous forte pression ou chaleur avec cataliseur (Pd/C ou Pt ou Ni)
+ou Ni de Raney
+
+#### substitution electrophile aromatique
+remplacement d'un H par un electrophile sous presence de catalyseur
+##### halogenation
+sous presence de FeX$_{3}$ ou AlX$_{3}$
+l'electrophile est forme avec le metal
+##### nitration
+avec HNO$_{3}$ en presence de H$_{2}$SO$_{4}$
+##### sulfonation
+avec SO$_{3}$ en presence de H$_{2}$SO$_{4}$
+##### alkylation de Friedel et Crafts
+remplacement de H par un groupement alkyl
+##### alcylation de Friedel et Crafts
+remplacement de H par un groupement cetone
+par un halogenure d'acide
+#### substituants activants ou desactivants
+un substituant deja present a un impaque sur la vtiesse et la position du nouveua groupement
+
+activant: augmente (nucleophile) (enrichi en e$^-$ par effet mesomere ou inductif)
+desactivant: reduit (electrophile) (apauvrit en e$^-$ par effet mesomere ou inductif)
+
+##### nitration
+
+| substituant         | vitessse relative | effet        |
+| ------------------- | ----------------- | ------------ |
+| -OH                 | 1000              | activants    |
+| -CH$_3$             | 24.5              | activants    |
+| -H                  | 1.0               | reference    |
+| -Cl                 | 0.033             | desactivants |
+| -CO$_2$CH$_2$CH$_3$ | 0.0037            | desactivants |
+| -NO$_2$             | 6e-8              | desactivants |
+
+##### orientation
+###### groupement avec doublets non liants
+$\delta^-$ en ortho et en para par mesomerie
+principalement en para a cause de l'encombrement sterique, ortho aussi
+
+###### groupements alkyls
+effet inductif donneur
+favoriser en ortho (effet inductif)
+defavoriser en meta
+favoriser en para (effet inductif)
+
+
+###### halogene
+effet inductif desactivants
+$\delta^-$ en ortho et para par mesomerie
+principalement para, ortho aussi
+
+###### groupement avec une double ou triple liaison polariser
+$\delta^+$ en ortho et en para par mesomerie
+desactivant par mesomerie
+oriente meta
+
+
+##### vitesse
+-NH$_{2}$, -NHR, -NR$_{2}$, -OH, -OR >
+-NHC(O)R, -OC(O)R >
+-R, -CH=CHR > 
+-H > 
+-F, -Cl, -Br, -I > 
+-C(O)H, -C(O)R, -COOR, -COOH, -C(O)NH$_{2}$, -CN, SO$_{3}$H > 
+-NO$_{2}$ (mesomerie), -CCl$_{3}$, -CF$_{3}$, -NR$_{3}^+$, -NH$_{3}^+$ (effet inductif attracteur fort)
+
+##### plusieurs substituants
+position celon le plus ofrt activant
+#### synthese
+##### deshydrogenation du cyclohexane
+ave Pt ou Pd/C
+
+##### deshydrocyclisation de l'hexane
+avec Pt sur alumine
+## composes halogenes
+primaire : un alkyl sur carbon
+secondaire: deux alkyl sur carbon
+tertiaire: trois alkyl sur carbon
+halogene plus gros $\implies$
+- - de recouvrement orbitalaire
+- + de ractivite
+- + force de l'acide conjugue
+### nomenclature
+nom de l'halogene + "o"
+### substitution nucleophile
+$$\text{R}-\text{X}\ +\ :\text{Nu}^{-}\to \text{R}-\text{Nu}\ +\ \text{X}^-$$
+$$\text{R}-\text{X}\ +\ :\text{Nu}-\text{H}\to \text{R}-\text{Nu}^{+}-\text{H}\ +\ \text{X}^-$$
+#### type 2
+une seul etape
+intermediaire reactionel avec liaison partiel des cotes oposes
+changement de cotes des autres groupements
+inversion de configuration absolue si $\text{C}^*$
+vitesse de reaction depand des deux reactifs $V=k[\text{Nu}][\text{R-X}]$
+facteurs favorisants:
+- encombrement sterique = compose halogene primaire reagi plus facilement que tertiaire, nucleophile plus petit = plus rapide
+- force du nucleophile = + fort $\to$ + vite
+#### type 1
+deux etapes
+carbocation + ajout de nucleophile
+donne deux produits
+vitesse de reaction depand seulement du compose halogene $V=k[\text{R-X}]$
+si carbonne assymetrique: racemisation (melande des deux enantiomeres)
+facteurs favorisants:
+- stabilite du carbocation intermediaire = effet inductifs et mesomeres
+- force du nucleophile = nucleophile faible
+### elimination
+bases fortes ou faibles
+arrachage d'un H en position $\beta$ de l'halogene
+base + compose halogene $\to$ alcene + acide conjugues + halogene
+#### type 2
+une seul etape
+les liaisons C-H et C-X brisees doivent etre paralele
+selectivite = regle de zaitsev (formation de l'alcene avec le plus de substituants)
+E majoritaire, Z minoritaire
+affecte par la taille de la base
+nombre de produit selon nombre d'hydrogene sur C$_{\beta}$ ($n$) : $\left(\begin{matrix}2\\ n-1\end{matrix}\right)$
+facteurs favorisant
+- type de solvant ; aprotique, peu polaire
+- type de base: base forte
+- haute temperature
+- tous les composes halogenes reagiront en E2
+#### type 1
+deux etapes
+separation de l'halogene pour former carbocstion + formation de la double liaison
+regle de zaitsev s'applique encore
+rotation possible de la liaison C-C pour le carbocation = obtention posible des alcenes E et Z
+nombre de produit:
+1. 2
+2. 2
+3. 1
+facteurs favorisant:
+- type de solvant: protique, polaire
+- type de base: base faible ou modere (solvant en general)
+- haute temperature
+- tertiaire > secondaire (primaire peu reactifs)
+### autres reactions
+#### doubles elimination
+avec un compose $\alpha,\beta$-halogene: alcyne
+avec un compose $\alpha,\alpha$-halogene: alcyne
+#### hydrogenation catylique
+avec H$_{2}$ en presance de Pd/C, Pt ou Ni
+R-X $\to$ R-H
+#### reaction de wurtz
+R-X + 2Na $\to$ R-R + 2 NaX
+#### formation d'roganomagnesium
+R-X + Mg $\stackrel{\text{}}\to$ R-MgX
+le magnesium peut s'intercaler entre le groupement alkye et l'halogene
+
+#### reaction avec organometalique
+##### reaction acido-basique
+R-MgX + H-B  $\to$ R-H + BMgX
+##### reaction de substitution nucleophile
+R-MgX + R'-X $\to$ R-R' + MgX$_{2}$
+avec un epoxyde:
+R-MgX +  $\to$ R-C-C-OMgX $\to$ R-C-C-OH
+avec un aldehyde ou une cetone
+## alcools
+un groupement alkyl = primaire
+deux groupement alkyl = secondaire
+trois groupement alkyl = tertiaire
+font des liaisons hydrogene
+majoritairement liquide
+peuvent etre acide ou base
+plus le pK$_{A}$ est petit plus c'est facile de deprotonner
+plus le pK$_{B}$ est petit plus c'est facile de protonner
+### nomenclature
+plus petit chiffre pour alcool
+remplacer "ane" par "anol"
+position entre "an" et "ol"
+### synthese de composes halogenes
+R-O-H + H-X $\to$ R-X + H-O-H
+### substitution nucleophile
+groupement partant: H$_{2}$O de l'aclool protone
+
+alcools secondaires: sn1
+alcools primaires: sn2, difficile a faire avec HCl (chaufage et catalyzeur ZnCl$_{2}$)
+
+condition plus douces:
+R-O-H + SOCl$_{2}$  $\stackrel{pyyridine}\to$ R-Cl$_{2}$ + SO$_{2}$ + pyridine protone + Cl$^-$
+seulement avec alcool primaires et secondaires
+
+3 R-O-H + PX$_{3}$ $\to$ 3 R-X + H$_{3}$PO$_{3}$
+### deshydratation
+regle de zaitsev s'applique
+#### type 1
+secondaires et tertiaire
+dans du H$_{2}$SO$_{4}$ dilue
+H$_{2}$SO$_{4}$ + H$_{2}$O $\to$ HSO$_{4}^-$ + H$_{3}$O$^+$
+formation d'un alcene (geometry: meme regle que pour les composes halogene)
+#### type 2
+condition forte
+H$_{2}$SO$_{4}$ concentree
+hydrogene deprotonee et alcool en anti
+
+
+### oxydation
+seulement si H sur carbone
+#### primaire
+aldehyde (avec oxydant faible)
+alool carboxylique (avec oxydant fort)
+#### secondaire
+cetone
+#### oxydants
+fort: KMnO$_{4}$ concentre avec H$_{3}$O$^+$ et chaleur
+faible: reactif de swern
+## [[cellular biology#molécules du vivant|molecules d'interet biologique]]
+toutes les molecules dans le corps humain sont des molecules organiques
+### [[cellular biology#acide gras|acide gras]]
+acides carboxyliques places sur des chaines carbonees tres longue
+utilise sous forme de graisse, hormones, membranes biologiques ou cires
+la longueur de la chaine apporte le charactere gras du nom "acide gras" parce que les chaines carbonees n'ont pas d'affinites avec l'eau
+les chaines de carbonnes ne sont pas ramifie
+entre 6 et 34 carbones environ
+acide gras sature si juste des carbonnes en sp3
+insature si il y a un alcene
+selon la geometrie: acide cis ou trans
+#### polymere
+[[cellular biology#triglycérides (graisse)|polyglycerides]] formes avec la reaction entre 3 acide gras et du glycerol 
+$\to$ formation d'esters
+### [[cellular biology#acide aminés|acide amines]]
+les acides amines servent a former les [[cellular biology#protéines|proteines]] et les proteines font toutes les fonctions biologiques du corps
+constitues d'une fonction amine et d'une fonction carboxylique sur le meme carbone
+il existe des centaines d'acides amines mais seulement 20 sont utilise dans les etres vivant 
+<!-- il est possible de modifie genetiquement des etres vivant pour les faires utilise des acides amines non canon mais sa risque de creer des maladies que notre systeme immunitaire serait completement incapable de reconnaitre-->
+les acides amines canon sont tous de configuration S sauf cysteine (R) et glycine (pas de carbone assymetrique)
+sur les 20 acides amines canon, 8 doivent etre consommes via l'alimentation, ils sont dit essentiels (valine, leucine, phenylalanine, threonine, methionine, lysine et tryptophane)
+les autres sont naturellement synthetises dans le corps humain  <!-- plus precisement dans les mitochondries-->
+#### polymere
+les acides amines peuvent se lier par une liaison amide (liaison peptidique) pour former des proteine (ou peptides)
+la longueur de la proteine peut etre tres grande, avec un enchainemnt des acides amines
+les proteines peuvent reagire les une avec les autres par des liasions hydrogenes pour donner une structure aux ensemble de proteines
+les structures principales des proteines sont les helice $\alpha$ et les feuillets $\beta$
+helices $\alpha$: liaison hydrogene entre acide amine proche $\to$ structure d'helice
+feuillets $\beta$: liaison hydrogene entre sequence complete $\to$ couche successives
+#### acides amines canon
+##### glycine
+```smiles
+NCC(=O)O
+```
+##### alanine
+```smiles
+C[C@@](C(=O)O)N
+```
+##### valine
+```smiles
+CC(C)[C@](C(=O)O)N
+```
+##### leucine
+```smiles
+CC(C)C[C@@](C(=O)O)N
+```
+##### isoleucine
+```smiles
+CCC(C)[C@@](C(=O)O)N
+```
+##### serine
+```smiles
+C([C@@](C(=O)O)N)O
+```
+##### threonine
+```smiles
+C[C@]([C@](C(=O)O)N)O
+```
+##### cysteine
+```smiles
+C([C@@](C(=O)O)N)S
+```
+##### methionine
+```smiles
+CSCC[C@](C(=O)O)N
+```
+##### lysine
+```smiles
+C(CCN)C[C@@](C(=O)O)N
+```
+##### proline
+```smiles
+C1C[C@](NC1)C(=O)O
+```
+##### tryptophane
+```smiles
+C1=CC=C2C(=C1)C(=CN2)C[C@](C(=O)O)N
+```
+##### histidine
+```smiles
+C1=C(NC=N1)C[C@](C(=O)O)N
+```
+##### acide aspartique
+```smiles
+C([C@](C(=O)O)N)C(=O)O
+```
+##### acide glutamique
+```smiles
+C(CC(=O)O)[C@](C(=O)O)N
+```
+##### phenylalanine
+```smiles
+C1=CC=C(C=C1)C[C@](C(=O)O)N
+```
+##### tyrosine
+```smiles
+C1=CC(=CC=C1C[C@](C(=O)O)N)O
+```
+
+##### arginine
+```smiles
+C(C[C@](C(=O)O)N)CN=C(N)N
+```
+
+##### asparagine
+```smiles
+C([C@](C(=O)O)N)C(=O)N
+```
+##### glutamine
+```smiles
+C(CC(=O)N)[C@](C(=O)O)N
+```
+
+### [[cellular biology#glucides|sucres]]
+molecules organiques ayant des fonction alcole et cetone ou aldehyde
+la longueur des chaines depend des sucres et le positionement des groupements alcools aussi
+peuvent etre sous forme lineaire ou cycle
+cycle de 5 (furanose) ou 6 (pyranose)
+#### polymere
+liaison glycosidiques
+forme [[cellular biology#sucres complex (polysaccharides)|polysaccharides]]
+### [[cellular biology#nucléotides|nucleotides]]
+unites de base des acides nucleiques, porteurs de l'information genetique <!--plusieurs autres fonction si plusieurs groupement phosphate. e.g Adenosine Tri Phosphate (energie), Guanosine Tri Phosphate  -->
+composes d'un sucre, d'une base azote et d'un groupement phosphate
+sucres:
+ribose ($\beta$-D-ribofuranose) pour l'ARN
+desoxyribose ($\beta$-D-desoxyribofuranose) pour l'ADN
+les bases azotes sont des molecules cycliques qui peuvent se lier au sucre avec leur azote
+ADN: adenine, guanine, cytosine, tyhmine
+ARN: adenine, guanine, cytosie, uracile
+la base azote et le sucre se lie par une liaison $N$-glycosidique pour obtenir un nucleoside
+le phosphate est ajouter sur l'alcool primaire par une liaison ester phosphorique
+les nucleotides peuvent se lier entre elle par des liaisons phosphodiesters pour donner des [[cellular biology#acides nucléiques|acides nucleiques]]
+#### bazes azotes
+##### adenine
+```smiles
+C1=NC2=NC=NC(=C2N1)N
+```
+##### guanine
+```smiles
+C1=NC2=C(N1)C(=O)NC(=N2)N
+```
+##### cytosine
+```smiles
+C1=C(NC(=O)N=C1)N
+```
+##### thymine (ADN)
+```smiles
+CC1=CNC(=O)NC1=O
+```
+##### uracile (ARN)
+```smiles
+C1=CNC(=O)NC1=O
+```

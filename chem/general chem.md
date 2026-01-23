@@ -6,6 +6,6 @@ abstract:
 | ---------- | ------------------------------------ |
 | #tags      |                                      |
 | level      | #college                             |
-| degrees    | #natsc                               |
+
 
 

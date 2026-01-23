@@ -7,7 +7,7 @@ lang: fr
 | ---------- | ------------------------ |
 | #tags      | #flashcards/sciences/bio |
 | level      | #college                 |
-| degrees    | #natsc                   |
+
 
 # #french-note 
 

@@ -5,7 +5,7 @@ abstract:
 | ---------- | ---------------------------------------------- |
 | #tags      |                                                |
 | level      | #bachelor                                      |
-| degrees    | #math/all/mandatory #cs/op                     |
+
 # #english-note 
 ## see [[set theory]]
 ## see [[logic]]

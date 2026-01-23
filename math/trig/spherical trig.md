@@ -7,5 +7,5 @@ abstract: trig over a positive curvature surface
 | ---------- | ---------------------- |
 | #tags      |                        |
 | level      | #                      |
-| degrees    |                        |
+
 

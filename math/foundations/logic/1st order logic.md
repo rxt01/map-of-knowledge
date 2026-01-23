@@ -1,8 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[logic]]   |
-| ---------- | ---------- |
-| #tags                    |
-| level                    |
-| degrees                  |
+| precursors | [[logic]] |
+| ---------- | --------- |
+| #tags      |           |
+| level      |           |
+

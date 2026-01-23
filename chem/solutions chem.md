@@ -8,7 +8,7 @@ lang: fr
 | ---------- | ---------------- |
 | #tags      |                  |
 | level      | #college         |
-| degrees    | #natsc           |
+
 
 # #french-note
 ## solution

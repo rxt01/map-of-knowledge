@@ -7,5 +7,5 @@ abstract:
 | ---------- | ------------------------------ |
 | #tags      |                                |
 | level      | #grad                          |
-| degrees    | #math/maths/option/maths       |
+
 

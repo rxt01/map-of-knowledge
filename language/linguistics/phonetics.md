@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[]]       |
-| ---------- | ---------- |
-| #tags      |            |
-| level      | #bachelor  |
-| degrees    | #          |
+| precursors | [[]]      |
+| ---------- | --------- |
+| #tags      |           |
+| level      | #bachelor |
+

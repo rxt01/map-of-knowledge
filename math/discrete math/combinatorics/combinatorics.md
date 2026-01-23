@@ -5,7 +5,7 @@ abstract:
 | ---------- | -------------- |
 | #tags      |                |
 | level      | #              |
-| degrees    |                |
+
 # #english-note 
 ## product rule
 let there be $k$ different aspect that determine the total number of outcome

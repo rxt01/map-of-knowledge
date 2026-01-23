@@ -1,8 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[organic chem]] [[physical chem]] [[analytical chem]]  |
-| ---------- | ------------------------------------------------------- |
-| #tags      |                                                         |
-| level      | #bachelor                                               |
-| degrees    |                                                         |
+| precursors | [[organic chem]] [[physical chem]] [[analytical chem]] |
+| ---------- | ------------------------------------------------------ |
+| #tags      |                                                        |
+| level      | #bachelor                                              |
+

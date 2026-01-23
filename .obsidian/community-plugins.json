@@ -30,6 +30,5 @@
   "graph-analysis",
   "obsidian-living-graph",
   "execute-code",
-  "plugin-reloader",
-  "wiktionary-spellcheck"
+  "plugin-reloader"
 ]

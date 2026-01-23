@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[microbiology]] [[molecular biology]] [[cellular biology]]  |
-| ---------- | ------------------------------------------------------------ |
-| #tags      |                                                              |
-| level      | #bachelor                                                    |
-| degrees    | #                                                            |
+| precursors | [[microbiology]] [[molecular biology]] [[cellular biology]] |
+| ---------- | ----------------------------------------------------------- |
+| #tags      |                                                             |
+| level      | #bachelor                                                   |
+

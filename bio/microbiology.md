@@ -6,4 +6,4 @@ abstract:
 | ---------- | ------------------------- |
 | #tags      |                           |
 | level      | #bachelor                 |
-| degrees    | #cs/option #bio/mandatory |
+

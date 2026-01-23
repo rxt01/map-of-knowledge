@@ -6,7 +6,7 @@ abstract: the study of algebraic structures
 | precursors | [[proof]] [[elementary algebra]] [[set theory]]                     |           |
 | #tags      | #toreoganize                                                        |           |
 | level      | #bachelor                                                           | #bachelor |
-| degrees    | #math/maths/mandatory #math/sc/option/maths #math/honours/mandatory |           |
+
 # #english-note
 [[set theory]]
 ## monoids

@@ -6,5 +6,5 @@ other names: quantum chromodynamics
 | ---------- | --------------------- |
 | #tags      |                       |
 | level      | #                     |
-| degrees    |                       |
+
 

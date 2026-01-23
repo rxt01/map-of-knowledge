@@ -7,4 +7,4 @@ abstract:
 | ---------- | ---------------------------------------------- |
 | #tags      |                                                |
 | level      | #bachelor                                      |
-| degree     | #math/maths/option/maths #math/sc/option/maths |
+

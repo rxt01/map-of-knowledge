@@ -38,6 +38,8 @@
   "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
+  "desktopUIMode": "tray",
+  "tabletUIMode": "compact",
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": false,
   "matchThemeAlways": false,
@@ -107,7 +109,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.3",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.17.0",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -118,7 +120,6 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": true,
   "previousRelease": "2.5.2",
   "showReleaseNotes": false,
   "compareManifestToPluginVersion": true,
@@ -478,6 +479,7 @@
   "aiEnabled": true,
   "openAIAPIToken": "",
   "openAIDefaultTextModel": "gpt-3.5-turbo-1106",
+  "openAIDefaultTextModelMaxTokens": 4096,
   "openAIDefaultVisionModel": "gpt-4o",
   "openAIDefaultImageGenerationModel": "dall-e-3",
   "openAIURL": "https://api.openai.com/v1/chat/completions",
@@ -804,5 +806,8 @@
     "customPaperColor": "#ffffff",
     "alignment": "center",
     "margin": "normal"
-  }
+  },
+  "disableContextMenu": false,
+  "defaultTrayMode": true,
+  "compactModeOnTablets": true
 }

@@ -7,7 +7,7 @@ abstract:
 | ---------- | ---------------------------- |
 | #tags      |                              |
 | level      | #college                     |
-| degrees    | #generalEd                   |
+
 
 # #french-note 
 

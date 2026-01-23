@@ -1,8 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[OS]] [[cryptography]]  |
+| precursors | [[OS]] [[cryptography]] |
 | ---------- | ----------------------- |
-| #tags                                 |
-| level      | #g                   d   |
-| degrees                               |
+| #tags      |                         |
+| level      | #grad                   |
+

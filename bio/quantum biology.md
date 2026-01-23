@@ -1,8 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[QM]] [[CM]] [[molecular biology]] [[biochem]] [[cellular biology]]  |
+| precursors | [[QM]] [[CM]] [[molecular biology]] [[biochem]] [[cellular biology]] |
 | ---------- | -------------------------------------------------------------------- |
-| #tags                                                                              |
-| level                                                                              |
-| degrees                                                                            |
+| #tags      |                                                                      |
+| level      |                                                                      |
+

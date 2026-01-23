@@ -5,7 +5,7 @@ abstract:
 | ---------- | -------------------- |
 | #tags      |                      |
 | level      | #bachelor            |
-| degrees    | #math/honours/option |
+
 
 # #english-note 
 a set is a "collection" of things

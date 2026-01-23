@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[mechanics]] |
-| ---------- | ------------- |
-| #tags      |               |
-| level      | #college      |
-| degrees    | #natsc        |
+| precursors | [[CM]] I |
+| ---------- | -------- |
+| #tags      |          |
+| level      | #college |
+
