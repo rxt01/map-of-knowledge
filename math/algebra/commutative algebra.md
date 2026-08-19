@@ -1,8 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[algebra]]                                           |
-| ---------- | ----------------------------------------------------- |
-| #tags      |                                                       |
-| level      | #grad                                                 |
+| precursors | [[algebra]] |
+| ---------- | ----------- |
+| #tags      |             |
+| level      | #grad       |
 

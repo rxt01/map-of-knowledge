@@ -1,8 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[phonology]] |
-| ---------- | ------------- |
-| #tags      |               |
-| level      | #bachelor     |
+| precursors | [[phonology]] [[phonetics]] [[syntax]] [[semantics]] [[pragmatics]] [[neuroscience]]  |
+| ---------- | -------------- |
+| #tags      |                |
+| level      | #bachelor      |
 

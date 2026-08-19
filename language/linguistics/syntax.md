@@ -3,7 +3,7 @@ abstract:
 ---
 
 
-| precursors | [[]] |
+| precursors | [[phonetics]] [[phonology]] [[logic]]  |
 | ---------- | ---- |
 | #tags      |      |
 | level      | #    |

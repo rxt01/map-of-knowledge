@@ -2,11 +2,11 @@
 abstract: hardcord and more rigorous version of calc
 ---
 
-|            | anal I                                            | anal II                                                                                                                                       | anal III                                                                                                                                      | IV                   |
-| ---------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| precursors | [[point set top]] [[diff and int calc]] [[proof]] | [[multi vars calc]]                                                                                                                           | [[vector calc]]                                                                                                                               |                      |
-| #tags      | #toreoganize                                      | #toreoganize                                                                                                                                  |                                                                                                                                               |                      |
-| level      | #bachelor                                         | #bachelor                                                                                                                                     | #bachelor                                                                                                                                     | #bachelor            |
+|            | anal I                                            | anal II             |
+| ---------- | ------------------------------------------------- | ------------------- |
+| precursors | [[point set top]] [[diff and int calc]] [[proof]] | [[multi vars calc]] |
+| #tags      | #toreoganize                                      | #toreoganize        |
+| level      | #bachelor                                         | #bachelor           |
 
 # #english-note 
 

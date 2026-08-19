@@ -3,11 +3,11 @@ abstract:
 other names: classical mechanics
 ---
 
-|            | I                     | II                  | III       |
-| ---------- | --------------------- | ------------------- | --------- |
-| precursors | [[diff and int calc]] | [[multi vars calc]] | [[PDE]]   |
-| #tags      |                       |                     |           |
-| level      | #college              | #bachelor           | #bachelor |
+|            | I                                         | II                            | III       |
+| ---------- | ----------------------------------------- | ----------------------------- | --------- |
+| precursors | [[diff and int calc]] [[multi vars calc]] | [[PDE]] [[calc of variation]] |           |
+| #tags      |                                           |                               |           |
+| level      | #college                                  | #bachelor                     | #bachelor |
 
 
 # #french-note 
@@ -123,6 +123,7 @@ $$\vec{F}_{el}=-k\Delta L\hat{\imath}$$
 $$\vec{N}$$
 #### tension
 $$\vec{T}$$
+
 #### compression
 $$\vec{C}$$
 #### frotement cinetique
@@ -321,6 +322,9 @@ $$R_{1}\vec{\omega}_{1}=R_{2}\vec{\omega}_{2}$$
 ### moment de force
 $$\vec{\tau}=\vec{F}\times \vec{r}$$
 $$\vec{\tau}=I\vec{\alpha}$$
+#### moment d'un couple de force
+soit deux force de direction opose $\vec{F},-\vec{F}$ et $\vec{r}$ la distance entre les points d'applications de ces forces
+$$\vec{\tau}=\vec{F}\times \vec{r}$$
 ### energie cinetique
 $$K=\frac{1}{2}I\omega^2$$
 ### travail
@@ -342,4 +346,14 @@ $$v_{lib}=\sqrt{ \frac{2GM}{R} }$$
 
 
 # #english-note 
-## 
+## generalized coordinates
+<!--- TODO --->
+## lagrangians (II)
+$$L=T-V$$
+$$\frac{d}{dt}\left( \frac{\partial L}{\partial \dot{q}_{j}} \right)-\frac{\partial L}{\partial q_{j}}=Q_{j}$$
+where $$Q_{j}=\sum\limits_{i}F_{i}\cdot \frac{\partial r_{i}}{\partial q_{j}}$$
+where $F_{i}$ are forces not arising from a potential and $r_{i}$ are the non generalized coordinates
+### action
+$$S[q]=\int_{t_{0}}^{t_{1}}L(q(t),\dot{q}(t),t)dt$$
+#### hamilton's principle
+$$\delta S=\delta \int_{t_{0}}^{t_{1}}L(q(t),\dot{q}(t),t)dt=0$$

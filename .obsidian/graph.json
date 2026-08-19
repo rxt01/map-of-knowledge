@@ -43,7 +43,7 @@
       }
     },
     {
-      "query": "tag:video",
+      "query": "tag:#video",
       "color": {
         "a": 1,
         "rgb": 16756224
@@ -53,7 +53,7 @@
       "query": "path:physics  ",
       "color": {
         "a": 1,
-        "rgb": 14344570
+        "rgb": 15662848
       }
     },
     {
@@ -85,10 +85,10 @@
       }
     },
     {
-      "query": "path:language  ",
+      "query": "path:military",
       "color": {
         "a": 1,
-        "rgb": 11361494
+        "rgb": 15263194
       }
     },
     {
@@ -96,6 +96,13 @@
       "color": {
         "a": 1,
         "rgb": 15142234
+      }
+    },
+    {
+      "query": "path:language  ",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
       }
     },
     {
@@ -116,7 +123,7 @@
       "query": "path:philosophy  ",
       "color": {
         "a": 1,
-        "rgb": 28415
+        "rgb": 34047
       }
     },
     {
@@ -131,13 +138,6 @@
       "color": {
         "a": 1,
         "rgb": 16711680
-      }
-    },
-    {
-      "query": "path:weapons  ",
-      "color": {
-        "a": 1,
-        "rgb": 5395026
       }
     },
     {
@@ -162,16 +162,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.2484375,
-  "lineSizeMultiplier": 0.7125,
-  "collapse-forces": false,
-  "centerStrength": 0.135416666666667,
-  "repelStrength": 13.75,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 0.9421875,
+  "lineSizeMultiplier": 0.610416666666667,
+  "collapse-forces": true,
+  "centerStrength": 0.213541666666667,
+  "repelStrength": 8.95833333333333,
   "linkStrength": 1,
-  "linkDistance": 47,
-  "scale": 0.04110584868938096,
+  "linkDistance": 30,
+  "scale": 0.09248815955110715,
   "close": false
 }

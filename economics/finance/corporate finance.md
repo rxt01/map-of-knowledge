@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[finance]] |
-| ---------- | ----------- |
-| #tags      |             |
-| level      | #bachelor   |
+| precursors | [[finance]] [[financial accounting]] [[microeconomics]] [[probability and stats]] [[diff and int calc]] |
+| ---------- | ------------------------------------------------------------------------------------------------------- |
+| #tags      |                                                                                                         |
+| level      | #bachelor                                                                                               |
 

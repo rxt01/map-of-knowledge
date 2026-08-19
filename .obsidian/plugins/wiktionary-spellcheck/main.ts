@@ -17,8 +17,8 @@ interface PluginSettings {
 
 const DEFAULT_SETTINGS: PluginSettings = {
     dictionaryPaths: {
-        'en': 'dictionaries/en_wiktionary.json',
-        'fr': 'dictionaries/fr_wiktionary.json', 
+        'en': '.obsidian/dictionaries/en_wiktionary.json',
+        'fr': '.obsidian/dictionaries/fr_wiktionary.json', 
     },
     defaultLanguages: 'en', // Default is just 'en'
     ignoredWords: {

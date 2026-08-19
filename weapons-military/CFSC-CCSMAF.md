@@ -4,25 +4,15 @@ other names: canadian firearm asfety course - cour canadien de securite dans le 
 ---
 
 
-| precursors | [[]]             |
-| ---------- | ---------------- |
-| #tags      | #flashcards/CFSC |
-| level      | #certification   |
+| precursors |                |
+| ---------- | -------------- |
+| #tags      |                |
+| level      | #certification |
 
 
 # #french-note 
 ## non restreinte
 ### regles du maniment (TPTO)
-###### flashcards
-qu'est-ce que veut dire le premier T::traiter toute arme a feu comme si elle etait chargee
-<!--SR:!2024-12-22,3,250-->
-qu'est-ce que veut dire le P::pointer toujours l'arm dans une direction securitaire
-<!--SR:!2024-12-23,4,270-->
-qu'est-ce que veut dire le deuxieme T::tenir le doigt eloigne de la detente et a l'exterieur du pontet
-<!--SR:!2024-12-23,2,210-->
-qu'est-ce que veut dire le O::ouvrir le mecanisme et s'assurer que l'arme ne contient aucune munition, PROUVEr que l'arme est securitaire
-<!--SR:!2024-12-22,2,230-->
-
 #### traiter toute arme a feu comme si elle etait chargee
 tenir pour acquis que tout arme represente un danger potentiel
 #### pointer toujours l'arm dans une direction securitaire
@@ -43,17 +33,6 @@ PROUVEr que l'arme est securitaire
 3. ouvrir le mecanisme, s'assurer que les chambres sont vide
 4. verifier le trajet d'alimentation
 5. examiner l'ame du canon (a l'aide d'une baguette ou visuellement) pour s'assurer qu'elle n'est pas obstruee
-###### flashcards
-que veut dire P::pointer l'arme dans la direction la plus securitaire
-<!--SR:!2024-12-22,2,230-->
-que veut dire R::retirer toutes les cartouches de l'arme a feu
-<!--SR:!2024-12-22,3,250-->
-que veut dire OU::ouvrir le mecanisme, s'assurer que les chambres sont vide
-<!--SR:!2024-12-22,3,250-->
-que veut dire V::verifier le trajet d'alimentation
-<!--SR:!2024-12-23,2,210-->
-que veut dire E::examiner l'ame du canon (a l'aide d'une baguette ou visuellement) pour s'assurer qu'elle n'est pas obstruee
-<!--SR:!2024-12-23,2,210-->
 ### introduction aux armes a feu
 #### evolution
 la poudre a canon a ete invente par les chinois <!-- originalement pour faire un elixir d'immortalite --> et servait aux feux d'artifice et aux fusees militaires
@@ -81,9 +60,6 @@ arme standart pendant des sciecle
 mise au point au debut des annees 1800
 petite alveole de metal contenant une matiere explosive sensible au choc
 
-###### flashcards
-role de la capsule detonante::contient la matiere explosive sensible au choc
-<!--SR:!2024-12-23,4,270-->
 #### cartouches
 les premieres arme etait charge par la bouche, une longue opperation et ne permettaient qu'un coup par cannon
 au milieu des annees 1800, des cartouches ont ete mise au point pour charger les armes par la culasse
@@ -101,9 +77,6 @@ avantages:
 les cartouches ont permis la creation d'arme a feu a repetition (semi-auto/auto)
 
 
-###### flashcards
-avantage des cartouches modernes::(facile a charger, expansion empeche les fuites de gaz, a l'epreuve des intemperies, plus fiable)
-<!--SR:!2024-12-22,1,190-->
 #### armes a feu au canada
 des les annees 1500
 augmente la portee et l'eficacite des chasseurs
@@ -115,15 +88,11 @@ le tir a la cible exist maintenant
 il y a des collectionneurs d'armes a feu
 
 
-###### flashcards
-role des armes a feu dans le developpement du canada::(troque, chasse pour la survie)
-<!--SR:!2024-12-23,4,270-->
+
 
 ### armes a feu a chargement par la bouche
 #### types de poudre noire
-###### flashcards
-quel type de poudre peut etre utiliser securitairement dans une arme a chargement par la bouche::FFFg
-<!--SR:!2024-12-23,4,270-->
+
 ##### Fg
 poudre a grain tres grossier
 etait utiliser dans les mousquets a ame plus large
@@ -165,11 +134,6 @@ il n'est pas facile de determiner si il y a une charge dans le canon
 pour se faire il faut faire une marque sur la baguette de l'arme au niveau indiquant la profondeur du canon lorsque l'ame est vide
 lorsque la baguette est inseree dans le canon, elle indique si l'arme est chargee ou non
 
-###### flashcards
-quel outil est utilise pour verifier si l'arme a chargement par la bouche est chargee:: la baguette de l'arme
-<!--SR:!2024-12-23,4,270-->
-quand faut-il armer le chien d'une arme a feu a chargement par la bouche pendant la sequence de chargement et de tir::juste avant de tirer
-<!--SR:!2024-12-23,4,270-->
 
 ##### etape 1
 utiliser une mesure volumetrique pour verser une charge de poudre dans l'ame du canon. ne jamais verser a partir de la corne
@@ -214,19 +178,11 @@ placer la capsule sur la ceminee et l'arme est prete a tirer
 - ne pas charger la chambre d'un fusil a canons multiples a moins que la capsule detonante n'ait ette retiree de la chemine de l'autre chambre
 - ne pas entreposer une arme si il y a de la poudre a l'interieur
 
-###### flashcards
-est il securitaire de verser de la poudre dans un arme a chargement par la bouche a partir de la corne::NON
-<!--SR:!2024-12-23,4,270-->
-qu'elle est le temps d'attente pour un non feu avec une arme a chargement par la bouche::$\ge$ 60s
-<!--SR:!2024-12-23,4,270-->
-qu'elle sont 2 articles de protection oubligatoire lors de l'utilisation d'une arme a chargement par la bouche::lunette de securite et appareil de protection pour les oreilles
-<!--SR:!2024-12-23,4,270-->
+
 
 ### principaux elements d'une arme a feu moderne
 les armes a feu modernes comportent trois principaux elements: le canon, le mecanisme et la crosse
-###### flashcards
-quels sont les 3 parties principales d'une arme a feu sans restriction::canon, mecanisme, crosse
-<!--SR:!2024-12-23,4,270-->
+
 
 #### canon
 tube generalement fait en metal.
@@ -250,9 +206,6 @@ il faut le desangager qu'au moment de tirer
 certains crans de surete peuvent aussi servir de levier de desarmement
 il ne faut jamais se fier au mecanismes de surete
 
-###### flashcards
-que veut dire surete engagee et surete degage:: engage:la surete et active, ie. elle empeche le fusil de tirer; degage:la surete n'est pas active, ie. le fusil peut tirer
-<!--SR:!2024-12-22,3,250-->
 ##### chargeur/magasin
 pour les armes a repetition
 contient une reserve de cartouche
@@ -283,22 +236,15 @@ les types de mecanisme les plus courant dans ces armes a feu sont:
 - a pompe
 - semi-automatique
 certaines armes ont plusieurs canon. ce sont generalement des fusils de chasse ou des hybrides entre des fusil de chasse et des carabines
-###### flashcards
-quels sont les 2 types d'arme a feu sans restriction::fusil de chasse et carabin
-<!--SR:!2024-12-23,4,270-->
-quels sont les differents types de mecanisme d'arme sans restriction:: chargement par la bouche; bascule/charnier; verrou lateral; levier; pompe; semi-automatique;
-<!--SR:!2024-12-23,2,210-->
+
 #### categories d'armes a feu
 - sans restriction
 - a autorisation restreinte
 - prohibe
 
-###### flashcards
-quels sont les classifications d'armes a feu:: sans restriction; autorisation restreinte; prohibe
-<!--SR:!2024-12-23,4,270-->
 
 ### securite relative aux armes a feu, consignes
-[[CFSC-CCSMAF#regles du maniment (TPTO)]]
+[[CFSC-CCSMAF#regles du maniment (TPTO)|TPTO]]
 #### pratiques securitaires
 - lors de l'entreposage et du transport de l'arme: utiliser des dispositifs de securite comme, les suretes de detente ou cables de securite, et les coffrets verrouillables
 - aux termes de la loi, les armes a feu doivent etre dechargees et convenablement verrouillees
@@ -317,17 +263,13 @@ quels sont les classifications d'armes a feu:: sans restriction; autorisation re
 - ne jamais appuye l'arme charge contre un vehicule, un arbre ou un mur
 - dans une voiture ou un bateau, ne transporter que des arme dechargee
 - toujours decharger une arme avant de la transporter ou de l'entreposer
-###### flashcards
-est-il s'ecuritaire d'accepeter une arme a feu chargee d'un ami::NON
-<!--SR:!2024-12-23,4,270-->
+
 
 #### mesures de securite avant de tirer
 - toujours verifier si l'ame du canon n'est pas obstruee avant de charger l'arme
 - toujours verifier que les munitions utilises conviennent a l'arme, n'utiliser que celle-ci, transporter uniquement celle ci
 - ne jamais se fier entierement aux mecnisme de surete
-###### flashcards
-trois amis placent leur munitions de calibre different sur le tableau de bord de leur camionnette. est-ce une bonne pratique::NON
-<!--SR:!2024-12-23,4,270-->
+
 ##### avant de tirer, s'assurer d'avoir bien identifie la cible et ce qu'il y a derriere elle
 - bien reperer la cible, s'assurer qu'il sagit bien de l'objet sur lequel on veut tirer
 - eviter de tirer en cas de doute.
@@ -339,11 +281,7 @@ trois amis placent leur munitions de calibre different sur le tableau de bord de
 - ne pas tirer sur une cible situee pres s'un batiment
 - ne pas tirer sur une cible situee sur une colline
 - ne tirer qu'apres s'etre assure que personne ne se trouve devant nous
-###### flashcards
-quels sont quatre situations qui constituent un arriere-plan dangeureux lors du tire::surface dure/eau; batiment; coline; humain
-<!--SR:!2024-12-23,4,270-->
-devraient-on utiliser une lunette de visee monte pour verifier le terrain ou identifier une cible::NON
-<!--SR:!2024-12-23,4,270-->
+
 
 #### dispositifs de verrouillage securitaires
 les dispositifs de verrouillages securitaires doivent etre installes correctement
@@ -354,9 +292,7 @@ les plus courants sont:
 - surete de detente a combinaison
 - chaines
 - cables
-###### flashcards
-peut on se fier a la surete d'un arme a feu::NON
-<!--SR:!2024-12-23,4,270-->
+
 
 ### munitions
 
@@ -428,7 +364,7 @@ toujours lire le poincon de la cartouche
 <!-- TODO -->
 #### cartouches de fusil de chasse
 <!-- TODO -->
-#### balistique
+#### [[ballistics|ballistique]]
 <!-- TODO -->
 #### trajectoire
 <!-- TODO -->
@@ -521,9 +457,7 @@ se trouve:
 tube interieur amovible
 ##### limites de capacite
 pour les carabines et fusil de chasse semi-auto le maximum legal de munition par chargeur est 5
-###### flashcards
-quel est le maximum legal de munition par chargeur pour les armes semi-auto::5
-<!--SR:!2024-12-25,4,273-->
+
 
 ####  verou: arme a repetition
 ##### chargement
@@ -588,11 +522,7 @@ preferablement les deux
 - utiliser les bonnes munitions pour l'arme
 - ne jamais tirer intentionellement sur les portes cibles
 - ne pas tirer avec des armes en dehors des limites designes ou des heures d'utilisation qui sont affiche
-###### flashcards
-quels sont les accessoires de securite aubligatoire au stand de tir::lunette de securite et protection pour oreille
-quels sont les etapes a suivre apres un cesser le feu:: areter de tirer; decharger l'arme; ouvrir le mecanisme; placer l'arme sur le tapis ou la table; pointer l'arme vers la cible; se placer derriere la ligne de cesser le feu
-quel est la direction securitaire de l'arme a la ligne de feu::vers la cible
-quel est la responsabilite de supervision des mineurs::situer a une distance de bras en tout temps
+
 
 
 #### regle de conduite au stand de tir
@@ -633,8 +563,7 @@ quel est la responsabilite de supervision des mineurs::situer a une distance de 
 - tous devraient s'entendre sur une zone de tir securitaire
 - toujours savoir exactement ou sont les partenairs de tir
 #### position de port d'arme
-###### flashcards 
-quels sont les positions et quel est leur direction de dechargement en cas de tir accidentel:: a deux main/etat d'alerte ; sur le bras: le cote; au coude/sur le cote: devant; a la main; sur l'epaule: derriere/un peu n'importe ou; a la bretelle; a la bretelle: un peu n'importe ou
+
 #####  a deux mains/etat d'alerte
 maniere la plus securitaire de transporter une arme
 meilleur moyen de controler la bouche du canon

@@ -3,11 +3,11 @@ abstract:
 other names: quantum mechanics
 ---
 
-|            | I                                                                        | II                             |
-| ---------- | ------------------------------------------------------------------------ | ------------------------------ |
-| precursors | [[CM]] [[EM]] [[waves and vibrations]] [[probability and stats]] [[ODE]] | [[probability theory]] [[PDE]] |
-| #tags      |                                                                          |                                |
-| level      | #bachelor                                                                | #bachelor                      |
+|            | I                                                                        | II                                           |
+| ---------- | ------------------------------------------------------------------------ | -------------------------------------------- |
+| precursors | [[CM]] [[EM]] [[waves and vibrations]] [[probability and stats]] [[ODE]] | [[probability theory]] [[PDE]] [[func anal]] |
+| #tags      |                                                                          |                                              |
+| level      | #bachelor                                                                | #bachelor                                    |
 
 
 # #english-note 

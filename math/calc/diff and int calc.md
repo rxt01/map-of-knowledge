@@ -84,11 +84,11 @@ $$(\lim_{x\to a}f(x)=0\land\lim_{x\to a}g(x)=0)\lor(\lim_{x\to a}f(x)=\pm\infty\
 [[trig]]
 $$\int kf(x)dx=k\int f(x)dx$$
 $$\int f^{-1}(x)dx=xf^{-1}(x)-(F\circ f^{-1})(x)+C$$
-$$\int (f \circ G)g= F \circ G +C$$
+$$\int (f \circ G)gdx= F \circ G +C$$
 
 
-$$\int x^n=\frac{x^{n+1}}{n+1}+C$$
-$$\int f(x)+g(x)=F(x)+G(x)+C$$
+$$\int x^{n}dx=\frac{x^{n+1}}{n+1}+C$$
+$$\int (f(x)+g(x))dx=F(x)+G(x)+C$$
 $$\int udv = uv - \int vdu$$
 $$\int_a^b f(x)g'(x)dx = f(x)g(x)|_a^b - \int_a^b f'(x)g(x)dx$$
 $$\int_a^\infty f(x) dx = \lim_{t\to\infty}\int_a^tf(x)dx = \lim_{t\to\infty} F(x)|_a^t$$
@@ -102,11 +102,29 @@ $$\int a^{x}dx=\frac{a^x}{\ln a}+C$$
 $$\int \frac{1}{\sqrt{ 1-x^{2 }}}dx=\arcsin x+C$$
 $$\int \frac{1}{1+x^{2}}dx=\arctan x+C$$
 $$\int \frac{1}{x\sqrt{ x^{2}-1 }}dx=arc\sec x+C$$
-$$$$
+$$\int t^{n}e^{-t}dt=\Gamma(n+1)=(n)!$$
+
+
+
+
 [[ODE#orthogonality|orthogonality of eigenfunctions]]
 [[complex anal#cauchy's residue theorem|residue theorem]]
-
-
+[[ODE#transform of some functions|laplace transform]]
+### partial fraction decomposition
+let $f(x),g(x),h(x),u(x),v(x)$ be functions and $h(x)=g(x)u(x)+f(x)v(x)$, then $$\int \frac{h(x)}{f(x)g(x)}dx=\int \frac{u(x)}{f(x)}dx+\int \frac{v(x)}{g(x)}dx$$
+### feynman's trick
+let $$I=\int f(x)dx$$
+$$I(t)=\int f(x,t)dx$$
+$$i(t)=\int f_{t}(x,t)dx$$
+$$I(t)=\int idt$$
+$$I=I(1)$$
+### polynomial division
+let $f(x),g(x)$ be polynomials, $h(x)$ be the result polynomial of $\frac{f(x)}{g(x)}$ and $r(x)$ be the reminder of $\frac{f(x)}{g(x)}$, then $$\int \frac{f(x)}{g(x)}dx=\int h(x)dx+\int \frac{r(x)}{g(x)}dx$$
+### trigonometric substitution
+let $f(x)$ be a function containing a square root
+if the square root is $\sqrt{ a^{2}-x^{2} }$, substitute $x=a\sin \theta$, $\sqrt{ a^{2}-x^{2} }=a\cos \theta$
+if the square root is $\sqrt{ a^{2}+x^{2} }$, substitute $x=a\tan \theta$
+if the square root is $\sqrt{ x^{2}-a^{2} }$, substitute $x=a\sec \theta$
 
 
 

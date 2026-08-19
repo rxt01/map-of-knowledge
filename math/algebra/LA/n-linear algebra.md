@@ -3,10 +3,10 @@ abstract:
 ---
 
 
-| precursors | [[]] |
-| ---------- | ---- |
-| #tags      |      |
-| level      | #    |
+| precursors | [[multilinear algebra]] |
+| ---------- | ----------------------- |
+| #tags      |                         |
+| level      | #                       |
 
 # #english-note 
 ## type I

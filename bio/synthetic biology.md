@@ -1,7 +1,7 @@
 ---
 abstract:
 ---
-| precursors | [[cellular biology]] [[genetics]] [[molecular biology]] [[organic chem]] |
+| precursors | [[cell biology]] [[genetics]] [[molecular biology]] [[organic chem]] |
 | ---------- | ------------------------------------------------------------------------ |
 | #tags      |                                                                          |
 | level      | #bachelor                                                                |

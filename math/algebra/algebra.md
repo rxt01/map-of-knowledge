@@ -1,11 +1,11 @@
 ---
 abstract: the study of algebraic structures
 ---
-|            | I                                                                   | II        |
-| ---------- | ------------------------------------------------------------------- | --------- |
-| precursors | [[proof]] [[elementary algebra]] [[set theory]]                     |           |
-| #tags      | #toreoganize                                                        |           |
-| level      | #bachelor                                                           | #bachelor |
+|            | I                                               | II        |
+| ---------- | ----------------------------------------------- | --------- |
+| precursors | [[proof]] [[elementary algebra]] [[set theory]] |           |
+| #tags      | #toreoganize                                    |           |
+| level      | #bachelor                                       | #bachelor |
 
 # #english-note
 [[set theory]]
@@ -404,11 +404,9 @@ if $[K_{1}:F],[K_{2}:F]$ are coprime, then $K_{1}\cap K_{2}=F$
 ### fundamental theorem of algebra
 every nonconstant polynomial with complex coefficient has a root in $\mathbb{C}$
 ## algebras
-
-### associative algebras
-an associative algebra is a vector space $\mathcal{A}$ together with a function $\mathcal{A}\times \mathcal{A}\to \mathcal{A}$ $(a,b)\mapsto ab$
+an algebra is a vector space $\mathcal{A}$ together with a function $\mathcal{A}\times \mathcal{A}\to \mathcal{A}$
+$(\vec{a},\vec{b})\mapsto \vec{a}\vec{b}$
 satisfying:
-- $a(bc)=(ab)c$
-- $a(b+c)=ab+ac$
-- $(a+b)c=ac+bc$
-- $(\lambda a)b=\lambda(ab)=a(\lambda b)$
+- $\vec{a}(\vec{b}+\vec{c})=\vec{a}\vec{b}+\vec{a}\vec{c}$
+- $(\vec{a}+\vec{b})\vec{c}=\vec{a}\vec{c}+\vec{b}\vec{c}$
+- $(\lambda \vec{a})(\omega \vec{b})=(\lambda \omega)(\vec{a}\vec{b})$

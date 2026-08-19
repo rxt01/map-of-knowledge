@@ -63,7 +63,7 @@ colect de donnes
 
 #### math
 faire des calculatrice (TI-84)
-resoudre les equations ([[PDE]], [analise numerique](numerical%20anal))
+resoudre les equations ([[PDE]], [analise numerique](numerical%20anal.md))
 analyse et visualiser des donnes
 visualiser des fonctions
 calcule (matrice (matlab), )

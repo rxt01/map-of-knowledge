@@ -4,7 +4,7 @@ abstract: linear algebra over abstract vector spaces
 | precursors | [[LA]] [[real anal]] [[algebra]] |
 | ---------- | -------------------------------- |
 | #tags      |                                  |
-| level      | #                                |
+| level      | #bachelor                        |
 
 
 # #english-note

@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[]]       |
-| ---------- | ---------- |
-| #tags      |            |
-| level      | #bachelor  |
-| degrees    | #          |
+| precursors | [[finance]] [[probability and stats]] [[microeconomics]]  |
+| ---------- | --------------------------------------------------------- |
+| #tags      |                                                           |
+| level      | #bachelor                                                 |
+

@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[]]      |
-| ---------- | --------- |
-| #tags      |           |
-| level      | #bachelor |
+| precursors | [[control engineering]] [[electrotechnics]] |
+| ---------- | ------------------------------------------- |
+| #tags      |                                             |
+| level      | #grad                                       |
 

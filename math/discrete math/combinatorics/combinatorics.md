@@ -33,7 +33,7 @@ the number of ways of chosing $r$ objects from $n$ types of objects is $$\left(\
 the fibonacci sequence is the sequence $(f_{n})_{n \in \mathbb{N}}$ defined by $f_{0}=1,f_{1}=1,f_{n}=f_{n-1}+f_{n-2}$
 ## pigeon asshole principle
 if there are $n$ item that fall into $m$ different category and $n>km$ then at least 1 of the categories must have at least $k+1$ item
-<!-- more specifically, if there are n pigeons and m pigeon's assholes and n>m, then there is at least 1 pigeon with more than 1 asshole
+<!-- more specifically, if there are n pigeons and m pigeon's assholes and m>n, then there is at least 1 pigeon with more than 1 asshole
 proof: BOB IS YOUR UNCLE-->
 ## erdos-szekeres theorem
 $\forall a,b\geq1$, if $S$ is a sequence of $ab+1$ distinct real number, then there is either an increasing subsequence of lenght $a+1$ or a decreasing subsequence of lenght $b+1$ in $S$

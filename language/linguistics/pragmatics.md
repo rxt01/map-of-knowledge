@@ -3,7 +3,7 @@ abstract:
 ---
 
 
-| precursors | [[]] |
+| precursors | [[syntax]] [[morphology]]  |
 | ---------- | ---- |
 | #tags      |      |
 | level      | #    |

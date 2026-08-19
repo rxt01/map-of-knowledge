@@ -81,7 +81,8 @@ lieux:
 - campagne (protection)
 - ville (danger)
 temporalite: present (conteur)/ passe (conte)
-
+### themes
+<!-- TODO -->
 ## de la grande noirceur a la revolution tranquille
 ### terroir
 XIXe sciecle = romantism patriotique $\to$ survivance culturelle
@@ -160,7 +161,7 @@ a partir de la, la litterature sera surtout identitaire:
 
 comme la modernite universelle, la modernite quebecoise, en litterature, remet en question la rigidite des formes traditionnelles. il en va de meme dans le contenu des textes, que l'on veut decomplexer. surtout, la societe passe du silence de la grande noirceur a la parole de la revolution tranquille
 
-cette parole est remise en doute sur un point, le joual, qui apparait comme une langue minee par l'anglais, reflet de la colonisaition des mentalites. signede restriction et de honte pour les uns, signe de resilience fiere pour les autres (gerald godin), le joual divise
+cette parole est remise en doute sur un point, le [joual](regional%20differences.md), qui apparait comme une langue minee par l'anglais, reflet de la colonisaition des mentalites. signede restriction et de honte pour les uns, signe de resilience fiere pour les autres (gerald godin), le joual divise
 ## la modernite
 les recits de la revolte et de la rupture: une esthetique de la transgression (1968-1980)
 dates:

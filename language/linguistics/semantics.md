@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[logic]] |
-| ---------- | --------- |
-| #tags      |           |
-| level      | #bachelor |
+| precursors | [[logic]] [[syntax]] [[pragmatics]] [[morphology]]  |
+| ---------- | -------------------- |
+| #tags      |                      |
+| level      | #bachelor            |
 

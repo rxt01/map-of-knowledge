@@ -206,7 +206,7 @@ series of the form $$f(x)=\sum\limits_{n=1}^{\infty}c_{n}y_{n(x)}$$
 st. $y_{n}$ are eigenfunctions and $$c_{m}=\frac{\langle f,y_{m}\rangle}{\langle y_{m},y_{m}\rangle}=\frac{\int_{a}^{b}f(x)y_{m}(x)r(x)dx}{\int_{a}^{b}(y_{m}(x))^{2}r(x)dx}$$
 ## laplace transform
 $$\mathcal{L}\{ f(t) \} =F(s) :=\int_{0}^{\infty}e^{-st}f(t)dt $$
-$$\mathcal{L}\left\{ Af(t) + Bg(t) \right\} = A\mathcal{L}\left\{ f(t) \right\} +B\mathcal{L}\left\{ g(t) \right\}  $$
+$$\mathcal{L}\left\{ Af(t) + Bg(t) \right\} = AF(s) +BG(s)  $$
 ### exponential order
 a function $f(t)$ is of exponential order as $t$ goes to infinity if $$\lim\limits_{ t \to \infty } \frac{f(t)}{e^{ct}} $$
 exist and is finite for some $c$ 
@@ -258,8 +258,9 @@ $$\mathcal{L}\{ tf(t) \}=-F'(s) $$
 $$\mathcal{L}\{ t^{n}f(t) \} = (-1)^{n}F^{(n)}(s) $$
 $$\mathcal{L}\left\{  \int_{0}^{t}f(\tau)d\tau  \right\} = \frac{1}{s}F(s) $$
 $$\mathcal{L} \left\{  \frac{f(t)}{t}  \right\} = \int_{s}^{\infty}F(\sigma)d\sigma $$
+$$\mathcal{L}\left\{ \ln t \right\}=-\frac{\gamma+\ln s}{s} $$
 $$\mathcal{L}\{ f(t) \text{ periodic with period } P \} = \frac{1}{1-e^{-P s}}\int_{0}^{P}e^{-st}f(t)dt $$
-where $u$ is the heaviside function, $\delta$ the dirac delta function, $\Gamma(t)= (t-1)! =\int_{0}^{oo}e^{-t}\tau^{t-1}d\tau$, $\mathrm{erf}(t)=\frac{2}{\sqrt{ \pi }}\int_{0}^{t}e^{-\tau^{2}}d\tau$, $\mathrm{erfc(t)}=1-\mathrm{erf}(t)$ and $(f*g)(t)=\int_{0}^{t}f(\tau)g(1-\tau)d\tau$
+where $u$ is the heaviside function, $\delta$ the dirac delta function,$\gamma$ the euler macaroni constant, $\Gamma(t)= (t-1)! =\int_{0}^{oo}e^{-t}\tau^{t-1}d\tau$, $\mathrm{erf}(t)=\frac{2}{\sqrt{ \pi }}\int_{0}^{t}e^{-\tau^{2}}d\tau$, $\mathrm{erfc(t)}=1-\mathrm{erf}(t)$ and $(f*g)(t)=\int_{0}^{t}f(\tau)g(1-\tau)d\tau$
 
 ### inverse
 $$f(t)=\mathcal{L}^{-1}\left\{ F(s) \right\} = \frac{1}{2\pi i}\lim\limits_{ T \to \infty } \int_{\gamma-iT}^{\gamma+iT}e^{st}F(s)ds $$
@@ -279,3 +280,24 @@ if $$\lim\limits_{ x \to x_{0} } \frac{(x-x_{0})Q(x)}{P(x)}, \lim\limits_{ x \to
 both exists and are finite, then $x_{0}$ is a regular singular point
 #### method of frobenius
 suppose that $$P(x)y''+Q(x)y'+R(x)y=0$$ has a regular singular point at $x=0$. then $\exists$ at least one solution of the form $$y=x^{r}\sum\limits_{k=0}^{\infty}a_{k}x^{k}$$
+## non linear systems
+### linearization
+consider the system $$\begin{bmatrix}
+x \\
+y
+\end{bmatrix}'=\begin{bmatrix}
+f(x,y) \\
+g(x,y)
+\end{bmatrix}$$
+supose $(x_{0},y_{0})$ is a critical point of the system
+let $u=x-x_{0}$ and $v=y-y_{0}$
+the linearization of the system is $$\begin{bmatrix}
+u \\
+v
+\end{bmatrix}'=\begin{bmatrix}
+f_{x}(x_{0},y_{0})&f_{y}(x_{0},y_{0}) \\
+g_{x}(x_{0},y_{0})&g_{y}(x_{0},y_{0})
+\end{bmatrix}\begin{bmatrix}
+u \\
+v
+\end{bmatrix}$$

@@ -2,10 +2,10 @@
 abstract:
 lang: fr
 ---
-| precursors | [[cellular biology]] |
-| ---------- | -------------------- |
-| #tags      |                      |
-| level      | #college             |
+| precursors | [[cell biology]] |
+| ---------- | ---------------- |
+| #tags      |                  |
+| level      | #college         |
 
 
 
@@ -14,6 +14,8 @@ lang: fr
 l'evolution est le resultat des interaction entre les organismes et leur milieu
 l'evolution ne vise aucun objectif
 les structures complex apparaissent suite a des modifications successives de structures ancestral simple
+## genome et evolution 
+<!-- TODO -->
 ## evolution convergente
 la meme structure se developpe plusieur fois de manier independante (les crabs)
 
@@ -114,6 +116,8 @@ si il est suffisament intens, il peut amalgamer des population voisines, qui par
 
 
 
+## histoire de la vie sur terre
+<!-- TODO -->
 ## phylogenie et diversite biologique
 ![[tree of life.canvas|tree of life]]
 ### phylogenes
@@ -243,6 +247,7 @@ avec des cils
 ##### groupe des amibozoaires
 avec pseudopodes
 #### protistes a caractere vegetal (algue)
+<!-- TODO -->
 ##### phycoerynthrine
 
 ##### chrysophyces

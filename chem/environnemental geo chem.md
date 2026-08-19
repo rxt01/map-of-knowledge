@@ -3,7 +3,7 @@ abstract:
 ---
 
 
-| precursors | [[general chem]] [[environnemental chem]] [[geo chem]] |
+| precursors | [[general chem]] [[environmental chem]] [[geo chem]] |
 | ---------- | ------------------------------------------------------ |
 | #tags      |                                                        |
 | level      | #                                                      |

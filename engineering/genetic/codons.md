@@ -6,154 +6,154 @@ abstract: list of codons and there canonical amino acide
 | ---------- | ---- |
 | #tags      |      |
 | level      | #    |
-| degrees    |      |
+
 
 # A
 ## A
 ### A
-lysine
+[[organic chem#lysine|lysine]]
 ### C
-asparagine
+[[organic chem#asparagine|asparagine]]
 ### G
-lysine
+[[organic chem#lysine|lysine]]
 ### U
-asparagine
+[[organic chem#asparagine|asparagine]]
 ## C
 ### A
-threonine
+[[organic chem#threonine|threonine]]
 ### C
-threonine
+[[organic chem#threonine|threonine]]
 ### G
-threonine
+[[organic chem#threonine|threonine]]
 ### U
-threonine
+[[organic chem#threonine|threonine]]
 ## G
 ### A
-arginine
+[[organic chem#arginine|arginine]]
 ### C
-serine
+[[organic chem#serine|serine]]
 ### G
-arginine
+[[organic chem#arginine|arginine]]
 ### U
-serine
+[[organic chem#serine|serine]]
 ## U
 ### A
-isoleucine
+[[organic chem#isoleucine|isoleucine]]
 ### C
-isoleucine
+[[organic chem#isoleucine|isoleucine]]
 ### G
-methionine
+[[organic chem#methionine|methionine]]
 ### U
-isoleucine
+[[organic chem#isoleucine|isoleucine]]
 # C
 ## A
 ### A
-glutamine
+[[organic chem#glutamine|glutamine]]
 ### C
-histidine
+[[organic chem#histidine|histidine]]
 ### G
-glutamine
+[[organic chem#glutamine|glutamine]]
 ### U
-histidine
+[[organic chem#histidine|histidine]]
 ## C
 ### A
-proline
+[[organic chem#proline|proline]]
 ### C
-proline
+[[organic chem#proline|proline]]
 ### G
-proline
+[[organic chem#proline|proline]]
 ### U
-proline
+[[organic chem#proline|proline]]
 ## G
 ### A
-arginine
+[[organic chem#arginine|arginine]]
 ### C
-arginine
+[[organic chem#arginine|arginine]]
 ### G
-arginine
+[[organic chem#arginine|arginine]]
 ### U
-arginine
+[[organic chem#arginine|arginine]]
 ## U
 ### A
-leucine
+[[organic chem#leucine|leucine]]
 ### C
-leucine
+[[organic chem#leucine|leucine]]
 ### G
-leucine
+[[organic chem#leucine|leucine]]
 ### U
-leucine
+[[organic chem#leucine|leucine]]
 # G
 ## A
 ### A
-glutamic acid
+[[organic chem#acide glutamique|glutamic acid]]
 ### C
-aspartic acid
+[[organic chem#acide aspartique|aspartic acid]]
 ### G
-glutamic acid
+[[organic chem#acide glutamique|glutamic acid]]
 ### U
-aspartic acid
+[[organic chem#acide aspartique|aspartic acid]]
 ## C
 ### A
-alanine
+[[organic chem#alanine|alanine]]
 ### C
-alanine
+[[organic chem#alanine|alanine]]
 ### G
-alanine
+[[organic chem#alanine|alanine]]
 ### U
-alanine
+[[organic chem#alanine|alanine]]
 ## G
 ### A
-glycine
+[[organic chem#glycine|glycine]]
 ### C
-glycine
+[[organic chem#glycine|glycine]]
 ### G
-glycine
+[[organic chem#glycine|glycine]]
 ### U
-glycine
+[[organic chem#glycine|glycine]]
 ## U
 ### A
-valine
+[[organic chem#valine|valine]]
 ### C
-valine
+[[organic chem#valine|valine]]
 ### G
-valine
+[[organic chem#valine|valine]]
 ### U
-valine
+[[organic chem#valine|valine]]
 # U
 ## A
 ### A
 stop (ochre)
 ### C
-tyrosine
+[[organic chem#tyrosine|tyrosine]]
 ### G
 stop (amber)
 ### U
-tyrosine
+[[organic chem#tyrosine|tyrosine]]
 ## C
 ### A
-serine
+[[organic chem#serine|serine]]
 ### C
-serine
+[[organic chem#serine|serine]]
 ### G
-serine
+[[organic chem#serine|serine]]
 ### U
-serine
+[[organic chem#serine|serine]]
 ## G
 ### A
 stop (opal)
 ### C
-cysteine
+[[organic chem#cysteine|cysteine]]
 ### G
-tryptophan
+[[organic chem#tryptophane|tryptophan]]
 ### U
-cysteine
+[[organic chem#cysteine|cysteine]]
 
 ## U
 ### A
-leucine
+[[organic chem#leucine|leucine]]
 ### C
-phenylalaline
+[[organic chem#phenylalanine|phenylalaline]]
 ### G
-leucine
+[[organic chem#leucine|leucine]]
 ### U
-phenylalanine
+[[organic chem#phenylalanine|phenylalanine]]

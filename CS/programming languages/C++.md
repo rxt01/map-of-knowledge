@@ -12,3 +12,5 @@ type:
 creator: bjarne stroustrup
 date of creation: "1985"
 ---
+# #english-note 
+superset of [[C]]

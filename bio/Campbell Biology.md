@@ -36,11 +36,11 @@ il y a correlation entre structure et fonction
 ###### la cellule, unite fondamental de la structure et de la fonction d'un organism
 la cellule et le plus petit unite capable d'etre vivant
 2 types de cellule
-- [eucaryotes](cellular%20biology.md#eucaryotes)
-- [procaryotes](cellular%20biology.md#differences%20et%20similitude%20entre%20eucaryotes%20et%20procaryotes)
+- [eucaryotes](cell%20biology.md#eucaryotes)
+- [procaryotes](cell%20biology.md#differences%20et%20similitude%20entre%20eucaryotes%20et%20procaryotes)
 ##### theme information
 **les processus du vivant reposent sur l'expression et la transmission de l'information génétique**
-les chromosomes contiennent l'information génétique sous form d'[ADN](cellular%20biology.md#ADN)
+les chromosomes contiennent l'information génétique sous form d'[ADN](cell%20biology.md#ADN)
 ###### l'ADN, le materiel génétique
 ###### la génomique l'analyse a grande echelle de sequences d'ADN
 
@@ -64,7 +64,7 @@ chaque espèce a 1 nom en 2 parties:
 1. nom du genre
 2. nom de l'espece
 ###### les trois domaine du vivant
-[[cellular biology#monde du vivant]]
+[[cell biology#monde du vivant]]
 ###### l'unité et la diversité
 ##### Charles Darwin et la théorie de la selection naturelle
 les individu plus adapte a leur environnement on généralement plus de descendant

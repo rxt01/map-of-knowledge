@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[multi vars calc]] [[LA]]  |
-| ---------- | --------------------------- |
-| #tags      |                             |
-| level      | #bachelor                   |
-| degrees    | #EE/automation              |
+| precursors | [[multi vars calc]] [[LA]] [[control engineering]] [[dynamical systems command and analysis]] |
+| ---------- | --------------------------------------------------------------------------------------------- |
+| #tags      |                                                                                               |
+| level      | #bachelor                                                                                     |
+

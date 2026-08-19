@@ -393,13 +393,13 @@ eg.
 ```smiles
 CC(=S)C
 ```
-### sulfoxide
+#### sulfoxide
 carbonyl group on an organic sulfide
 eg.
 ```smiles
 CS(=O)C
 ```
-### sulfone
+#### sulfone
 2 carbonyl group on an organic sulfide
 eg.
 ```smiles
@@ -673,7 +673,7 @@ CCCC
 ```
 ### anhydride
 ```smiles
-*C(=O)OC(=O)*
+*C(=O)OC(*)=O
 ```
 ### halogenure d'acide
 ```smiles
@@ -1515,9 +1515,9 @@ cetone
 #### oxydants
 fort: KMnO$_{4}$ concentre avec H$_{3}$O$^+$ et chaleur
 faible: reactif de swern
-## [[cellular biology#molécules du vivant|molecules d'interet biologique]]
+## [[cell biology#molécules du vivant|molecules d'interet biologique]]
 toutes les molecules dans le corps humain sont des molecules organiques
-### [[cellular biology#acide gras|acide gras]]
+### [[cell biology#acide gras|acide gras]]
 acides carboxyliques places sur des chaines carbonees tres longue
 utilise sous forme de graisse, hormones, membranes biologiques ou cires
 la longueur de la chaine apporte le charactere gras du nom "acide gras" parce que les chaines carbonees n'ont pas d'affinites avec l'eau
@@ -1527,15 +1527,15 @@ acide gras sature si juste des carbonnes en sp3
 insature si il y a un alcene
 selon la geometrie: acide cis ou trans
 #### polymere
-[[cellular biology#triglycérides (graisse)|polyglycerides]] formes avec la reaction entre 3 acide gras et du glycerol 
+[[cell biology#triglycérides (graisse)|polyglycerides]] formes avec la reaction entre 3 acide gras et du glycerol 
 $\to$ formation d'esters
-### [[cellular biology#acide aminés|acide amines]]
-les acides amines servent a former les [[cellular biology#protéines|proteines]] et les proteines font toutes les fonctions biologiques du corps
+### [[cell biology#acide aminés|acide amines]]
+les acides amines servent a former les [[cell biology#protéines|proteines]] et les proteines font toutes les fonctions biologiques du corps
 constitues d'une fonction amine et d'une fonction carboxylique sur le meme carbone
 il existe des centaines d'acides amines mais seulement 20 sont utilise dans les etres vivant 
 <!-- il est possible de modifie genetiquement des etres vivant pour les faires utilise des acides amines non canon mais sa risque de creer des maladies que notre systeme immunitaire serait completement incapable de reconnaitre-->
 les acides amines canon sont tous de configuration S sauf cysteine (R) et glycine (pas de carbone assymetrique)
-sur les 20 acides amines canon, 8 doivent etre consommes via l'alimentation, ils sont dit essentiels (valine, leucine, phenylalanine, threonine, methionine, lysine et tryptophane)
+sur les 22 acides amines canon, 8 doivent etre consommes via l'alimentation, ils sont dit essentiels (valine, leucine, isoleucine, phenylalanine, threonine, methionine, lysine et tryptophane, arginine, histidine)
 les autres sont naturellement synthetises dans le corps humain  <!-- plus precisement dans les mitochondries-->
 #### polymere
 les acides amines peuvent se lier par une liaison amide (liaison peptidique) pour former des proteine (ou peptides)
@@ -1549,94 +1549,123 @@ feuillets $\beta$: liaison hydrogene entre sequence complete $\to$ couche succes
 ```smiles
 NCC(=O)O
 ```
+chaine lateral hydrophobe
 ##### alanine
 ```smiles
 C[C@@](C(=O)O)N
 ```
+chaine lateral hydrophobe
 ##### valine
 ```smiles
 CC(C)[C@](C(=O)O)N
 ```
+chaine lateral hydrophobe
 ##### leucine
 ```smiles
 CC(C)C[C@@](C(=O)O)N
 ```
+chaine lateral hydrophobe
 ##### isoleucine
 ```smiles
 CCC(C)[C@@](C(=O)O)N
 ```
-##### serine
-```smiles
-C([C@@](C(=O)O)N)O
-```
-##### threonine
-```smiles
-C[C@]([C@](C(=O)O)N)O
-```
-##### cysteine
-```smiles
-C([C@@](C(=O)O)N)S
-```
+chaine lateral hydrophobe
 ##### methionine
 ```smiles
 CSCC[C@](C(=O)O)N
 ```
-##### lysine
-```smiles
-C(CCN)C[C@@](C(=O)O)N
-```
+chaine lateral hydrophobe
 ##### proline
 ```smiles
 C1C[C@](NC1)C(=O)O
 ```
+chaine lateral hydrophobe
 ##### tryptophane
 ```smiles
 C1=CC=C2C(=C1)C(=CN2)C[C@](C(=O)O)N
 ```
-##### histidine
-```smiles
-C1=C(NC=N1)C[C@](C(=O)O)N
-```
-##### acide aspartique
-```smiles
-C([C@](C(=O)O)N)C(=O)O
-```
-##### acide glutamique
-```smiles
-C(CC(=O)O)[C@](C(=O)O)N
-```
+chaine lateral hydrophobe
 ##### phenylalanine
 ```smiles
 C1=CC=C(C=C1)C[C@](C(=O)O)N
 ```
-##### tyrosine
+chaine lateral hydrophobe
+##### serine
 ```smiles
-C1=CC(=CC=C1C[C@](C(=O)O)N)O
+C([C@@](C(=O)O)N)O
 ```
-
-##### arginine
+chaine lateral hydrophile
+##### threonine
 ```smiles
-C(C[C@](C(=O)O)N)CN=C(N)N
+C[C@]([C@](C(=O)O)N)O
 ```
-
+chaine lateral hydrophile
+##### cysteine
+```smiles
+C([C@@](C(=O)O)N)S
+```
+chaine lateral hydrophile
+##### selenocysteine
+```smiles
+C([C@@](C(=O)O)N)[SeH]
+```
+chaine lateral hydrophile
+##### pyrrolysine
+```smiles
+CC1CC=NC1C(=O)NCCCCC(C(=O)O)N
+```
+chaine lateral hydrophile
+seulement chez les microorganismes
 ##### asparagine
 ```smiles
 C([C@](C(=O)O)N)C(=O)N
 ```
+chaine lateral hydrophile
 ##### glutamine
 ```smiles
 C(CC(=O)N)[C@](C(=O)O)N
 ```
+chaine lateral hydrophile
+##### tyrosine
+```smiles
+C1=CC(=CC=C1C[C@](C(=O)O)N)O
+```
+chaine lateral hydrophile
+##### acide aspartique
+```smiles
+C([C@](C(=O)O)N)C(=O)O
+```
+chaine lateral acide
+##### acide glutamique
+```smiles
+C(CC(=O)O)[C@](C(=O)O)N
+```
+chaine lateral acide
+##### lysine
+```smiles
+C(CCN)C[C@@](C(=O)O)N
+```
+chaine lateral basique
+##### histidine
+```smiles
+C1=C(NC=N1)C[C@](C(=O)O)N
+```
+chaine lateral basique
+##### arginine
+```smiles
+C(C[C@](C(=O)O)N)CN=C(N)N
+```
+chaine lateral basique
 
-### [[cellular biology#glucides|sucres]]
+### [[cell biology#glucides|sucres]]
 molecules organiques ayant des fonction alcole et cetone ou aldehyde
 la longueur des chaines depend des sucres et le positionement des groupements alcools aussi
 peuvent etre sous forme lineaire ou cycle
 cycle de 5 (furanose) ou 6 (pyranose)
 #### polymere
 liaison glycosidiques
-forme [[cellular biology#sucres complex (polysaccharides)|polysaccharides]]
-### [[cellular biology#nucléotides|nucleotides]]
+forme [[cell biology#sucres complex (polysaccharides)|polysaccharides]]
+### [[cell biology#nucléotides|nucleotides]]
 unites de base des acides nucleiques, porteurs de l'information genetique <!--plusieurs autres fonction si plusieurs groupement phosphate. e.g Adenosine Tri Phosphate (energie), Guanosine Tri Phosphate  -->
 composes d'un sucre, d'une base azote et d'un groupement phosphate
 sucres:
@@ -1647,8 +1676,8 @@ ADN: adenine, guanine, cytosine, tyhmine
 ARN: adenine, guanine, cytosie, uracile
 la base azote et le sucre se lie par une liaison $N$-glycosidique pour obtenir un nucleoside
 le phosphate est ajouter sur l'alcool primaire par une liaison ester phosphorique
-les nucleotides peuvent se lier entre elle par des liaisons phosphodiesters pour donner des [[cellular biology#acides nucléiques|acides nucleiques]]
-#### bazes azotes
+les nucleotides peuvent se lier entre elle par des liaisons phosphodiesters pour donner des [[cell biology#acides nucléiques|acides nucleiques]]
+#### bazes azotes d'acides nucleiques
 ##### adenine
 ```smiles
 C1=NC2=NC=NC(=C2N1)N
@@ -1669,3 +1698,476 @@ CC1=CNC(=O)NC1=O
 ```smiles
 C1=CNC(=O)NC1=O
 ```
+
+## groupement fonctionnels de chimie organique II
+### diol gemine
+```smiles
+*C(O)(O)*
+```
+
+### hemiacetal
+```smiles
+*C(O*)(O)*
+```
+### acetal
+```smiles
+*C(O*)(O*)*
+```
+### imine
+```smiles
+*C(=N*)*
+```
+### ion cyanure
+```smiles
+[C-]#N
+```
+### cyanohydrine
+```smiles
+*C(O)(C#N)*
+```
+
+### ion acetylure
+```smiles
+*C#[C-]
+```
+### ion enolate
+```smiles
+*[C-](*)C(=O)*
+*C(*)=C([O-])*
+```
+### aldol
+```smiles
+*CC(O)CC(=O)*
+```
+
+## aldehydes et cetones
+### nomenclature
+#### aldehydes
+e terminal des -ane, -ene, -yne remplacer par -al
+aldehyde en position 1
+deux aldehydes: -dial
+$>2$ fonctions aldehydes ou aldehydes rattachees a un cycle: -carbaldehyde
+#### cetones
+prioritaire: e terminal des -ane, -ene, -yne remplacer par -one
+non prioritaire: -oxo
+### proprietes physiques
+points d'ebulition superieurs aux hydrocarbures mais inferieurs aux alcools
+hydrosolubilite similaire aux alcools
+### preparation
+- oxydation des alcools
+- oxydation forte et ozonolyse des alcenes
+- acylation de friedel-crafst sur un cycle aromatique
+- hydratation et hydroboration des alcynes
+### reactions des aldehydes
+#### oxydation
+avec un oxydant fort
+donne un acide carboxylique
+#### addition d'eau
+donne un hydrate (diol gemine)
+#### addition d'alcool
+donne un hemiacetal avec la fonction ether et alcool sur l'ancier atome carbonylique
+necessite un catalyseur acide anhydre
+posibilite d'ajouter l'alcool a l'aldehyde de la meme molecule -> formation d'un cycle
+si alcool en ecces: formation d'un acetal
+
+aussi possible avec des thiol
+#### addition de nucleophiles azotes
+avec une amine primaire
+donne une imine
+#### addition d'un ion cyanure
+donne un cyanohydrine
+
+#### addition d'un ion acetylure
+done un alcool
+ajoute aussi un alcyne
+#### addition de compose organometalliques
+addition suivi de neutralisation en milieu acide
+donne un alcool
+fait generalement dans de l'ethoxyethane ou du tetrahydrofurane
+#### addition d'un hydrure
+addition d'hydrure provenant d'aluminohydrure de lithium ou de borohydrure de sodium suivi d'hydrolyse acide
+donne un alcool primaire ou secondaire
+fait generalement dans de l'ethoxyethane ou du tetrahydrofurane
+
+#### creation d'un ion enolate
+l'hydrogene en position $\alpha$ est legerement acide
+en presence d'une base cet hydrogene est enleve
+donne un ion enolate
+#### aldolisation
+addition d'un ion enolate
+done un aldol
+#### halogenation en position $\alpha$
+avec un halogene
+en milieu acide
+donne des derives $\alpha$-halogenes
+
+
+### reactions des cetones
+les cetones peuvent faire les meme reactions que les aldehydes sauf l'oxydation
+## glucides
+oligosaccharides: 2 a 10 monosaccharides
+polysaccharides: longue chaine de monosaccharides
+monosaccharides: composes polyhydroxyles ayant soit une fonctions aldehyde ou une fonction cetone
+### nomeclatures
+sufix -ose
+classes en fonction du nombre de carbon
+classes en fonction de la nature du groupement carbonyle (aldose pour aldehyde et cetose pour cetones)
+### orientation de la formes lineaire
+OH de l'avant dernier carbone a droite -> D (dexter)
+OH de l'avant dernier carbone a gauche -> L (levius)
+### formes cycliques
+#### furanose
+cinq chainons
+#### pyranose
+six chainons
+### reactions des monosaccharides
+#### reduction
+groupement carbonyle -> alcool
+donne un alditol
+nome comme le glucide avec -itol au lieu de -ose
+aldose: pas de nouveau carbone stereogenique
+cetose: nouveau carbone stereogenique
+#### oxydation douce
+fonction aldehyde en acide carboxylique
+donne un acide aldonique
+nomme comme le glucide avec -onique au lieu de -ose et avec acide devant
+
+#### oxydation forte
+fonction aldehyde et alcool primaire en acide carboxylique
+donne acide dicarboxylique
+nomme comme le glucide avec acide devant et -arique au lieu de -ose
+#### formation d'acides uroniques
+alcool primaire en acide carboxylique mais pas l'aldehyde
+donne acide uroniques
+nomme comme le glucide avec acide devant et -uronique au lieu de -ose
+peuvent seulement etre faits par des enzymes biologiques
+#### formation des derives phenylhydrazones et osazones
+<!-- TODO -->
+#### synthese de kiliani-fischer
+alllongement de la chaine carbonne
+#### degradation de wohl ou ruff
+raccourcicement de la chain d'un carbone stereogenique
+#### formation des glycosides
+reaction avec alcool
+donne un glycoside
+lien glycosidique entre carbone C1 ou C2 et l'oxygene de l'alcool
+#### formation d'ethers
+alcools peuvent etre alkyles
+#### esterification des alcools
+
+### monosaccharides modifies
+#### aminoglycosides
+une des fonctions alcool remplacer par fonction amine
+#### desoxy glucides
+une des fonctions alcool remplacer par hydrogene
+### ollidosaccharides principaux
+#### maltose
+union entre deux glucose lies par une liaison glycosidique $\alpha$(1$\to$ 4)
+#### cellobiose
+union entre deux glucoses lies par un lien glycosidique $\beta$(1$\to$ 4)
+#### lactose
+union entre un galactose et un glucose lies par un lien glycosidique $\beta$(1$\to$ 4)
+#### sucrose
+union entre un  glucose et un fructose lies par un lien glycosidique
+### polysaccharides principaux
+#### homopolysaccharides
+un seul monosaccharide
+nomme avec -an au lieu de -ose
+#### amidon
+uniquement du D-glucose
+reserve nutritive des vegetaux
+unites de glucoses lies par lien glycosidique $\alpha$(1$\to$ 4)
+#### glycogene
+jusqu'a 100 000 unites de glucoses
+reserve nutritive chez les mammiferes
+#### cellulose
+uniquement du glucose
+lie pas lien glycosidique $\beta$(1$\to$ 4)
+composante principale des structure vegetal
+#### chitine
+constituant du squelette externe des [[ecology and evolution#arthropodes|arthropodes]] 
+cellulose avec groupe acetamide au lieu du OH sur C2
+## acides carboxyliques et derives
+### nomenclature
+#### acide carboxyliques
+acide devant et -oique au lieu du e final
+ions carboxylate: -oate au lieu de -oique, contre ion precede de "de"
+#### halogenures d'acyle
+nom de l'alogenure suivi de "de" et du nom de l'acide carboxylique avec -oyle au lieu de -oique
+carboxylique -> carbonyle
+#### anhydrides
+anhydride au lieu d'acide
+#### esters
+pas acide et -oate au lieu de -oique
+"de" suivi du groupement qui remplace le H
+
+lacton (ester cyclique):
+-olacton au lieu de -oique
+#### amides
+pas acide et -amide au lieu de -oique
+carboxamide au lieu de carboxylique
+
+lactame (amide cyclique):
+-olactame au lieu de -oique
+#### nitriles
+comme amide mais -nitrile au lieu d'-amide
+si non prioritaire: cyano-
+### proprietes physiques
+plus hydrosoluble que les alcools
+points d'ebulition superieur aux alcools
+
+ester: points d'ebulition inferieur aux alcools
+
+amide primaire ou secondaire: points d'ebuilition superieur aux acides carboxyliques
+amide teriaire: points d'ebulition plus bas
+
+chlorures d'acyle, esters et anhydrides: points d'ebulition inferieur aux alcools
+
+
+acides carboxyliques: odeurs fortes
+chlorure d'acyle: tres lacrymogenes
+### charactere acide
+acides faibles mais beaucoup plus fort que les alcools
+### preparation des acides carboxyliques
+- ozonolyse oxydante des alcenes
+- oxydation de chaines alkyles laterales sur des cycles aromatiques
+- addition d'organomagnesies au dioxide de carbone
+- oxydation d'un alcool primaire ou d'un aldehyde
+### reactions
+
+#### formation des chlorures d'acyle
+<!-- TODO -->
+
+#### formation des anhydrides
+acide carboxylique avec chlorure d'acyle
+en presence d'une base non nucleophile
+#### formation des esters
+chlorure d'acyle, anhydride, acide carboxylique ou ester avec alcool
+necessitent un catalyseur acide
+#### hydrolise des derives d'acides carboxyliques
+derives avec eau
+donne un acide carboxylique
+#### reaction des derives avec les organomagnesiens
+donne un alcool
+#### reduction des acides carboxyliques et de leurs derives
+avec aluminohydrure de lithium
+donne alcool sauf compose nitrogene qui donnent un amine
+#### decarboxylation des acides carboxyliques
+avec chaleur
+donne une cetone
+#### synthese des acides carboxyliques $\alpha$-halogenes
+en presence de chlore ou de brome
+avec halogenure de phosphore correspondant
+halogenation en position $\alpha$ du carbonyle
+#### synthese des $\beta$-cetoester
+<!-- TODO -->
+#### alkylation des $\beta$-cetoester
+<!-- TODO -->
+#### synthese malonique
+<!-- TODO -->
+## lipides
+matieres hydrophobes
+categories:
+
+saponifiables:
+hydrolyse basique donne sels d'acide carboxyliqe a longue chaine
+contiennent une ou plusieurs fonctions ester
+contient: 
+- triglycerides
+- cires
+- glycerophospholipides
+- sphingolipides
+
+non saponifiables
+pas de fonction ester
+contient: 
+- terpenes
+- steroides
+- eicosanoides
+### tryglycerides
+graisse animale et huiles vegetales
+triester de glycerol (propane-1,2,3-triol)
+huiles: liquide
+graisses: solide
+
+3 acides carboxyliques a longue chaines (acide gras) glycerol
+
+majorite des naturels nombre paire de carbon
+configuration trans presante tres rarement dans la nature
+### glycerophospholipides
+comme tryglycerides mais 3e acide gras remplacer par groupement phosphate esterifier a un alcool
+principaux constituant des membranes cellulaires animals et vegetals
+### reactions des lipides saponifiables
+#### hydrolise acide
+donne glycerol et 3 equivalent molaires d'acide gras
+#### hydrolise basique (saponification)
+donne glycerol et savon
+#### hydrogenation
+<!-- TODO -->
+#### hydrogenolyse
+<!-- TODO -->
+#### oxydation (siccativation et rancissement)
+<!-- TODO -->
+### savons
+<!-- TODO -->
+### terpenes
+<!-- TODO -->
+### steroides
+systeme tetracyclique fusion de trois cycle de 6 carbon et d'un cycle a 5 carbon
+#### biosynthese des steroides
+<!-- TODO -->
+#### acides biliaires
+<!-- TODO -->
+#### estrogenes
+<!-- TODO -->
+#### progestatifs
+<!-- TODO -->
+#### androgenes
+<!-- TODO -->
+### eicosanoides
+<!-- TODO -->
+## amines
+### nomenclature
+priotaire: -amine
+non prioritaire: amino
+### preparation
+#### alkylation de l'ammoniac et des amines
+ammoniac avec derives halogenes primaires ou secondaires
+donne des amines
+#### reduction des composes nitres
+#### reduction des amides et des nitriles
+avec aluminohydrure de lithium
+dans l'ether anhydre
+#### amination reductrice des aldehydes et des cetones
+### reactions
+#### avec derive d'acide carboxylique
+cree des amide
+#### formation d'un sel de diazonium: diazotation
+avec acide nitreux
+#### couplage diazoique
+avec cycle aromatique
+forme un compose azoique
+## protides
+### classification des acides amines
+#### $\alpha$-amines
+[[organic chem#acides amines canon|acides amines canon]]
+##### cystine
+```smiles
+C([C@@H](C(=O)O)N)SSC[C@@H](C(=O)O)N
+```
+provient de la [[organic chem#cysteine|cysteine]]
+##### 4-hydroxyproline
+```smiles
+C1C(CNC1C(=O)O)O
+```
+provient de la [[organic chem#proline|proline]]
+##### $\varepsilon$-*N*-methyllysine
+```smiles
+CNCCCCC(C(=O)O)N
+```
+provient de la [[organic chem#lysine|lysine]]
+#### $\beta$-amines
+##### $\beta$-alanine
+```smiles
+C(CN)C(=O)O
+```
+##### acide iturinique
+```smiles
+NC(CCCCCCCCCCCC(CC)C)C(=O)O
+```
+##### taurine
+```smiles
+C(CS(=O)(=O)O)N
+```
+### charactere dipolaire des acides amines
+<!--TODO-->
+### preparation des acides amines
+
+#### substitution nucleophile sur un acide carboxylique $\alpha$-halogene
+avec un acces d'ammoniac
+faible rendement
+#### synthese de gabriel sur le derive brome d'un ester malonique
+avec phtalimidure de potassium puis base forte puis halogenure d'alkyle puis KOH/H$_{2}$O  puis H$_{3}$O$^+$/H$_{2}$O  puis chauffage
+#### synthese de strecker
+a partir d'un aldehyde
+avec chlorure d'ammonium et cyanure de potassium
+en milieu acide
+### reactions des acides amines
+#### formation d'amides
+avec chlorure d'acyle ou anhydride d'acide
+#### formation d'esters
+esterification de fischer
+#### reaction avec la ninhydrine
+donne un compose violet ou jaune (proline et hydroxyproline)
+### representation et nomenclature des peptides et proteines
+acides amines lie par liaisons peptidiques (carboxyle - amine)
+-CO $\to$ NH-
+acide amine represente par symbole a trois lettre
+peptides de faible masse: de gauche a droite sans espace le dernier -yle remplacer par -ine
+peptides plus gros et proteines: nom trivial
+### determination de la sequence des acides amines
+<!-- TODO -->
+### niveaux des structures
+#### structure primaire
+sequence d'acides amines
+#### structure secondaire
+differentes conformations tridimensionnelles
+principalement: helices $\alpha$, feuillets $\beta$, coudes
+#### structure tertiaire
+#### structure quaternaire
+plusieurs chaines peptidiques
+### preparation des peptides et proteines
+<!-- TODO -->
+<!-- just use some biological pathway -->
+## acides nucleiques
+### constituants
+nucleotide: nucleoside + groupement phsophate
+nucleoside: baze azote + monosaccharide cyclique a 5 chainons
+ARN: D-ribose
+ADN: 2-desoxy-D-ribose
+nucleotides lies par liaisons phosphodiester
+### bases azotes
+[[organic chem#bazes azotes d'acides nucleiques|bases azotes d'acide nucleiques]]
+#### cafeine
+```smiles
+CN1C=NC2=C1C(=O)N(C(=O)N2C)C
+```
+#### theobromine
+```smiles
+CN1C=NC2=C1C(=O)NC(=O)N2C
+```
+#### acide urique
+```smiles
+C12=C(NC(=O)N1)NC(=O)NC2=O
+```
+#### xanthine
+```smiles
+C1=NC2=C(N1)C(=O)NC(=O)N2
+```
+### reaction des bases azotees
+#### protonation
+#### alkylation
+#### desamination
+### nucleosides
+lien *N*-glycosidique
+### nucleotides
+nucleoside lie a un groupement phsophate par l'extrimite 5'
+1,2 ou 3 phosphate lies par des liaisons phosphodiester
+### adn
+structure en double helice
+deux brins lies par ponts H
+#### replication
+[[cell biology#replication de l'adn|replication de l'adn]]
+### arn
+un seul brins
+moin stable
+#### transcription
+[[cell biology#transcription|transcription]]
+#### traduction
+[[cell biology#traduction|traduction]]
+### sequencage de l'adn
+<!-- TODO -->
+### amplification en chaine par polymerase
+<!-- TODO -->
+### synthese d'acide nucleiques
+<!-- TODO -->

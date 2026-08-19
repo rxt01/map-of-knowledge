@@ -1,10 +1,10 @@
 ---
 abstract:
 ---
-| precursors | [[real anal]]II [[point set top]]                                                                                             |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| #tags      | #tocheck #toreoganize                                                                                                         |
-| level      | #bachelor                                                                                                                     |
+| precursors | [[real anal]]II [[point set top]] |
+| ---------- | --------------------------------- |
+| #tags      | #tocheck #toreoganize             |
+| level      | #bachelor                         |
 
 
 # #english-note 

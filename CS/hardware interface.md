@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[microcontrolers]] |
-| ---------- | ------------------- |
-| #tags      |                     |
-| level      | #bachelor           |
+| precursors | [[microcontrolers]] [[electronics]] |
+| ---------- | ----------------------------------- |
+| #tags      |                                     |
+| level      | #bachelor                           |
 

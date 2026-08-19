@@ -1,10 +1,10 @@
 ---
 abstract:
 ---
-| precursors | [[logic]]            |
-| ---------- | -------------------- |
-| #tags      |                      |
-| level      | #bachelor            |
+| precursors | [[logic]] |
+| ---------- | --------- |
+| #tags      |           |
+| level      | #bachelor |
 
 
 # #english-note 
@@ -17,10 +17,19 @@ if a set $X$ is finite, its cardinality $|X|$ is the amount of element in it
 $$\forall x\forall y[\forall z(z\in x\iff z\in y)\implies x=y]$$
 ### axiom of regularity
 $$\forall x[x\ne\varnothing\implies\exists y(y\in x\land y\cap x=\varnothing)]$$
-### axiom of
-#### axiom of choice
-##### well ordering theorem
+### axiom of pairing
+$$\forall x\forall y\exists z (x \in z\land y \in z)$$
+### axiom of union
+$$\forall \mathcal{F}\exists A\forall Y\forall x ((x \in Y \land Y\in \mathcal{F} )\implies x \in A) $$
+### axiom of infinity
+$$\exists X (\varnothing \in X\land \forall y(y \in X \implies y\cup \{ y \}\in X))$$
+### axiom of power set
+$$\forall x\exists y\forall z(z\subseteq x\implies z\in y)$$
+### axiom of choice
+$$\forall X(\varnothing \in X \lor \exists f(dom f=X \land \forall A\in X(f(A)\in A)))$$
 
+#### well ordering theorem
+#### zorn's lemma
 
 ## cardinality
 two sets have the same cardinality $\iff$ there is a [bijection](algebra.md#bijection) between them

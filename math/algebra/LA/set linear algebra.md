@@ -3,10 +3,10 @@ abstract:
 ---
 
 
-| precursors | [[]] |
-| ---------- | ---- |
-| #tags      |      |
-| level      | #    |
+| precursors | [[set theory]] [[LA]] |
+| ---------- | --------------------- |
+| #tags      |                       |
+| level      | #                     |
 
 # #english-note 
 ## set vector spaces

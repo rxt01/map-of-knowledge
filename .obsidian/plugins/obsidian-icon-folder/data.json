@@ -48,7 +48,6 @@
   "bio/neuroscience.md": "LiBrain",
   "chem/electrochem.md": "IcLightning",
   "bio/excalidraw": "LiPencilLine",
-  "bio/cellular biology.md": "IcCell",
   "bio/cellular neurobiology.md": "IcNeuron",
   "bio/plant biology.md": "IcPlant",
   "chem/cyclic organic compound chem.md": "IcBenzeneRing",
@@ -70,5 +69,6 @@
   "CS/programming.md": "LiTerminal",
   "CS/signal treatment.md": "MaFourier",
   "economics": "LiDollarSign",
-  "economics/investments.md": "IcStonks"
+  "economics/investments.md": "IcStonks",
+  "bio/cell biology.md": "IcCell"
 }

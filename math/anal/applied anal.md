@@ -1,10 +1,10 @@
 ---
 abstract:
 ---
-| precursors | [[real anal]] [[multi vars calc]] [[LA]] |
-| ---------- | ---------------------------------------- |
-| #tags      |                                          |
-| level      | #bachelor                                |
+| precursors | [[real anal]] [[multi vars calc]] [[LA]] [[fourier anal]] [[complex anal]] |
+| ---------- | -------------------------------------------------------------------------- |
+| #tags      |                                                                            |
+| level      | #bachelor                                                                  |
 # #english-note
 ## harmonic functions
 ### dirichlet problem

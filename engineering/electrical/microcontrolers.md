@@ -1,8 +1,8 @@
 ---
 abstract:
 ---
-| precursors | [[electronics]] [[electric circuits]]  |
-| ---------- | -------------------------------------- |
-| #tags      |                                        |
-| level      | #bachelor                              |
-| degrees    |                                        |
+| precursors | [[electronics]] [[electric circuits]] |
+| ---------- | ------------------------------------- |
+| #tags      |                                       |
+| level      | #bachelor                             |
+

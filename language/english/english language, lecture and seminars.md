@@ -17,6 +17,8 @@ steps:
 4. make a prediction based on that hypothesis
 5. test the prediction
 6. iterate; use the result to make new hypotheses or predictions
+## history of science
+<!-- TODO -->
 ## antikythera mechanism
 mechanism found near the island of antikythera (near rhodes) by amateur divers in a ship wreck
 ship wreck: roman galion from asia minor 70bc-50bc
@@ -84,6 +86,8 @@ moral depletion
 defeat of athens
 
 
+### plagues
+<!-- TODO -->
 ## science fiction
 ### elements of fiction
 #### characters

@@ -1,8 +1,0 @@
----
-abstract:
----
-| precursors | [[]] |
-| ---------- | ---- |
-| #tags      |      |
-| level      | #    |
-

@@ -211,7 +211,7 @@ let $D$ be a simply connected domain and $C$ be a simple closed positively orien
 if $f$ is analytic inside $C$ and on $C$ except at points $z_{1},\cdots,z_{n}$ that lie inside $C$, then $$\int_{C}f(z)dz=2\pi i\sum\limits_{k=1}^{n}\text{Res}[f,z_{k}]$$
 ##### residues at poles
 if $f$ has a simple pole at $z_{0}$, then $$\text{Res}[f,z_{0}]=\lim\limits_{ z \to z_{0} }(z-z_{0})f(z) $$
-if $f$ has a pole of order $k$ at $z_{0}$, then $$\text{Res}[f,z_{0}]= \frac{1}{(k-1)!}\lim\limits_{ z \to z_{0} } \frac{d^{k-1}}{dz^{k-1}}(z-z_{0})f(z) $$
+if $f$ has a pole of order $k$ at $z_{0}$, then $$\text{Res}[f,z_{0}]= \frac{1}{(k-1)!}\lim\limits_{ z \to z_{0} } \frac{d^{k-1}}{dz^{k-1}}(z-z_{0})^{k}f(z) $$
 #### cauchy principal value
 $$P.V\int_{-\infty}^{\infty}f(x)dx=\lim\limits_{ R \to \infty } \int_{-R}^{R}f(x)dx$$
 ####

@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[]] |
-| ---------- | ---- |
-| #tags      |      |
-| level      | #    |
+| precursors | [[category theory]] [[probability theory]] |
+| ---------- | ------------------------------------------ |
+| #tags      |                                            |
+| level      | #                                          |
 

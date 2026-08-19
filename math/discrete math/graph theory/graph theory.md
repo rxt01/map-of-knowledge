@@ -20,3 +20,6 @@ a graph that has at least one multiedge is a multigraph
 an edge of the form $(v,v)$ for some $v\in V$ is called a loop
 ### simple graph
 a simple graph is a graph that has no loop or multiedge
+## adjacency matrix
+### determinent
+the determinent counts the number of spaning trees

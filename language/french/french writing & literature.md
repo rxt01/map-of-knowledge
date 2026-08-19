@@ -299,7 +299,8 @@ les poemes suivent presque tous la meme progression, le meme fil conducteur
 - dans autrefois, hugo evoque le passe, sa vie, sa jeunesse, l'histoire du romantisme qu'il presente avec clarte et une melancolie passagere. aujourdh'ui est plutot marque par l'immobilisme, le deuil, l'omnipresence de la mort (un questionnement et une perspective), et le sort de l'umanite
 - le recueil se conclut par de grands questionnements: la valeur de la vie, la meilleure maniere d'etre, la valeur du temps et de l'experience, l'espoir en l'existence et en dieu
 
-
+### oeuvres etrangeres
+<!-- TODO -->
 
 ## poesie
 ### definitions

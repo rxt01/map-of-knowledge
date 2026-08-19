@@ -3,11 +3,11 @@ abstract:
 other names: electro magnetism
 ---
 
-|            | I                                   | II                                                                                                              |
-| ---------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| precursors | [[diff and int calc]] [[mechanics]] | [[vector calc]] [[PDE]]                                                                                         |
-| #tags      |                                     |                                                                                                                 |
-| level      | #college                            | #bachelor                                                                                                       |
+|            | I                            | II                      |
+| ---------- | ---------------------------- | ----------------------- |
+| precursors | [[diff and int calc]] [[CM]] | [[vector calc]] [[PDE]] |
+| #tags      |                              |                         |
+| level      | #college                     | #bachelor               |
 
 
 # #english-note 
@@ -109,6 +109,10 @@ $$\vec{t}=\vec{p}\times \vec{E}$$
 $$\Phi_{E}=\int\limits_{surface}\vec{E}\cdot d\vec{A}$$
 ### theorem de gauss
 $$\Phi_{E}=\frac{Q_{int}}{\epsilon_{0}}$$
+$$\nabla \cdot \vec{E}=\frac{\rho}{\epsilon_{0}}$$
+### 
+$$\nabla \times \vec{E}=0$$
+
 ### conducteurs en equilibre electrostatique
 $$\vec{E}=0$$
 tout juste a l'exterieur du conducteur:$$\vec{E}=\frac{\sigma}{\epsilon_{0}}\hat{n}$$
@@ -143,8 +147,10 @@ $$V=\frac{1}{4\pi \epsilon_{0}}\int \frac{dq}{r}$$
 
 ### champ electric selon le potentiel
 $$E_{x}= \frac{-dV}{dx}$$
-$$\vec{E}=-\hat{\imath}\frac{\partial V}{\partial x}-\hat{\jmath}\frac{\partial V}{\partial y}-\hat{k}\frac{\partial V}{\partial z}$$
-$$E_{r}= -\frac{dV}{r}$$
+$$\vec{E}=-\nabla V$$
+$$E_{r}= -\frac{dV}{dr}$$
+### equation de poisson
+$$\nabla^{2}V= -\frac{\rho}{\epsilon_{0}}$$
 ### potentiel des conducteurs en equlibbre electrostatitque
 $$\vec{E}=0$$
 $$\Delta V=0$$
@@ -165,6 +171,7 @@ $$C_{vode=}\frac{\epsilon_{0}A}{d}$$
 $$C_{vide}= \frac{2\pi \epsilon_{0}L}{\ln\left( \frac{b}{a} \right)}= \frac{2L}{k\ln\left( \frac{b}{a} \right)}$$
 #### condensateur spherique
 $$C_{vide}=4\pi \epsilon_{0} \frac{ab}{b-a}= \frac{ab}{k(b-a)}$$
+
 ### dielectrique
 $$\Delta V=\frac{\Delta V_{vide}}{\kappa}$$
 $$C=\kappa C_{vide}$$
@@ -203,6 +210,7 @@ $$i=\left( \frac{A}{\rho \ell} \right)\Delta V$$
 $$R=\frac{\rho \ell}{A}$$
 ### loi d'ohm
 $$R=\frac{\Delta V}{i}$$
+
 ### puissance electrique
 $$P=\dot{U}=\varepsilon \dot{q}=\varepsilon i =\Delta Vi= \frac{(\Delta V)^2}{R}=Ri^2$$
 ## circuits a courant continu

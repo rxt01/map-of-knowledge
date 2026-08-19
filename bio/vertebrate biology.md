@@ -3,7 +3,7 @@ abstract:
 ---
 
 
-| precursors | [[cellular biology]] [[genetics]] [[ecology and evolution]] |
+| precursors | [[cell biology]] [[genetics]] [[ecology and evolution]] |
 | ---------- | ----------------------------------------------------------- |
 | #tags      |                                                             |
 | level      | #bachelor                                                   |

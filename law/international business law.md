@@ -3,7 +3,7 @@ abstract:
 ---
 
 
-| precursors | [[international business]] |
+| precursors | [[international business]] [[business law]] |
 | ---------- | -------------------------- |
 | #tags      |                            |
 | level      | #bachelor                  |

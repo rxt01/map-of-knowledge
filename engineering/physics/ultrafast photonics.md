@@ -3,8 +3,8 @@ abstract:
 ---
 
 
-| precursors | [[]]  |
-| ---------- | ----- |
-| #tags      |       |
-| level      | #grad |
+| precursors | [[modern optics]] [[EM]] [[QM]] [[lasers]] [[SM]] [[thermodynamics]] [[electronics]] |
+| ---------- | ------------------------------------------------------------------------------------ |
+| #tags      |                                                                                      |
+| level      | #grad                                                                                |
 

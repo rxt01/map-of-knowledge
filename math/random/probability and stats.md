@@ -1,11 +1,11 @@
 ---
 abstract:
 ---
-|            | I                                               | II        |
-| ---------- | ----------------------------------------------- | --------- |
-| precursors | [[diff and int calc]] [[set theory]] [[combin]] |           |
-| #tags      |                                                 |           |
-| level      | #college                                        | #bachelor |
+|            | I                                                      | II        |
+| ---------- | ------------------------------------------------------ | --------- |
+| precursors | [[diff and int calc]] [[set theory]] [[combinatorics]] |           |
+| #tags      |                                                        |           |
+| level      | #college                                               | #bachelor |
 
 # #french-note
 ## definitions

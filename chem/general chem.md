@@ -6,6 +6,5 @@ abstract:
 | ---------- | ------------------------------------ |
 | #tags      |                                      |
 | level      | #college                             |
-
-
+# #french-note 
 
